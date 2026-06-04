@@ -1,0 +1,14 @@
+fuzzywuzzy
+gensim
+huggingface-hub
+langchain-ollama
+langchain-core
+bert-score
+nltk
+ollama
+pot
+python-Levenshtein
+rouge-score
+safetensors[numpy]
+scikit-learn
+sentence-transformers

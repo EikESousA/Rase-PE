@@ -1,0 +1,49 @@
+import argparse
+import sys
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from config.models import MODELS, MODEL_NAMES
+from generates.generate_n3 import generate_n3
+
+
+def generate_n1n2n3() -> None:
+    parser = argparse.ArgumentParser(description="Gerar N3 a partir do N1 N2.")
+    parser.add_argument(
+        "--model",
+        choices=MODEL_NAMES,
+        default="mistral",
+        help="Modelo base para geracao.",
+    )
+    parser.add_argument("--input", dest="input_path", default=None)
+    parser.add_argument("--output", dest="output_path", default=None)
+    parser.add_argument("--log", dest="log_path", default=None)
+    args: argparse.Namespace = parser.parse_args()
+
+    if args.model not in MODELS:
+        print("Modelo invalido.")
+        return
+
+    input_path: str = f"predicts/generate_n1n2_{args.model}.json"
+    output_path: str = f"predicts/generate_n1n2n3_{args.model}.json"
+    model_id: str = MODELS[args.model]
+
+    if args.input_path:
+        input_path = args.input_path
+    if args.output_path:
+        output_path = args.output_path
+
+    Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+    generate_n3(
+        input_path=input_path,
+        output_path=output_path,
+        model_id=model_id,
+        log_path=args.log_path,
+    )
+
+
+if __name__ == "__main__":
+    generate_n1n2n3()
