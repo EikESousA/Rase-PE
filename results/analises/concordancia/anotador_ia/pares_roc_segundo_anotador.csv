@@ -1,0 +1,265 @@
+﻿id;nivel;operador;referencia;previsto;correto
+en1n2n3-n1-qwen-189;n1;;A largura mínima para escadas em rotas acessíveis é de 1,20 m.;A inclinação transversal da superfície deve ser de atingir 2% para pisos internos e de atingir 3% para pisos externos.;0
+en2-n2-llama-456;n2;requeriments;dentro da largura mínima admissível da rampa em até 10 cm de cada lado;pode incidir;0
+en1n2n3-n2-alpaca-130;n2;selection;Para inclinações superiores a 5 %;Usos públicos ou coletivos.;0
+en2-n2-qwen-208;n2;requeriments;devem ser construídos com materiais rígidos;O texto N1 foi processado com sucesso e os elementos foram extraídos do Texto completo.;0
+en2-n2-llama-376;n2;requeriments;devem ser considerados como degraus, conforme 6.7;devem ser considerados como degraus, conforme 6.7;1
+en2-n2-alpaca-545;n2;aplicability;deslocamento lateral;As áreas de qualquer espaço ou edificação de uso público ou coletivo devem ser servidas por uma ou mais rotas acessíveis.;0
+en2-n2-gemma-481;n2;aplicability;patamares;rampas internas;0
+en2-n2-qwen-333;n2;aplicability;corrimãos laterais;As áreas de qualquer espaco ou edificação;0
+en1n2-n1-qwen-19;n1;;Parte do desnível deve ser vencida com rampa, e o restante da extensão [degrau] pode permanecer como degrau, desde que associado, no mínimo em um dos lados, a uma barra de apoio horizontal ou vertical, com comprimento mínimo de 0,30 m e com seu eixo posicionado a 0,75 m de altura do piso, sem avançar sobre a área de circulação pública.;Parte do desnível deve ser vencido com rampa, e o restante da extensão pode permanecer como degrau, desde que associado, no mínimo em um dos lados, a uma barra de apoio horizontal ou vertical, com comprimento mínimo de 0,30 m e com seu eixo posicionado a 0,75 m de altura do piso, sem avançar sobre a área de circulação pública.;1
+en2-n2-qwen-332;n2;requeriments;devem ser contínuos, sem interrupção nos patamares das escadas e rampas;devem ser servidas de uma ou mais rotas acessiveis;0
+en1n2n3-n2-qwen-49;n2;aplicability;Em edificações e equipamentos urbanos;As áreas de qualquer espaco ou edificação;0
+en1n2n3-n2-dolphin-548;n2;requeriments;Deve dispor de guia de balizamento conforme 6.6.3;conforme 6.6.3;0
+en1n2n3-n2-alpaca-194;n2;selection;Quando houver porta;Dimensão mínima;0
+en1n2n3-n2-alpaca-305;n2;aplicability;deslocamento frontal;As áreas de qualquer espaço ou edificação de uso público ou coletivo devem ser servidas por uma ou mais rotas acessíveis.;0
+en1n2-n2-qwen-769;n2;aplicability;degraus;O uso do espaço público;0
+en1n2-n1-qwen-77;n1;;Os corrimãos podem ser acoplados aos guarda-corpos.;Pisos internos devem ter inclinação transversal de no maximo 2%.;0
+en1n2-n2-dolphin-473;n2;aplicability;Superfícies de piso com declividade igual ou superior a 5%;As rampas são consideradas superfícies de piso;0
+en1-n1-alpaca-53;n1;;c) a altura do espelho deve ser maior ou igual a 0,16 m e menou ou igual a 0,18 m.;As dimensões dos pisos e espelhos devem ser constantes em toda a escada ou degraus isolados.;0
+en2-n2-mistral-332;n2;requeriments;devem ser contínuos, sem interrupção nos patamares das escadas e rampas;não há requisitos especificados no texto N1.;0
+en1n2-n2-mistral-152;n2;requeriments;devem ter inclinações entre 5% (1:20) e 8,33% (1:12) e devem atender os desníveis máximos por segmento e número de segmentos deste item;Não estão sujeitos a este requisito;0
+en1n2n3-n1-mistral-44;n1;;A dimensão longitudinal mínima do patamar é de 1,20 m, e recomendável 1,50 m.;O raio mínimo para rampas em curva é de 3,00 metros medido no perímetro interno à curva.;0
+en2-n2-alpaca-102;n2;selection;Para inclinações superiores a 5 %;Usos públicos ou coletivos.;0
+en1n2n3-n1-mistral-64;n1;;Entre os lances da escada devem ser previstos patamares com dimensão longitudinal mínima de 1,20 m.;O comprimento mínimo dos patamares é 1,20 metros.;0
+en1n2-n1-gemma-260;n1;;Em espaços com portas em sequência, deve ser garantido um espaço mínimo de 0,60m ao lado da maçaneta de cada porta.;Há 0,60 m ao lado da maçaneta de cada porta.;0
+en1n2n3-n1-llama-52;n1;;recomenda-se a instalação de bancos com encosto e braços.;Para piso de 3 % a 5 % de inclinação, recomenda-se prever uma área de descanso a cada 30 m. Recomenda-se a instalação de bancos com encosto e braços.;0
+en1n2-n2-gemma-214;n2;selection;para piso de 3 % a 5 % de inclinação;3 % a 5 % de inclinação;1
+en1n2-n1-qwen-46;n1;;A largura para as rampas em rotas acessíveis deve ser no mínimo 1,20 m, e recomendável 1,50 m.;Regras: 1) Quebre em sentencas curtas e diretas.;0
+en1n2n3-n1-llama-208;n1;;Em reformas, quando esgotadas as possibilidades de soluções que atendam integralmente ao item 6.6.2.1, podem ser utilizadas inclinações superiores a 8,33% (1:12) e até 12,5% (1:8), em segmentos retos, e devem atender os desníveis máximos por segmento e número de segmentos deste item.;Quando esgotadas as possibilidades de solucoes que atendam integralmente a Tabela 6, podem ser utilizadas inclinações superiores a 8,33 %.;0
+en2-n2-gemma-129;n2;aplicability;Rampas;rampas com declividade maior do que 6,25% e até 8,33%;0
+en1n2n3-n1-gemma-89;n1;;a) a equação (piso + 2*espelho) deve ser maior ou igual a 0,63 m e menor ou igual a 0,65 m.;A altura do piso deve estar entre 0,63 metros e 0,65 metros.;0
+en2-n2-alpaca-478;n2;selection;situados em mudança de direção;Usos públicos ou coletivos.;0
+en1n2-n2-gemma-381;n2;aplicability;Escadas com lances curvos ou mistos;Escadas com lances curvos ou mistos;1
+en1n2-n1-qwen-173;n1;;Toda rampa deve possuir corrimão de duas alturas em cada lado.;Pisos internos devem ter inclinão transversal no máximo 2%.;0
+en1n2n3-n1-qwen-117;n1;;deve contar com sistema de sinalização conforme 5.6.4.2.;Pisos internos devem ter inclinação transversal de no maximo 2%.;0
+en2-n2-qwen-173;n2;aplicability;altura do espelho;As áreas de qualquer espaco ou edificação;0
+en1n2-n1-qwen-41;n1;;Rampas com declividade maior do que 5% (1:20) e até 6,25% (1:16) devem ter desnível máximo de 1,00 m por segmento, sem limite de número de segmentos.;A inclinação transversal da superfície deve ser de atingir 2% para pisos internos e de atingir 3% para pisos externos.;0
+en1n2-n2-qwen-130;n2;selection;Para inclinações superiores a 5 %;uso publico ou coletivo;0
+en1-n1-qwen-40;n1;;Rampas com declividade igual a 5% (1:20) devem ter desnível máximo de 1,50 m por segmento, sem limite de número de segmentos.;nos patamares, a cada 50 m de percurso.;0
+en1-n1-qwen-151;n1;;ou ter vãos de formato quadriculado/circular, quando houver fluxos em mais de um sentido de circulação.;A inclinação transversal da superfície deve ser de ate 2% para pisos internos e de ate 3% para pisos externos.;0
+en1-n1-alpaca-178;n1;;a) a sinalização deve ser em faixa contínua ou elementos gráficos, com no mínimo 50 mm de espessura, instalada a uma altura entre 0,90 m e 1,00 m em relação ao piso acabado.;Pisos externos devem ter inclinação transversal de no máximo 3%.;0
+en2-n2-llama-268;n2;requeriments;devem ter, no lado oposto ao lado da abertura da porta, um puxador horizontal associado à maçaneta;devem ter, no lado oposto ao lado da abertura da porta, um puxador horizontal associado à maçaneta.;1
+en1n2n3-n2-mistral-261;n2;aplicability;patamares;patamares em mudanças de direção;0
+en1n2n3-n1-alpaca-60;n1;;Os patamares situados em mudanças de direção devem ter dimensões iguais à largura da escada.;Patamares em mudanças de direção devem ter dimensões iguais à largura da escada.;1
+en1n2n3-n2-dolphin-412;n2;requeriments;as pás devem ser compatíveis com as medidas de um M.R. e devem ainda ser dotadas de sistema de segurança para rebatimento das pás em caso de sinistro;as dimensões entre as pás devem ser compatíveis com as medidas necessárias para o deslocamento de uma pessoa em cadeira de rodas;0
+en1n2-n1-alpaca-50;n1;;Se houver bocel ou espelho inclinado, a projeção da aresta pode avançar no máximo 1,5 cm sobre o piso abaixo.;Espelhos inclinados podem avançar no máximo 1,5 cm sobre o piso abaixo, conforme Figura 74.;0
+en1n2n3-n2-gemma-784;n2;requeriments;devem ser considerados como degraus, conforme 6.7;"são considerados degraus""";0
+en1n2-n2-qwen-525;n2;aplicability;A entrada predial principal, ou a entrada de acesso do maior número de pessoas;As áreas de qualquer espaco ou edificação;0
+en1-n1-alpaca-93;n1;;deve contar com sistema de sinalização conforme 5.6.4.2.;Pisos internos devem ter inclinacao transversal de no maximo 2%.;0
+en1n2-n1-qwen-116;n1;;A superfície de varredura do portão não pode invadir a faixa livre de circulação de pedestre.;Pisos externos devem ter inclinação transversal de no maximo 3%.;0
+en1-n1-mistral-153;n1;;A projeção dos corrimãos pode incidir dentro da largura mínima admissível da rampa em até 10 cm de cada lado, exceto quando a largura da rampa for inferior a 1,20 m (casos previstos em 6.6.2.7).;Corrimãos podem inclinar dentro da largura mínima permitida da rampa em até 10 cm de cada lado, exceto nos casos especificados em 6.6.2.7.;0
+en2-n2-alpaca-137;n2;aplicability;dimensão longitudinal mínima do patamar;Rampas em curva;0
+en1n2n3-n1-qwen-77;n1;;Os corrimãos podem ser acoplados aos guarda-corpos.;Pisos internos devem ter inclinação transversal de no maximo 2%.;0
+en1n2-n1-dolphin-84;n1;;deve contar com sistema de sinalização conforme 5.6.4.2.;A superfície de varredura do portão deve ter um sistema de sinalização conforme 5.6.4.2.;0
+en1n2n3-n1-alpaca-93;n1;;deve contar com sistema de sinalização conforme 5.6.4.2.;Pisos internos devem ter inclinacao transversal de no maximo 2%.;0
+en2-n2-qwen-297;n2;aplicability;frestas resultantes da guia inferior;As áreas de qualquer espaco ou edificação;0
+en1n2n3-n2-qwen-882;n2;selection;Quando forem acionadas por sensores ópticos;uso publico ou coletivo;0
+en1n2n3-n2-alpaca-278;n2;selection;superior a 2,40 m;Instalação de um corrimão intermediário;0
+en1n2n3-n1-qwen-46;n1;;A largura para as rampas em rotas acessíveis deve ser no mínimo 1,20 m, e recomendável 1,50 m.;Regras: 1) Quebre em sentencas curtas e diretas.;0
+en1n2-n1-alpaca-118;n1;;Desníveis superiores a 20 mm, devem ser considerados como degraus, conforme 6.7.;Pisos externos devem ter inclinação transversal de no máximo 3%.;0
+en1n2n3-n1-dolphin-159;n1;;Quando as portas forem acionadas por sensores ópticos, deve ser previsto dispositivo de segurança que impeça o fechamento da porta sobre a pessoa.;Deve ser previsto um dispositivo de segurança que impeça o fechamento da porta sobre a pessoa.;0
+en1n2n3-n1-alpaca-163;n1;;Em edificações existentes, onde for impraticável promover o prolongamento do corrimão no sentido do caminhamento, este pode ser feito ao longo da área de circulação ou fixado na parede adjacente.;Pisos existentes: Prolongar o corrimão é possível em áreas de caminhar, ou em paredes adjacentes.;0
+en1n2-n2-llama-893;n2;aplicability;patamares;Os patamares situados em mudanças de direção;0
+en1-n1-mistral-56;n1;;a) a equação (piso + 2*espelho) deve ser maior ou igual a 0,63 m e menor ou igual a 0,65 m.;Espelhos devem ter uma largura entre 0,16 metros e 0,18 metros.;0
+en2-n2-alpaca-473;n2;aplicability;patamares;As áreas de qualquer espaço ou edificação de uso público ou coletivo devem ser servidas por uma ou mais rotas acessíveis.;0
+en1n2-n2-llama-533;n2;aplicability;dispositivo de travamento;O dispositivo de travamento;1
+en2-n2-llama-281;n2;aplicability;portas ou batentes;As portas ou batentes de sanitários e vestiários;0
+en1n2n3-n1-qwen-119;n1;;As rotas de fuga devem atender ao disposto na ABNT NBR 9077 e outras regulamentações locais contra incêndio e pânico.;A inclinação transversal da superfície deve ser de ato 2% para pisos internos e de ato 3% para pisos externos.;0
+en1n2-n2-llama-933;n2;aplicability;patamares;Escadas internas;0
+en2-n2-mistral-14;n2;selection;"casas de máquinas; barriletes; passagem de usos técnico";não necessitam atender às condições de acessibilidade desta Norma;0
+en1n2-n2-gemma-520;n2;requeriments;a largura mínima deve ser de 0,80 m;corredores de 0,80 metros;0
+en1n2-n1-alpaca-181;n1;;d) recomenda-se a aplicação de mais duas faixas contínuas com no mínimo 50 mm de altura, uma a ser instalada entre 1,30 m e 1,40 m, e outra entre 0,10 m e 0,30 m, em relação ao piso acabado.;Pisos internos devem ter inclinação transversal de no máximo 2%.;0
+en1n2n3-n1-mistral-9;n1;;E os eventuais comandos acionáveis por usuários devem estar posicionados à altura indicada em 4.6.9.;Os eventuais comandos acionáveis por usuários devem estar posicionados à altura indicada em 4.6.9.;1
+en1n2-n1-qwen-233;n1;;As vagas para estacionamento de veículos que conduzam ou sejam conduzidos por idosos devem ser posicionadas próximas das entradas, garantindo o menor percurso de deslocamento.;Pisos internos devem ter inclinação transversal no máximo 2%.;0
+en1n2n3-n2-llama-224;n2;requeriments;devem ter desnível máximo de 1,00 m por segmento, sem limite de número de segmentos;não se aplica às rampas citadas em 10.12 (piscinas);0
+en1n2n3-n1-mistral-191;n1;;Quando as portas forem acionadas por sensores ópticos, estes devem estar ajustados para detectar pessoas de baixa estatura, crianças e usuários de cadeiras de rodas.;Portas detectam pessoas de baixa estatura, crianças e usuários de cadeiras de rodas por sensores ópticos.;0
+en1n2-n2-gemma-858;n2;selection;quando localizada em nichos;parâmetros mínimos definidos em 4.3.6;0
+en1n2n3-n1-gemma-16;n1;;A inclinação transversal de pisos externos não pode exceder 3%.;A inclinação transversal da superfície é de até 3% para pisos externos.;1
+en1-n1-llama-148;n1;;A circulação vertical acessível deve atender no mínimo duas formas de deslocamento: escadas, rampas ou equipamentos eletromecânicos.;Rampas podem ser utilizadas para circulação vertical.;0
+en1n2n3-n2-dolphin-184;n2;requeriments;a projeção da aresta pode avançar no máximo 1,5 cm sobre o piso abaixo;a projeção da aresta pode avançar no máximo 1,5 cm sobre o piso abaixo;1
+en1-n1-qwen-70;n1;;Escadas com lances curvos ou mistos devem atender à ABNT NBR 9077.;Pisos externos devem ter inclinação transversal no máximo 3%.;0
+en1n2n3-n2-alpaca-678;n2;selection;no lado da circulação oposto à abertura da porta;Uso público ou coletivo.;0
+en1n2-n2-mistral-621;n2;aplicability;patamares;Os patamares no início e no final das rampas;0
+en1n2n3-n1-gemma-60;n1;;Rampas com declividade igual a 5% (1:20) devem ter desnível máximo de 1,50 m por segmento, sem limite de número de segmentos.;As rampas citadas em 10.4 (plateia e palcos) não precisam de áreas de descanso.;0
+en1n2n3-n2-llama-385;n2;aplicability;corrimãos;Os corrimãos devem ser instalados em rampas e escadas;0
+en1n2-n2-dolphin-294;n2;selection;de sanitários e vestiários;devem ter um puxador horizontal no lado oposto ao lado da abertura da porta, conforme Figura 84.;0
+en1n2n3-n1-dolphin-34;n1;;Rampas com declividade igual a 5% (1:20) devem ter desnível máximo de 1,50 m por segmento, sem limite de número de segmentos.;nos patamares, a cada 50 m de percurso.;0
+en2-n2-mistral-488;n2;requeriments;deve ser tratada como escada;uma sequência de três degraus ou mais deve ser tratada como escada.;0
+en1n2n3-n2-mistral-784;n2;requeriments;recomenda-se que tenha duas cores com o mínimo de 30 pontos de contraste de LRV entre elas;recomenda-se que a faixa tenha duas cores com o mínimo de 30 pontos de contraste de LRV entre eles.;1
+en1n2-n1-qwen-195;n1;;O dimensionamento dos corrimãos deve atender ao descrito em 4.6.5.;A inclinação transversal da superfície deve ser de ate 2% para pisos internos e de ate 3% para pisos externos.;0
+en1n2-n2-llama-324;n2;requeriments;devem estar sinalizados de acordo com o disposto na Seção 5;devem estar sinalizados;0
+en2-n2-dolphin-445;n2;aplicability;rampas;A inclinação transversal de rampas internas;0
+en1-n1-alpaca-48;n1;;Quando houver porta nos patamares, sua área de varredura não pode interferir na dimensão mínima do patamar.;Por que as portas nos patamares devem ter uma área de varredura mínima?.;0
+en1n2n3-n2-dolphin-501;n2;aplicability;rampa;Toda rampa;1
+en1n2n3-n1-alpaca-59;n1;;Entre os lances da escada devem ser previstos patamares com dimensão longitudinal mínima de 1,20 m.;Pisos internos devem ter inclinação transversal de no máximo 2%.;0
+en2-n2-llama-256;n2;requeriments;quando abertas, devem ter um vão livre, de no mínimo 0,80 m de largura e 2,10 m de altura;devem ter um vão livre, de no mínimo 0,80 m de largura e 2,10 m de altura;0
+en1n2n3-n2-mistral-556;n2;requeriments;deve garantir área mínima de circulação e manobra para rotação de 180°, conforme 4.3.3;deve ser cumprido;0
+en1n2n3-n1-dolphin-158;n1;;Quando as portas forem acionadas por sensores ópticos, estes devem estar ajustados para detectar pessoas de baixa estatura, crianças e usuários de cadeiras de rodas.;As portas acionadas por sensores ópticos devem detectar pessoas de baixa estatura, crianças e usuários de cadeiras de rodas.;1
+en1n2-n1-mistral-197;n1;;d) recomenda-se a aplicação de mais duas faixas contínuas com no mínimo 50 mm de altura, uma a ser instalada entre 1,30 m e 1,40 m, e outra entre 0,10 m e 0,30 m, em relação ao piso acabado.;Sentença 8: Recomenda-se a aplicação de mais duas faixas contínuas com no mínimo 50 mm de altura.;0
+en1n2-n1-alpaca-105;n1;;Toda rota acessível deve ser provida de iluminação natural ou artificial com nível mínimo de iluminância de 150 lux medidos a 1,00 m do chão. São aceitos níveis inferiores de iluminância para ambientes específicos, como cinemas, teatros ou outros, conforme normas técnicas específicas.;Toda rota acessível deve ser provida de iluminação natural ou artificial com nível mínimo de iluminância de 150 lux medidos a 1,00m do chão.;0
+en1n2-n1-alpaca-163;n1;;Em edificações existentes, onde for impraticável promover o prolongamento do corrimão no sentido do caminhamento, este pode ser feito ao longo da área de circulação ou fixado na parede adjacente.;Pisos existentes: Prolongar o corrimão é possível em áreas de caminhar, ou em paredes adjacentes.;0
+en2-n2-qwen-485;n2;aplicability;patamares;O tráfego na estrada;0
+en1n2n3-n2-llama-568;n2;requeriments;devem ter largura de no máximo 15 mm;devem ter largura de no máximo 15 mm.;1
+en1n2n3-n2-alpaca-246;n2;selection;Quando houver porta;Uso público ou coletivo.;0
+en1n2n3-n2-dolphin-96;n2;requeriments;o quantitativo de M.R. pode ser compartilhado;a cada 500 pessoas de lotação, por pavimento, sendo no mínimo um por pavimento e um para cada escada e elevador de emergência;0
+en2-n2-qwen-392;n2;requeriments;formato quadriculado/circular;devem ser servidas de uma ou mais rotas acessiveis;0
+en2-n2-llama-453;n2;aplicability;rampa;Toda rampa;1
+en2-n2-qwen-269;n2;aplicability;portas;As portas de sanitários e vestiários devem ter;0
+en1-n1-qwen-119;n1;;As rotas de fuga devem atender ao disposto na ABNT NBR 9077 e outras regulamentações locais contra incêndio e pânico.;A inclinação transversal da superfície deve ser de ato 2% para pisos internos e de ato 3% para pisos externos.;0
+en1n2n3-n1-alpaca-162;n1;;O dimensionamento dos corrimãos deve atender ao descrito em 4.6.5.;Pisos internos devem ter corrimãos que atendem ao padrão de 4,6,5.;0
+en1n2n3-n2-llama-889;n2;aplicability;patamares;Os patamares no término das rampas;0
+en1n2n3-n1-dolphin-57;n1;;Os corrimãos podem ser acoplados aos guarda-corpos.;Os corrimãos podem ser acoplados aos guarda-corpos e devem ser construídos com materiais rígidos.;0
+en1n2-n2-alpaca-173;n2;aplicability;rampas;As áreas de qualquer espaço ou edificação de uso público ou coletivo devem ser servidas por uma ou mais rotas acessíveis.;0
+en1-n1-qwen-79;n1;;Os corrimãos devem ser sinalizados conforme a Seção 5.;A inclinacao transversal da superfície deve ser de ate 2 % para pisos internos e de ate 3 % para pisos externos.;0
+en1n2n3-n2-gemma-1113;n2;aplicability;portas;Quando as portas forem acionadas por sensores ópticos;0
+en1n2-n1-gemma-60;n1;;Rampas com declividade igual a 5% (1:20) devem ter desnível máximo de 1,50 m por segmento, sem limite de número de segmentos.;As rampas citadas em 10.4 (plateia e palcos) não precisam de áreas de descanso.;0
+en1n2n3-n2-gemma-188;n2;requeriments;o quantitativo de M.R. pode ser compartilhado;é necessário para cada escada e elevador de emergência.;0
+en1n2-n1-qwen-67;n1;;Em construções novas, o primeiro e o último degraus de um lance de escada devem distar no mínimo 0,30 m da área de circulação adjacente;A inclinação transversal da superfície deve ser de ate 2% para pisos internos e de ate 3% para pisos externos.;0
+en1n2-n2-gemma-946;n2;selection;rampas internas;inclinação transversal dos patamares;0
+en1n2n3-n2-dolphin-166;n2;selection;Quando não houver paredes laterais;rampas;0
+en1n2n3-n1-qwen-12;n1;;Em edificações e equipamentos urbanos deve ser prevista a sinalização informativa e direcional da localização das entradas e saídas acessíveis, de acordo com o estabelecido na Seção 5.;A inclinade transversal da superfície deve ser de no máximo 2% para pisos internos e de no máximo 3% para pisos externos.;0
+en1n2-n2-llama-348;n2;requeriments;devem ser previstos patamares com dimensão longitudinal mínima de 1,20 m;devem ser previstos patamares;0
+en1n2n3-n2-qwen-396;n2;requeriments;pelo menos uma delas deve ter o vão livre de 0,80 m;"""As áreas ... Norma."" ""Em portas de duas ou mais folhas, pelo menos uma delas deve ter o vão livre de 0,80 m.""";0
+en1n2n3-n2-gemma-390;n2;selection;Entre os lances da escada;patamares;0
+en1n2-n1-qwen-29;n1;;Se a antecâmara das escadas e a dos elevadores de emergência forem comuns, o quantitativo de M.R. pode ser compartilhado.;Pisos internos devem ter inclinação transversal de no maximo 2%.;0
+en1n2-n2-gemma-1016;n2;requeriments;devem incorporar elementos de segurança como guia de balizamento e guarda-corpo, e devem respeitar os demais itens de segurança desta Norma, tais como dimensionamento, corrimãos e sinalização;devem respeitar os demais itens de segurança da Norma;0
+en2-n2-alpaca-230;n2;selection;superior a 2,40 m;Escadas ou rampas com largura igual ou superior a 2,40 m.;0
+en2-n2-qwen-444;n2;requeriments;inclinação transversal máxima 2%;Não pode ser feito em locais com uma área mínima de 25 metros quadrados.;0
+en1n2-n2-mistral-437;n2;aplicability;As portas;portas de corredores, acessos, áreas de resgate, escadas de emergência e descargas integrantes de rotas de fuga acessíveis;0
+en1n2-n2-alpaca-298;n2;selection;Para transposição de obstáculos, objetos e elementos com extensão acima de 0,40 m;Uso público ou coletivo.;0
+en1n2n3-n2-dolphin-140;n2;requeriments;devem ter desnível máximo de 0,80 m por segmento, com no máximo 15 segmentos e ter áreas de descanso nos patamares a cada 50,00 m de percurso horizontal;Excetuam-se deste requisito;0
+en2-n2-alpaca-412;n2;requeriments;deve respeitar os parâmetros mínimos definidos em 4.3.6;Devem ter o M.R. sinalizado conforme 5.5.2.2.;0
+en1n2-n2-qwen-1;n2;aplicability;área de qualquer espaço ou edificação;As áreas de qualquer espaco ou edificacao;1
+en1n2n3-n2-dolphin-444;n2;requeriments;resgate (6.4.5) com espaço reservado e demarcado para o posicionamento de pessoas em cadeiras de rodas (5.5.2.2), dimensionadas de acordo com o M.R;devem ser previstas;0
+en1-n1-qwen-127;n1;;Toda rota acessível deve ser provida de iluminação natural ou artificial com nível mínimo de iluminância de 150 lux medidos a 1,00 m do chão. São aceitos níveis inferiores de iluminância para ambientes específicos, como cinemas, teatros ou outros, conforme normas técnicas específicas.;Pisos internos devem ter inclinão transversal no máximo 2%.;0
+en1n2-n1-alpaca-93;n1;;deve contar com sistema de sinalização conforme 5.6.4.2.;Pisos internos devem ter inclinacao transversal de no maximo 2%.;0
+en1-n1-qwen-117;n1;;deve contar com sistema de sinalização conforme 5.6.4.2.;Pisos internos devem ter inclinação transversal de no maximo 2%.;0
+en1n2-n2-qwen-60;n2;requeriments;devem atender a 6.6;devem ser servidas de uma ou mais rotas acessiveis;0
+en1n2-n1-qwen-119;n1;;As rotas de fuga devem atender ao disposto na ABNT NBR 9077 e outras regulamentações locais contra incêndio e pânico.;A inclinação transversal da superfície deve ser de ato 2% para pisos internos e de ato 3% para pisos externos.;0
+en1n2n3-n1-alpaca-52;n1;;b) a profundidade do piso deve ser maior ou igual a 0,28 m e menor ou igual a 0,32 m.;Pisos externos devem ter inclinação transversal de no máximo 3%.;0
+en1n2-n2-qwen-232;n2;requeriments;não podem ser utilizados espelhos vazados;devem ser servidas de uma ou mais rotas acessiveis;0
+en1-n1-alpaca-140;n1;;Rampas com declividade maior do que 10% (1:10) e até 12,5% (1:8) devem ter desnível máximo de 0,075 m por segmento, com no máximo 1 segmento.;Pode-se realizar reformas com inclinações de 8,33% a 12,5%.;0
+en1n2-n1-llama-56;n1;;Rampas com declividade maior do que 5% (1:20) e até 6,25% (1:16) devem ter desnível máximo de 1,00 m por segmento, sem limite de número de segmentos.;O requisito de criação de áreas de descanso não se aplica às rampas citadas em 10.12 (piscinas).;0
+en1n2-n2-alpaca-301;n2;aplicability;deslocamento frontal;As áreas de qualquer espaço ou edificação de uso público ou coletivo devem ser servidas por uma ou mais rotas acessíveis.;0
+en2-n2-gemma-533;n2;aplicability;rampas ou escadas;Quando não houver paredes laterais;0
+en1n2n3-n2-gemma-384;n2;requeriments;É necessário que, à distância de 0,55 m sejam dimensionados conforme 6.8.2.;"pisos e espelhos sejam dimensionados conforme 6.8.2 e Figura 75""";0
+en1n2n3-n2-dolphin-596;n2;requeriments;deve-se garantir equipamento de automação da abertura e fechamento das portas através de botoeira ou sensor, conforme 6.11.2.9 e 6.11.2.10;equipamento de automação da abertura e fechamento das portas através de botoeira ou sensor;0
+en1n2-n2-qwen-374;n2;selection;Para transposição de obstáculos, objetos e elementos com extensão acima de 0,40 m;uso publico ou coletivo;0
+en1n2n3-n2-dolphin-652;n2;requeriments;recomenda-se a aplicação de mais duas faixas contínuas com no mínimo 50 mm de altura, uma a ser instalada entre 1,30 m e 1,40 m, e outra entre 0,10 m e 0,30 m, em relação ao piso acabado;uma a ser instalada entre 1,30 m e 1,40 m, e outra entre 0,10 m e 0,30 m;0
+en2-n2-gemma-457;n2;aplicability;projeção dos corrimãos;rampa;0
+en1n2-n1-alpaca-114;n1;;Quando for instalada, deve ser prevista, junto a esta, outra entrada que garanta condições de acessibilidade.;O sistema de segurança para rebatimento das pás deve ser previsto quando existir porta giratória.;0
+en1n2n3-n1-alpaca-148;n1;;Devem ser previstos patamares quando houver mudança de direção nas rampas.;Pisos externos devem ter inclinação transversal de no máximo 3%.;0
+en1n2-n2-qwen-574;n2;selection;superiores a 20 mm;uso público ou coletivo;0
+en1n2n3-n2-alpaca-81;n2;aplicability;A superfície das tampas;Pisos internos devem ter superfícies niveladas com o piso adjacente, e qualquer fresta deve ter uma dimensão máxima de 15 mm.;0
+en1-n1-qwen-67;n1;;Em construções novas, o primeiro e o último degraus de um lance de escada devem distar no mínimo 0,30 m da área de circulação adjacente;A inclinação transversal da superfície deve ser de ate 2% para pisos internos e de ate 3% para pisos externos.;0
+en1n2-n1-llama-77;n1;;b) a profundidade do piso deve ser maior ou igual a 0,28 m e menor ou igual a 0,32 m.;A dimensão de cada piso deve estar entre 0,28 m e 0,32 m.;1
+en2-n2-mistral-432;n2;requeriments;podem ser utilizadas inclinações superiores a 8,33% (1:12) e até 12,5% (1:8) e devem atender os desníveis máximos por segmento e número de segmentos deste item;podem ser utilizados inclinações superiores a 8,33% (1:12) e até 12,5% (1:8), em segmentos retos, e devem atender os desníveis máximos por segmento e número de segmentos deste item.;0
+en1n2-n2-alpaca-482;n2;selection;Em rotas acessíveis;Usos públicos ou coletivos devem ter grelhas e juntas de dilatação fora do fluxo principal de circulação.;0
+en2-n2-llama-457;n2;aplicability;projeção dos corrimãos;A projeção dos corrimãos pode incidir dentro da largura mínima admissível da rampa em até 10 cm de cada lado;0
+en1n2-n2-qwen-752;n2;requeriments;de acordo com o fluxo de pessoas, conforme ABNT NBR 9077;"""O projeto de pisos internos deve ser estabelecido com base no uso público ou coletivo, conforme ABNT NBR";0
+en1n2n3-n2-qwen-177;n2;aplicability;rampas;As áreas de qualquer espaco ou edificacao;0
+en2-n2-mistral-581;n2;aplicability;sinalização;sinalização deve ser contínua ou elementos gráficos, com no mínimo 50 mm de espessura, instalada a uma altura entre 0,90 m e 1,00 m em relação ao piso acabado.;0
+en1-n1-alpaca-108;n1;;Nestes casos a distância entre cada entrada acessível e as demais não pode ser superior a 50 m.;A distância entre cada entrada acessível e as demais não pode ser superior a 50 m.;0
+en1-n1-mistral-150;n1;;A inclinação transversal de rampas internas não pode exceder 2%.;Pisos internos devem ter inclinacao transversal de no maximo 2%.;0
+en1n2-n2-llama-1058;n2;selection;Quando forem acionadas por sensores ópticos;pessoas de baixa estatura, crianças e usuários de cadeiras de rodas;0
+en2-n2-llama-125;n2;aplicability;Rampas;Rampas com declividade maior do que 5% e até 6,25%;0
+en1n2-n2-alpaca-724;n2;requeriments;recomenda-se a aplicação de mais duas faixas contínuas com no mínimo 50 mm de altura, uma a ser instalada entre 1,30 m e 1,40 m, e outra entre 0,10 m e 0,30 m, em relação ao piso acabado;Devem ser servidas por uma ou mais rotas acessíveis.;0
+en1n2-n2-llama-712;n2;requeriments;deve compor uma rota acessível;deve ser acessível;0
+en1n2-n1-alpaca-155;n1;;A largura das escadas deve ser estabelecida de acordo com o fluxo de pessoas, conforme ABNT NBR 9077.;Pisos externos devem ter inclinação transversal de no máximo 3%.;0
+en1n2-n1-dolphin-48;n1;;c) a altura do espelho deve ser maior ou igual a 0,16 m e menou ou igual a 0,18 m.;As dimensões dos pisos e espelhos devem ser constantes em toda a escada ou degraus isolados.;0
+en1n2n3-n2-qwen-93;n2;aplicability;no piso;As áreas;0
+en1n2n3-n2-gemma-616;n2;requeriments;recomenda-se a instalação de trilhos na sua parte superior;instale trilhos na parte superior;0
+en1n2-n2-qwen-100;n2;requeriments;devem ser sinalizadas conforme o disposto na Seção 5 e iluminadas com dispositivos de balizamento de acordo com o estabelecido na ABNT NBR 10898;devem ser servidas de uma ou mais rotas acessiveis;0
+en1-n1-mistral-137;n1;;resgate (6.4.5) com espaço reservado e demarcado para o posicionamento de pessoas em cadeiras de rodas (5.5.2.2), dimensionadas de acordo com o M.R.;Saída: Se as rotas de fuga incluirem escadas de emergência ou elevadores de emergência, deve haver áreas de resgate (6.4.5) reservadas e marcadas para o posicionamento de pessoas em cadeiras de rodas (5.5.2.2), dimensionados de acordo com o M.R.;0
+en1n2n3-n1-alpaca-92;n1;;A superfície de varredura do portão não pode invadir a faixa livre de circulação de pedestre.;Pisos externos devem ter inclinacao transversal de no maximo 3%.;0
+en1n2-n1-qwen-79;n1;;Os corrimãos devem ser sinalizados conforme a Seção 5.;A inclinacao transversal da superfície deve ser de ate 2 % para pisos internos e de ate 3 % para pisos externos.;0
+en1-n1-mistral-12;n1;;Pisos (internos e externos) devem ter inclinação longitudinal inferior a 5%.;Pisos internos devem ter inclinacao longitudinal inferior a 5%.;0
+en1n2n3-n2-qwen-588;n2;requeriments;observar o descrito em 4.3.7;Pisos externos devem ter inclinação transversal de no máximo 3%;0
+en2-n2-gemma-492;n2;requeriments;de acordo com o fluxo de pessoas, conforme ABNT NBR 9077;devem ser servidas de uma ou mais rotas acessiveis;0
+en1-n1-llama-41;n1;;Nas áreas de resgate, deve ser previsto no mínimo um M.R. a cada 500 pessoas de lotação, por pavimento, sendo no mínimo um por pavimento e um para cada escada e elevador de emergência.;Nas áreas de resgate deve ser previsto no mínimo um M.R.;0
+en1n2-n1-qwen-70;n1;;Escadas com lances curvos ou mistos devem atender à ABNT NBR 9077.;Pisos externos devem ter inclinação transversal no máximo 3%.;0
+en1n2-n1-llama-230;n1;;Deve dispor de guia de balizamento conforme 6.6.3.;As escadas devem dispor de guia de balizamento.;0
+en1n2n3-n2-mistral-172;n2;requeriments;a inclinação máxima admissível é de 8,33 % (1:12) e o raio mínimo de 3,00 m, medido no perímetro interno à curva;devem ter inclinação máxima de 8,33%;0
+en1n2-n1-qwen-64;n1;;a) a equação (piso + 2*espelho) deve ser maior ou igual a 0,63 m e menor ou igual a 0,65 m.;Para o dimensionamento, devem ser atendidas as seguintes condições: a) 0,63 m ≤ p + 2e ≤ 0,65 m, b) pisos (p): 0,28 m ≤ p ≤ 0,32 m e c) espelhos (e): 0,16 m ≤ e ≤ 0,18 m.;0
+en1n2-n1-dolphin-37;n1;;Para rampas em curva, a inclinação máxima admissível é de 8,33 % (1:12) e o raio mínimo de 3,00 m, medido no perímetro interno à curva.;Para rampas em curva, a inclinação máxima admissível é de 8,33 % (1:12).;0
+en1n2n3-n2-llama-972;n2;requeriments;devem incorporar elementos de segurança como guia de balizamento e guarda-corpo, e devem respeitar os demais itens de segurança desta Norma, tais como dimensionamento, corrimãos e sinalização;devem incorporar elementos de segurança;0
+en1n2n3-n2-alpaca-401;n2;aplicability;corrimãos laterais;As escadas laterais devem ser contínuas, sem interrupção nos patamares das escadas e rampas.;0
+en1-n1-qwen-22;n1;;Eventuais frestas devem possuir dimensão máxima de 15 mm.;Pisos externos devem ter inclinação transversal de no maximo 3%.;0
+en2-n2-alpaca-245;n2;aplicability;deslocamento frontal;As áreas de qualquer espaço ou edificação de uso público ou coletivo devem ser servidas por uma ou mais rotas acessíveis.;0
+en1n2-n2-alpaca-213;n2;aplicability;altura do espelho;As dimensões dos pisos e espelhos devem ser constantes em toda a escada ou degraus isolados.;0
+en2-n2-mistral-96;n2;requeriments;Recomenda-se prever uma área de descanso, fora da faixa de circulação, a cada 30 m;Recomenda-se prever uma área de descanso, fora da faixa de circulação, a cada 30 m, para piso de 3 % a 5 % de inclinação.;0
+en1n2-n2-gemma-898;n2;selection;internas;inclinação transversal;0
+en1n2n3-n2-qwen-370;n2;selection;Para transposição de obstáculos, objetos e elementos com no máximo 0,40 m de extensão;uso público ou coletivo;0
+en1n2n3-n1-llama-193;n1;;Quando existentes [Capachos, forrações, carpetes, tapetes e similares], devem ser firmemente fixados ao piso, embutidos ou sobrepostos e nivelados de maneira que eventual desnível não exceda 5 mm.;Quando existentes, devem ser firmemente fixados ao piso.;0
+en1n2n3-n2-alpaca-632;n2;requeriments;A inclinação transversal não pode exceder 1%;Devem ter uma inclinação transversal de no máximo 1%;1
+en1-n1-qwen-190;n1;;Deve dispor de guia de balizamento conforme 6.6.3.;Pisos externos devem ter inclinação transversal no máximo 3%.;0
+en1n2n3-n2-gemma-346;n2;selection;em rotas acessíveis;degraus e escadas fixas com espelhos vazados;0
+en2-n2-mistral-530;n2;selection;quando o comprimento do patamar for superior a 1,40 m;quando o comprimento do patamar é superior a 1,40 m;1
+en1n2-n1-dolphin-114;n1;;quando localizada em nichos, deve respeitar os parâmetros mínimos definidos em 4.3.6.;A área de resgate deve ter o M.R.;0
+en1n2n3-n1-alpaca-143;n1;;Toda rampa deve possuir corrimão de duas alturas em cada lado.;Todas as rampas devem ter uma corrimão de duas alturas em cada lado.;1
+en1-n1-qwen-210;n1;;As portas instaladas em locais de prática esportiva, quando abertas, devem ter um vão livre, de no mínimo 1,00 m de largura e 2,10 m de altura.;Os pisos externos devem ter inclinação transversal no máximo 3%.;0
+en1n2-n1-llama-248;n1;;Em espaços com portas em sequência, deve ser garantido um espaço mínimo equivalente a um círculo de 1,50 m de diâmetro, livre de quaisquer obstáculos, inclusive da área de varredura das portas simultaneamente.;A largura das portas deve ser considerada no espaço de transposição.;0
+en1n2-n1-qwen-198;n1;;Em edificações existentes, onde for impraticável promover o prolongamento do corrimão no sentido do caminhamento, este pode ser feito ao longo da área de circulação ou fixado na parede adjacente.;A inclinade transversal da superfície deve ser de 2% para pisos internos e de 3% para pisos externos.;0
+en1n2-n2-qwen-296;n2;requeriments;devem ter dimensões iguais à largura da escada;devem ser servidas de uma ou mais rotas acessiveis;0
+en1n2n3-n2-mistral-216;n2;requeriments;não podem ser utilizados espelhos vazados;Rotas acessíveis não podem ter degraus e escadas fixas com espelhos vazados.;0
+en1n2-n1-mistral-56;n1;;a) a equação (piso + 2*espelho) deve ser maior ou igual a 0,63 m e menor ou igual a 0,65 m.;Espelhos devem ter uma largura entre 0,16 metros e 0,18 metros.;0
+en2-n2-alpaca-168;n2;requeriments;deve ser maior ou igual a 0,28 m e menor ou igual a 0,32 m;b) a profundidade do piso deve ser maior ou igual a 0,28 m e menor ou igual a 0,32 m.;0
+en1n2-n1-qwen-73;n1;;Entre os lances da escada devem ser previstos patamares com dimensão longitudinal mínima de 1,20 m.;Os patamares devem ter uma inclinação transversal no máximo de 2%.;0
+en1-n1-gemma-241;n1;;Deve dispor de guia de balizamento conforme 6.6.3.;Guia de balizamento deve estar presente conforme a seção 6.6.3.;1
+en1n2-n2-llama-1073;n2;aplicability;portas;Nas portas das paredes envidraçadas que façam parte de rotas acessíveis;0
+en1-n1-qwen-66;n1;;c) a altura do espelho deve ser maior ou igual a 0,16 m e menou ou igual a 0,18 m.;As dimensões dos pisos e espelhos devem ser constantes em toda a escada ou degraus isolados.;0
+en1n2-n1-alpaca-92;n1;;A superfície de varredura do portão não pode invadir a faixa livre de circulação de pedestre.;Pisos externos devem ter inclinacao transversal de no maximo 3%.;0
+en1n2n3-n2-gemma-852;n2;requeriments;deve garantir área mínima de circulação e manobra para rotação de 180°, conforme 4.3.3;garantir área mínima de circulação e manobra para rotação de 180°, conforme 4.3.3;1
+en1n2-n2-alpaca-130;n2;selection;Para inclinações superiores a 5 %;Usos públicos ou coletivos.;0
+en1n2-n1-dolphin-23;n1;;Nas áreas de resgate, deve ser previsto no mínimo um M.R. a cada 500 pessoas de lotação, por pavimento, sendo no mínimo um por pavimento e um para cada escada e elevador de emergência.;Nas áreas de resgate, deve ser previsto no mínimo um M.R.;0
+en2-n2-alpaca-242;n2;selection;Para transposição de obstáculos, objetos e elementos com extensão acima de 0,40 m;Uso público ou coletivo.;0
+en2-n2-alpaca-317;n2;aplicability;As rotas de fuga;As rotas de fuga devem atender ao disposto na ABNT NBR 9077 e outras regulamentações locais contra incêndio e pânico.;0
+en1n2-n2-qwen-773;n2;aplicability;patamares;Edifícios e estruturas públicas;0
+en1n2n3-n2-qwen-32;n2;requeriments;devem permanecer livres de quaisquer obstáculos de forma permanente;permaneça livre de obstáculos;1
+en2-n2-llama-436;n2;requeriments;devem ter desnível máximo de 0,20 m por segmento, com no máximo 4 segmentos;devem ter desnível máximo de 0,20 m por segmento;0
+en1n2-n2-llama-28;n2;requeriments;devem ser vinculados através de rota acessível à circulação principal e às circulações de emergência;devem estar vinculados a rotas acessíveis;0
+en1n2-n2-alpaca-261;n2;aplicability;corrimãos;As áreas de qualquer espaço ou edifício;0
+en1-n1-dolphin-69;n1;;Na impraticabilidade da existência destes espaços livres, deve-se garantir equipamento de automação da abertura e fechamento das portas através de botoeira ou sensor, conforme 6.11.2.9 e 6.11.2.10.;Na impossibilidade da existência destes espaços livres, deve-se garantir equipamento de automação da abertura e fechamento das portas através de botoeira ou sensor.;0
+en1n2n3-n2-dolphin-73;n2;aplicability;A superfície das tampas;As tampas;0
+en1n2n3-n2-alpaca-184;n2;requeriments;com a mesma finalidade, com altura mínima de 5 cm;Devem ser servidas por uma ou mais rotas acessíveis.;0
+en1n2-n1-qwen-101;n1;;O mecanismo de acionamento das portas deve requerer força humana direta igual ou inferior a 36 N.;Os pisos externos devem ter inclinação transversal no máximo 3%.;0
+en1n2-n2-mistral-45;n2;aplicability;pisos;Pisos externos;0
+en1n2-n2-qwen-733;n2;aplicability;patamares;Edifícios públicos ou coletivos;0
+en1n2-n1-llama-55;n1;;Rampas com declividade igual a 5% (1:20) devem ter desnível máximo de 1,50 m por segmento, sem limite de número de segmentos.;Áreas de descanso devem ser criadas a cada 50 m de percurso.;0
+en1-n1-qwen-12;n1;;Em edificações e equipamentos urbanos deve ser prevista a sinalização informativa e direcional da localização das entradas e saídas acessíveis, de acordo com o estabelecido na Seção 5.;A inclinade transversal da superfície deve ser de no máximo 2% para pisos internos e de no máximo 3% para pisos externos.;0
+en1n2n3-n2-alpaca-196;n2;requeriments;não podem ser utilizados espelhos vazados;As áreas de qualquer espaço ou edificação devem ser servidas por uma ou mais rotas acessíveis.;0
+en1n2n3-n2-llama-912;n2;requeriments;de acordo com o fluxo de pessoas, conforme ABNT NBR 9077;deve ser estabelecida de acordo com o fluxo de pessoas.;0
+en1n2-n2-mistral-518;n2;selection;desnível for lateral;- Observe o descrito em 4.3.7.;0
+en1n2-n1-qwen-25;n1;;Quando em ambientes fechados, as rotas de fuga devem ser sinalizadas conforme o disposto na Seção 5 e iluminadas com dispositivos de balizamento de acordo com o estabelecido na ABNT NBR 10898.;Pisos internos devem ter inclinão transversal no máximo 2%.;0
+en1n2-n1-alpaca-34;n1;;recomenda-se a instalação de bancos com encosto e braços.;Recomenda-se a instalação de bancos com encosto e braços.;1
+en1n2-n2-qwen-370;n2;selection;Para transposição de obstáculos, objetos e elementos com no máximo 0,40 m de extensão;uso público ou coletivo;0
+en2-n2-dolphin-574;n2;selection;Quando forem acionadas por sensores ópticos;pessoas de baixa estatura, crianças e usuários de cadeiras de rodas;0
+en1n2n3-n1-qwen-58;n1;;Nas escadas fixas e degraus em rotas acessíveis, não podem ser utilizados espelhos vazados.;Pisos externos devem ter inclinação trans.;0
+en1n2n3-n1-dolphin-99;n1;;A entrada predial principal, ou a entrada de acesso do maior número de pessoas, tem a obrigatoriedade de atender a todas as condições de acessibilidade.;Se não for possível, deve ser adaptado o maior número de acessos, desde que comprovado tecnicamente.;0
+en1n2-n2-qwen-158;n2;selection;Para inclinação entre 6,25 % e 8,33 %;uso público ou coletivo;0
+en2-n2-dolphin-221;n2;aplicability;degrau isolado;Quando se tratar de um degrau isolado;1
+en1n2n3-n2-alpaca-521;n2;aplicability;A área de resgate;As áreas de resgate devem estar localizadas fora do fluxo principal de circulação.;0
+en2-n2-dolphin-141;n2;aplicability;rampas;A largura livre mínima recomendável para as rampas em rotas acessíveis;0
+en1-n1-alpaca-118;n1;;Desníveis superiores a 20 mm, devem ser considerados como degraus, conforme 6.7.;Pisos externos devem ter inclinação transversal de no máximo 3%.;0
+en1n2n3-n2-mistral-528;n2;requeriments;devem ter dimensão máxima de 15 mm, devem ser instalados perpendicularmente ao fluxo principal;Nenhuma ação ou condição principal;0
+en1n2n3-n1-dolphin-114;n1;;quando localizada em nichos, deve respeitar os parâmetros mínimos definidos em 4.3.6.;A área de resgate deve ter o M.R.;0
+en1n2-n2-mistral-500;n2;requeriments;as pás devem ser compatíveis com as medidas de um M.R. e devem ainda ser dotadas de sistema de segurança para rebatimento das pás em caso de sinistro;devem ter um sistema de segurança para rebatimento das pás caso de sinistro;0
+en2-n2-llama-592;n2;requeriments;recomenda-se a aplicação de mais duas faixas contínuas com no mínimo 50 mm de altura, uma a ser instalada entre 1,30 m e 1,40 m, e outra entre 0,10 m e 0,30 m, em relação ao piso acabado;deve haver faixa de sinalização visual emoldurando-as, com dimensão mínima de 50 mm de largura;0
+en1n2n3-n2-qwen-281;n2;aplicability;Escadas com lances curvos ou mistos;Escadas com lances curvos ou mistos;1
+en1n2n3-n1-qwen-79;n1;;Os corrimãos devem ser sinalizados conforme a Seção 5.;A inclinacao transversal da superfície deve ser de ate 2 % para pisos internos e de ate 3 % para pisos externos.;0
+en1n2n3-n1-alpaca-136;n1;;Superfícies de piso com declividade igual ou superior a 5% são consideradas rampas, e devem atender às condições de 6.3.;Pisos externos devem ter inclinacao transversal de no maximo 3%.;0
+en1-n1-gemma-269;n1;;As portas instaladas em locais de prática esportiva, quando abertas, devem ter um vão livre, de no mínimo 1,00 m de largura e 2,10 m de altura.;As portas devem ter vão livre mínimo de 1,00 m.;0
+en1-n1-mistral-152;n1;;Toda rampa deve possuir corrimão de duas alturas em cada lado.;Ramp deve ter handrails de duas alturas em ambos os lados.;1
+en1n2n3-n1-dolphin-81;n1;;As frestas resultantes da guia inferior devem ter largura de no máximo 15 mm.;Eventuais frestas resultantes da guia inferior devem ter largura máxima de 15 mm.;1
+en1n2n3-n2-llama-165;n2;aplicability;Nas áreas de resgate;Nas áreas de resgate;1
+en1n2-n1-mistral-61;n1;;Escadas com lances curvos ou mistos devem atender à ABNT NBR 9077.;Escadas com lances curvos ou mistos devem atender à ABNT NBR 9077.;1
+en1n2n3-n2-gemma-1093;n2;aplicability;visor;As portas do tipo vaivém;0
+en1n2n3-n2-gemma-720;n2;requeriments;deve ser provida de iluminação natural ou artificial com nível mínimo de iluminância de 150 lux medidos a 1,00 m do chão;"deve ser provida de iluminação com nível mínimo de 150 lux""";0
+en1n2-n2-gemma-184;n2;requeriments;deve ser previsto no mínimo um M.R. a cada 500 pessoas de lotação, por pavimento, sendo no mínimo um por pavimento e um para cada escada e elevador de emergência;deve ser previsto pelo menos um M.R. por pavimento e para cada escada/elevador de emergência, com possibilidade de compartilhamento se houver antecâmara comum;0
+en1-n1-gemma-221;n1;;Em reformas, quando esgotadas as possibilidades de soluções que atendam integralmente ao item 6.6.2.1, podem ser utilizadas inclinações superiores a 8,33% (1:12) e até 12,5% (1:8), em segmentos retos, e devem atender os desníveis máximos por segmento e número de segmentos deste item.;Em reformas, se as soluções da Tabela 6 não forem suficientes, podem ser usadas inclinações de até 8,33% (1:12) ou 12,5% (1:8), conforme a Tabela 7.;0
+en1n2-n2-llama-5;n2;aplicability;edificações;As edificações residenciais multifamiliares, condomínios e conjuntos habitacionais;0
+en1n2-n1-qwen-117;n1;;deve contar com sistema de sinalização conforme 5.6.4.2.;Pisos internos devem ter inclinação transversal de no maximo 2%.;0
+en1-n1-mistral-70;n1;;Os corrimãos devem ser construídos com materiais rígidos.;Eles devem ser firmemente fixados às paredes ou barras de suporte, garantindo condições seguras de utilização.;0
+en1n2-n1-dolphin-46;n1;;Se houver bocel ou espelho inclinado, a projeção da aresta pode avançar no máximo 1,5 cm sobre o piso abaixo.;Quando houver bocel ou espelho inclinado, a projeção da aresta pode avançar no máximo 1,5 cm sobre o piso abaixo.;1
+en1n2n3-n1-llama-76;n1;;a) a equação (piso + 2*espelho) deve ser maior ou igual a 0,63 m e menor ou igual a 0,65 m.;O dimensionamento deve atender à condição 0,63 m ≤ p + 2e ≤ 0,65 m.;1

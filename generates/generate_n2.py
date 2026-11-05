@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+import re
 import sys
 import time
 from pathlib import Path
@@ -11,11 +12,10 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.runnables import RunnableSerializable
-from langchain_ollama import OllamaLLM
 
 from config.models import MODEL_NAMES
 from utils.generates.generate_config import generate_config
+from utils.generates.llm_options import build_llm, chain_for_attempt
 from utils.generates.meta import build_meta, env_seed
 from utils.generates.resume import (
     append_checkpoint,
@@ -30,6 +30,13 @@ from utils.n2.process_text import process_text
 
 
 PROMPT_PATH: Path = Path("prompts") / "n2.txt"
+_FINAL_ANSWER = re.compile(r"resposta\s+final\s*:?", re.IGNORECASE)
+
+
+def extract_final_answer(output: str) -> str:
+    """Nos prompts com raciocinio explicito, considera apenas o bloco apos 'Resposta final'."""
+    matches = list(_FINAL_ANSWER.finditer(output))
+    return output[matches[-1].end():] if matches else output
 
 
 def generate_n2(
@@ -37,6 +44,8 @@ def generate_n2(
     output_path: str | None = None,
     model_id: str | None = None,
     log_path: str | None = None,
+    prompt_path: Path = PROMPT_PATH,
+    keep_raw: bool = False,
 ) -> None:
     if input_path is None or output_path is None or model_id is None:
         parser = argparse.ArgumentParser(description="Gerar operadores RASE N2.")
@@ -66,9 +75,9 @@ def generate_n2(
         return
 
     try:
-        template: str = PROMPT_PATH.read_text(encoding="utf-8")
+        template: str = Path(prompt_path).read_text(encoding="utf-8")
     except FileNotFoundError:
-        print("Erro: prompt n2 nao encontrado em prompts/n2.txt.")
+        print(f"Erro: prompt n2 nao encontrado em {prompt_path}.")
         return
 
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
@@ -111,21 +120,8 @@ def generate_n2(
     keep_alive = os.environ.get("N2_KEEP_ALIVE", "30s").strip()
     pause_between_texts = _env_float("N2_TEMP_PAUSE", 2.0)
 
-    llm_kwargs: Dict[str, Any] = {
-        "model": model_id,
-        "temperature": 0.1,
-        "top_p": 0.9,
-        "repeat_penalty": 1.1,
-        "num_predict": num_predict,
-        "client_kwargs": {"timeout": 600},
-    }
-    if seed is not None:
-        llm_kwargs["seed"] = seed
-    if keep_alive:
-        llm_kwargs["keep_alive"] = keep_alive
-    llm: OllamaLLM = OllamaLLM(**llm_kwargs)
+    llm, options = build_llm(model_id, seed, num_predict=num_predict, keep_alive=keep_alive)
     prompt: ChatPromptTemplate = ChatPromptTemplate.from_template(template)
-    chain: RunnableSerializable[Dict[str, str], str] = prompt | llm
 
     existing = load_existing_output(output_path)
     resume_from = len(existing.get("datas", [])) if existing else 0
@@ -164,6 +160,7 @@ def generate_n2(
             for n1_index, n1_item in enumerate(item.get("texts_n1", []), start=1):
                 text_n1 = n1_item.get("text_n1", "")
                 processed_result: Dict[str, str] = {}
+                raw_output: str = ""
 
                 for attempt in range(1, 4):
                     log(
@@ -174,7 +171,7 @@ def generate_n2(
                         result: str | None
                         timed_out: bool
                         result, timed_out = invoke_with_timeout(
-                            chain,
+                            chain_for_attempt(prompt, llm, options, attempt),
                             {"text": item["text"], "text_n1": text_n1},
                             600.0,
                             60.0,
@@ -211,8 +208,11 @@ def generate_n2(
                     if env_debug in {"1", "true", "yes", "on"}:
                         print("Saida do modelo:")
                         print(result)
-                    processed_result = process_text(result)
-                    break
+                    raw_output = result
+                    processed_result = process_text(extract_final_answer(result))
+                    if processed_result.get("requisito"):
+                        break
+                    log(f"Tentativa {attempt} sem requisito (obrigatorio). Repetindo.")
 
                 if not processed_result:
                     msg = (
@@ -222,12 +222,13 @@ def generate_n2(
                     print(msg)
                     log(msg)
                 operators_n2 = build_operators(processed_result)
-                texts_n1.append(
-                    {
-                        "text_n1": text_n1,
-                        "operators_n2": operators_n2,
-                    }
-                )
+                rule_entry: Dict[str, Any] = {
+                    "text_n1": text_n1,
+                    "operators_n2": operators_n2,
+                }
+                if keep_raw:
+                    rule_entry["raw_output"] = raw_output
+                texts_n1.append(rule_entry)
 
             end_time: float = time.time()
             elapsed_time: float = end_time - start_time

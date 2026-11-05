@@ -7,6 +7,8 @@ THRESHOLD_DEFAULT: float = 0.7
 def _normalize(text: Any) -> str:
     if not isinstance(text, str):
         return ""
+    # Simbolos de comparacao nao sobrevivem a conversao para ASCII; converter antes.
+    text = text.replace("≥", ">=").replace("≤", "<=").replace("≠", "!=")
     text = unicodedata.normalize("NFKD", text).encode("ASCII", "ignore").decode("ASCII")
     return text.lower().strip().rstrip(".,;:")
 

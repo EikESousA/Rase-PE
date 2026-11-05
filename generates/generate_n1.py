@@ -11,12 +11,11 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.runnables import RunnableSerializable
-from langchain_ollama import OllamaLLM
 
 from config.models import MODEL_NAMES
 from utils.generates.generate_config import generate_config
 from utils.generates.invoke_with_timeout import invoke_with_timeout
+from utils.generates.llm_options import build_llm, chain_for_attempt
 from utils.generates.meta import build_meta, env_seed
 from utils.generates.reset_model import reset_model
 from utils.generates.resume import (
@@ -86,22 +85,14 @@ def generate_n1(
     seed = env_seed()
     keep_alive = os.environ.get("N1_KEEP_ALIVE", "30s").strip()
 
-    llm_kwargs: Dict[str, Any] = {
-        "model": model_id,
-        "temperature": 0.1,
-        "top_p": 0.9,
-        "repeat_penalty": 1.1,
-        "num_predict": 512,
-        "stop": ["TEXTO_INICIO", "TEXTO_FIM", "Entrada:", "Saida:"],
-        "client_kwargs": {"timeout": 600},
-    }
-    if seed is not None:
-        llm_kwargs["seed"] = seed
-    if keep_alive:
-        llm_kwargs["keep_alive"] = keep_alive
-    llm: OllamaLLM = OllamaLLM(**llm_kwargs)
+    llm, options = build_llm(
+        model_id,
+        seed,
+        num_predict=512,
+        keep_alive=keep_alive,
+        stop=["TEXTO_INICIO", "TEXTO_FIM", "Entrada:", "Saida:"],
+    )
     prompt: ChatPromptTemplate = ChatPromptTemplate.from_template(template)
-    chain: RunnableSerializable[Dict[str, str], str] = prompt | llm
 
     existing = load_existing_output(output_path)
     resume_from = len(existing.get("datas", [])) if existing else 0
@@ -142,7 +133,7 @@ def generate_n1(
                     result: str | None
                     timed_out: bool
                     result, timed_out = invoke_with_timeout(
-                        chain,
+                        chain_for_attempt(prompt, llm, options, attempt),
                         {"text": item["text"]},
                         600.0,
                         60.0,

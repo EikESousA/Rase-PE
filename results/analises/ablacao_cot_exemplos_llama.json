@@ -1,0 +1,249 @@
+{
+  "modelo": "llama",
+  "cot_corrigiu": 93,
+  "cot_piorou": 61,
+  "exemplos_corrigidos": [
+    {
+      "operador": "exception",
+      "regra": "As edificações residenciais multifamiliares, condomínios e conjuntos habitacionais necessitam ser acessíveis em suas áreas de uso comum.",
+      "referencia": "",
+      "direto": "Áreas de uso restrito, conforme definido em 3.1.38",
+      "cot_explicito": "",
+      "raciocinio": "Vou seguir os passos para analisar a regra contida no Texto N1.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: \"edificações residenciais multifamiliares, condomínios e conjuntos habitacionais\"\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: \"áreas de uso comum\" (subconjunto das edificações residenciais multifamiliares, condomínios e conjuntos habitacionais)\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nNão existe exceção explícita.\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida? Comeca com verbo.\nTrecho: \"necessitam ser acessíveis\" (começa com o verbo \"necessitam\")\n\nRaciocinio:\nResposta final:\naplicabilidade: edificações residenciais multifamiliares, condomínios e conjuntos habitacionais\nselecao: áreas de uso comum\nexecao: \"\"\nrequisito: necessitam ser acessíveis"
+    },
+    {
+      "operador": "aplicability",
+      "regra": "As unidades autônomas acessíveis devem estar conectadas às rotas acessíveis.",
+      "referencia": "unidades autônomas acessíveis",
+      "direto": "As áreas de qualquer espaço ou edificação de uso público ou coletivo",
+      "cot_explicito": "As unidades autônomas acessíveis",
+      "raciocinio": "Vou seguir os passos para analisar a regra contida no Texto N1.\n\nPasso 1) Aplicabilidade: A regra trata das áreas de uso comum em edificações residenciais multifamiliares, condomínios e conjuntos habitacionais. Trecho sem verbos: \"As unidades autônomas acessíveis\".\n\nPasso 2) Seleção: A regra se restringe a um subconjunto da aplicabilidade? Sim, apenas as unidades autônomas acessíveis. Trecho sem verbos: \"As unidades autônomas acessíveis\".\n\nPasso 3) Exceção: Há casos que não seguem a regra? Sim, as áreas de uso restrito (como casas de máquinas, barriletes, passagem de uso técnico e outros com funções similares). Trecho sem verbos: \"Áreas de uso restrito\".\n\nPasso 4) Requisito: Qual é a ação ou condição exigida? As unidades autônomas acessíveis devem estar conectadas às rotas acessíveis. Começa com verbo: \"devem estar conectadas\".\n\nResposta final:\naplicabilidade: As unidades autônomas acessíveis\nselecao: As unidades autônomas acessíveis\nexecao: Áreas de uso restrito\nrequisito: devem estar conectadas às rotas acessíveis"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "Áreas de uso restrito, conforme definido em 3.1.38, como casas de máquinas, barriletes, passagem de uso técnico e outros com funções similares, não necessitam atender às condições de acessibilidade desta Norma.",
+      "referencia": "",
+      "direto": "não necessitam atender às condições de acessibilidade",
+      "cot_explicito": "",
+      "raciocinio": "Vou seguir os passos para analisar a regra contida no Texto N1.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: \"Áreas de uso restrito\"\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: \"conforme definido em 3.1.38\", que parece ser uma restrição específica.\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nSim, há exceção: \"não necessitam atender às condições de acessibilidade desta Norma.\"\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida?\nNão existe requisito explícito, pois a frase diz que não é necessário atender às condições.\n\nResposta final:\naplicabilidade: Áreas de uso restrito\nselecao: conforme definido em 3.1.38\nexecao: não necessitam atender às condições de acessibilidade desta Norma.\nrequisito: \"\""
+    },
+    {
+      "operador": "aplicability",
+      "regra": "Áreas de uso restrito, conforme definido em 3.1.38, como casas de máquinas, barriletes, passagem de uso técnico e outros com funções similares, não necessitam atender às condições de acessibilidade desta Norma.",
+      "referencia": "áreas de uso restrito",
+      "direto": "Áreas de qualquer espaço ou edificação",
+      "cot_explicito": "Áreas de uso restrito",
+      "raciocinio": "Vou seguir os passos para analisar a regra contida no Texto N1.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: \"Áreas de uso restrito\"\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: \"conforme definido em 3.1.38\", que parece ser uma restrição específica.\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nSim, há exceção: \"não necessitam atender às condições de acessibilidade desta Norma.\"\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida?\nNão existe requisito explícito, pois a frase diz que não é necessário atender às condições.\n\nResposta final:\naplicabilidade: Áreas de uso restrito\nselecao: conforme definido em 3.1.38\nexecao: não necessitam atender às condições de acessibilidade desta Norma.\nrequisito: \"\""
+    },
+    {
+      "operador": "exception",
+      "regra": "Áreas de uso restrito, conforme definido em 3.1.38, como casas de máquinas, barriletes, passagem de uso técnico e outros com funções similares, não necessitam atender às condições de acessibilidade desta Norma.",
+      "referencia": "não necessitam atender às condições de acessibilidade desta Norma",
+      "direto": "Áreas de uso restrito",
+      "cot_explicito": "não necessitam atender às condições de acessibilidade desta Norma.",
+      "raciocinio": "Vou seguir os passos para analisar a regra contida no Texto N1.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: \"Áreas de uso restrito\"\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: \"conforme definido em 3.1.38\", que parece ser uma restrição específica.\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nSim, há exceção: \"não necessitam atender às condições de acessibilidade desta Norma.\"\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida?\nNão existe requisito explícito, pois a frase diz que não é necessário atender às condições.\n\nResposta final:\naplicabilidade: Áreas de uso restrito\nselecao: conforme definido em 3.1.38\nexecao: não necessitam atender às condições de acessibilidade desta Norma.\nrequisito: \"\""
+    },
+    {
+      "operador": "requeriments",
+      "regra": "Inclinações iguais ou superiores a 5% são consideradas rampas e, portanto, devem atender a 6.6.",
+      "referencia": "devem atender a 6.6",
+      "direto": "devem ser de até 2 % para pisosinternos e de até 3 % para pisos externos",
+      "cot_explicito": "são consideradas rampas e, portanto, devem atender a 6.6",
+      "raciocinio": "Vou seguir os passos para analisar a regra.\n\nPasso 1) Aplicabilidade: A regra trata de inclinações da superfície em pisos internos e externos, mas não especifica quem ou o que é afetado. Trecho sem verbos: \"A inclinação transversal da superfície deve ser...\".\n\nPasso 2) Seleção: A regra se restringe a inclinações iguais ou superiores a 5%, pois apenas essas são consideradas rampas e devem atender à norma 6.6. Trecho sem verbos: \"Inclinações iguais ou superioresa 5 %\".\n\nPasso 3) Exceção: Não há exceções, pois a regra é aplicada a todas as inclinações iguais ou superiores a 5%. Nenhum caso é dispensado da regra. Trecho sem verbos: \"Inclinações iguais ou superioresa 5 %\".\n\nPasso 4) Requisito: A exigência é que inclinações iguais ou superiores a 5% sejam consideradas rampas e devem atender à norma 6.6. Começa com o verbo \"são\". Trecho exato do Texto N1: \"Inclinações iguais ou superioresa 5 % são consideradas rampas e, portanto, devem atender a 6.6.\"\n\nResposta final:\naplicabilidade: A inclinação transversal da superfície\nselecao: Inclinações iguais ou superiores a 5%\nexecao: \"\"\nrequisito: são consideradas rampas e, portanto, devem atender a 6.6"
+    },
+    {
+      "operador": "exception",
+      "regra": "A superfície das tampas deve estar nivelada com o piso adjacente.",
+      "referencia": "",
+      "direto": "eventuais frestas devem possuir dimensão máxima de 15 mm.",
+      "cot_explicito": "",
+      "raciocinio": "Vou seguir os passos para analisar a regra.\n\n**Passo 1) Aplicabilidade (opcional):**\nA regra trata de uma especificação para \"tampas\", mas não há restrições sobre quem ou o que as tampas se aplicam. Trecho sem verbos: \"A superfície das tampas\".\n\n**Passo 2) Seleção (opcional):**\nNão há indicação de que a regra se restrinja a um subconjunto específico de tampas, como tampas de uso público ou coletivo. Trecho sem verbos: \"A superfície das tampas\".\n\n**Passo 3) Exceção (opcional):**\nNão há menção explícita de casos que não seguem a regra. No entanto, é mencionado um requisito adicional (\"eventuais frestas devem possuir dimensão máxima de 15 mm\"), o que sugere que existam casos em que as tampas podem ter frestas maiores do que 15 mm, mas isso não é uma exceção explícita à regra. Trecho sem verbos: \"A superfície das tampas\".\n\n**Passo 4) Requisito (obrigatório):**\nO requisito exigido é que a superfície das tampas esteja nivelada com o piso adjacente. Começa com o verbo \"deve estar\". Trecho exato do Texto N1: \"A superfície das tampas deve estar nivelada com o piso adjacente\".\n\n**Resposta final:**\n\naplicabilidade: A superfície das tampas\nselecao: \"\"\nexecao: \"\"\nrequisito: A superfície das tampas deve estar nivelada com o piso adjacente"
+    },
+    {
+      "operador": "aplicability",
+      "regra": "Se a antecâmara das escadas e a dos elevadores de emergência forem comuns, o quantitativo de M.R. pode ser compartilhado.",
+      "referencia": "",
+      "direto": "Nas áreas de resgate",
+      "cot_explicito": "",
+      "raciocinio": "Vou seguir os passos para analisar a regra.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: não existe um trecho específico que descreva a aplicabilidade da regra. Apenas há uma condição específica no Texto N1, mas ela não define para quem ou o que a regra se aplica.\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: não existe um trecho específico que descreva uma restrição à aplicação da regra. Apenas há uma condição específica no Texto N1.\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nTrecho sem verbos: não existe um trecho específico que descreva exceções à regra.\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida? Comeca com verbo.\nRequisito: \"pode ser compartilhado\" - começa com o verbo \"pode\".\n\nRaciocinio:\nPasso 1) A regra não especifica para quem ou o que se aplica, apenas uma condição específica.\nPasso 2) Não há restrições à aplicação da regra.\nPasso 3) Não há exceções à regra.\nPasso 4) O requisito é a ação de \"pode ser compartilhado\".\n\nResposta final:\naplicabilidade: \"\"\nselecao: \"\"\nexecao: \"\"\nrequisito: pode ser compartilhado"
+    },
+    {
+      "operador": "selection",
+      "regra": "Recomenda-se prever uma área de descanso, fora da faixa de circulação, a cada 50 m, para piso com até 3 % de inclinação.",
+      "referencia": "para piso com até 3 % de inclinação",
+      "direto": "",
+      "cot_explicito": "para piso com até 3 % de inclinação",
+      "raciocinio": "Vou seguir os passos para analisar a regra contida no Texto N1.\n\nPasso 1) Aplicabilidade (opcional): A quem ou a que a regra se aplica?\nTrecho sem verbos: \"uma área de descanso, fora da faixa de circulação\"\n\nPasso 2) Seleção (opcional): A regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: \"para piso com até 3 % de inclinação\" (restringe-se a pisos com inclinação até 3%)\n\nPasso 3) Exceção (opcional): Há casos que não seguem a regra?\nNão existe exceção explícita, mas há uma referência a um caso específico em outro trecho do texto.\n\nPasso 4) Requisito (obrigatório): Qual é a ação ou condição exigida?\nComeça com verbo: \"Recomenda-se prever\"\n\nRaciocinio:\nPasso 1) A regra trata de áreas de descanso fora da faixa de circulação: \"uma área de descanso, fora da faixa de circulação\".\nPasso 2) Ela se aplica a pisos com inclinação até 3%: \"para piso com até 3 % de inclinação\".\nPasso 3) Não há exceções explícitas, mas há uma referência a um caso específico em outro trecho do texto.\nPasso 4) A exigência é prever essas áreas: \"Recomenda-se prever\".\n\nResposta final:\naplicabilidade: uma área de descanso, fora da faixa de circulação\nselecao: para piso com até 3 % de inclinação\nexecao: \"\"\nrequisito: Recomenda-se prever"
+    },
+    {
+      "operador": "exception",
+      "regra": "As áreas de descanso devem estar dimensionadas para permitir a manobra de cadeiras de rodas.",
+      "referencia": "",
+      "direto": "Para inclinações superiores a 5 %",
+      "cot_explicito": "",
+      "raciocinio": "Vou seguir os passos para analisar a regra contida no Texto N1.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: \"As áreas de descanso\"\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: não há restrição específica, apenas \"áreas de descanso\"\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nNão existe exceção explícita.\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida? Comeca com verbo.\nRequisito: \"devem estar dimensionadas para permitir a manobra de cadeiras de rodas\"\n\nRaciocinio:\nResposta final:\naplicabilidade: As áreas de descanso\nselecao: \"\"\nexecao: \"\"\nrequisito: devem estar dimensionadas para permitir a manobra de cadeiras de rodas"
+    },
+    {
+      "operador": "aplicability",
+      "regra": "Rampas com declividade igual a 5% (1:20) devem ter desnível máximo de 1,50 m por segmento, sem limite de número de segmentos.",
+      "referencia": "Rampas",
+      "direto": "Rampas com declividade igual a 5%",
+      "cot_explicito": "Rampas",
+      "raciocinio": "Vou seguir os passos para analisar a regra contida no Texto N1.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: \"Rampas\"\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: \"com declividade igual a 5% (1:20)\"\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nSim, há exceções: \"Excetuam-se deste requisito as rampas citadas em 10.4 (plateia e palcos), 10.12 (piscinas) e 10.14 (praias).\"\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida?\nComeça com verbo: \"devem ter desnível máximo de 1,50 m por segmento, sem limite de número de segmentos.\"\n\nRaciocinio:\nPasso 1) A regra trata das rampas: \"Rampas\".\nPasso 2) Ela se aplica a rampas com declividade igual a 5% (1:20): \"com declividade igual a 5% (1:20)\".\nPasso 3) Existem exceções para as rampas de plateia e palcos, piscinas e praias: \"Excetuam-se deste requisito as rampas citadas em 10.4 (plateia e palcos), 10.12 (piscinas) e 10.14 (praias)\".\nPasso 4) A exigência é que essas rampas tenham desnível máximo de 1,50 m por segmento: \"devem ter desnível máximo de 1,50 m por segmento\".\n\nResposta final:\naplicabilidade: Rampas\nselecao: com declividade igual a 5% (1:20)\nexecao: Excetuam-se deste requisito as rampas citadas em 10.4 (plateia e palcos), 10.12 (piscinas) e 10.14 (praias).\nrequisito: devem ter desnível máximo de 1,50 m por segmento, sem limite de número de segmentos"
+    },
+    {
+      "operador": "selection",
+      "regra": "Rampas com declividade igual a 5% (1:20) devem ter desnível máximo de 1,50 m por segmento, sem limite de número de segmentos.",
+      "referencia": "com declividade igual a 5%",
+      "direto": "",
+      "cot_explicito": "com declividade igual a 5% (1:20)",
+      "raciocinio": "Vou seguir os passos para analisar a regra contida no Texto N1.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: \"Rampas\"\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: \"com declividade igual a 5% (1:20)\"\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nSim, há exceções: \"Excetuam-se deste requisito as rampas citadas em 10.4 (plateia e palcos), 10.12 (piscinas) e 10.14 (praias).\"\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida?\nComeça com verbo: \"devem ter desnível máximo de 1,50 m por segmento, sem limite de número de segmentos.\"\n\nRaciocinio:\nPasso 1) A regra trata das rampas: \"Rampas\".\nPasso 2) Ela se aplica a rampas com declividade igual a 5% (1:20): \"com declividade igual a 5% (1:20)\".\nPasso 3) Existem exceções para as rampas de plateia e palcos, piscinas e praias: \"Excetuam-se deste requisito as rampas citadas em 10.4 (plateia e palcos), 10.12 (piscinas) e 10.14 (praias)\".\nPasso 4) A exigência é que essas rampas tenham desnível máximo de 1,50 m por segmento: \"devem ter desnível máximo de 1,50 m por segmento\".\n\nResposta final:\naplicabilidade: Rampas\nselecao: com declividade igual a 5% (1:20)\nexecao: Excetuam-se deste requisito as rampas citadas em 10.4 (plateia e palcos), 10.12 (piscinas) e 10.14 (praias).\nrequisito: devem ter desnível máximo de 1,50 m por segmento, sem limite de número de segmentos"
+    },
+    {
+      "operador": "aplicability",
+      "regra": "Rampas com declividade maior do que 6,25% (1:16) e até 8,33% (1:12) devem ter desnível máximo de 0,80 m por segmento, com no máximo 15 segmentos e ter áreas de descanso nos patamares a cada 50,00 m de percurso horizontal.",
+      "referencia": "Rampas",
+      "direto": "Rampas com declividade maior do que 6,25% (1:16) e até 8,33% (1:12)",
+      "cot_explicito": "Rampas",
+      "raciocinio": "Vou seguir os passos para analisar a regra.\n\nPasso 1) Aplicabilidade (opcional): A quem ou a que a regra se aplica?\nTrecho sem verbos: \"Rampas\"\n\nPasso 2) Seleção (opcional): A regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: \"com declividade maior do que 6,25% (1:16) e até 8,33% (1:12)\"\n\nPasso 3) Exceção (opcional): Há casos que não seguem a regra?\nSim, há exceções: \"Excetuam-se deste requisito as rampas citadas em 10.4 (plateia e palcos), 10.12 (piscinas) e 10.14 (praias)\"\n\nPasso 4) Requisito (obrigatório): Qual é a ação ou condição exigida?\nComeça com verbo: \"devem ter\"\n\nRaciocinio:\nPasso 1) A regra trata das rampas: \"Rampas\"\nPasso 2) Ela se aplica apenas às rampas com declividade maior do que 6,25% e até 8,33%: \"com declividade maior do que 6,25% (1:16) e até 8,33% (1:12)\"\nPasso 3) Há exceções para as rampas de plateia, palcos, piscinas e praias: \"Excetuam-se deste requisito as rampas citadas em 10.4 (plateia e palcos), 10.12 (piscinas) e 10.14 (praias)\"\nPasso 4) A exigência é que essas rampas tenham desnível máximo de 0,80 m por segmento, com no máximo 15 segmentos e ter áreas de descanso nos patamares a cada 50,00 m de percurso horizontal: \"devem ter desnível máximo de 0,80 m por segmento, com no máximo 15 segmentos e ter áreas de descanso nos patamares a cada 50,00 m de percurso horizontal\"\n\nResposta final:\naplicabilidade: Rampas\nselecao: com declividade maior do que 6,25% (1:16) e até 8,33% (1:12)\nexecao: Excetuam-se deste requisito as rampas citadas em 10.4 (plateia e palcos), 10.12 (piscinas) e 10.14 (praias)\nrequisito: devem ter desnível máximo de 0,80 m por segmento, com no máximo 15 segmentos e ter áreas de descanso nos patamares a cada 50,00 m de percurso horizontal"
+    },
+    {
+      "operador": "selection",
+      "regra": "Rampas com declividade maior do que 6,25% (1:16) e até 8,33% (1:12) devem ter desnível máximo de 0,80 m por segmento, com no máximo 15 segmentos e ter áreas de descanso nos patamares a cada 50,00 m de percurso horizontal.",
+      "referencia": "com declividade maior do que 6,25% (1:16) e até 8,33% (1:12)",
+      "direto": "",
+      "cot_explicito": "com declividade maior do que 6,25% (1:16) e até 8,33% (1:12)",
+      "raciocinio": "Vou seguir os passos para analisar a regra.\n\nPasso 1) Aplicabilidade (opcional): A quem ou a que a regra se aplica?\nTrecho sem verbos: \"Rampas\"\n\nPasso 2) Seleção (opcional): A regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: \"com declividade maior do que 6,25% (1:16) e até 8,33% (1:12)\"\n\nPasso 3) Exceção (opcional): Há casos que não seguem a regra?\nSim, há exceções: \"Excetuam-se deste requisito as rampas citadas em 10.4 (plateia e palcos), 10.12 (piscinas) e 10.14 (praias)\"\n\nPasso 4) Requisito (obrigatório): Qual é a ação ou condição exigida?\nComeça com verbo: \"devem ter\"\n\nRaciocinio:\nPasso 1) A regra trata das rampas: \"Rampas\"\nPasso 2) Ela se aplica apenas às rampas com declividade maior do que 6,25% e até 8,33%: \"com declividade maior do que 6,25% (1:16) e até 8,33% (1:12)\"\nPasso 3) Há exceções para as rampas de plateia, palcos, piscinas e praias: \"Excetuam-se deste requisito as rampas citadas em 10.4 (plateia e palcos), 10.12 (piscinas) e 10.14 (praias)\"\nPasso 4) A exigência é que essas rampas tenham desnível máximo de 0,80 m por segmento, com no máximo 15 segmentos e ter áreas de descanso nos patamares a cada 50,00 m de percurso horizontal: \"devem ter desnível máximo de 0,80 m por segmento, com no máximo 15 segmentos e ter áreas de descanso nos patamares a cada 50,00 m de percurso horizontal\"\n\nResposta final:\naplicabilidade: Rampas\nselecao: com declividade maior do que 6,25% (1:16) e até 8,33% (1:12)\nexecao: Excetuam-se deste requisito as rampas citadas em 10.4 (plateia e palcos), 10.12 (piscinas) e 10.14 (praias)\nrequisito: devem ter desnível máximo de 0,80 m por segmento, com no máximo 15 segmentos e ter áreas de descanso nos patamares a cada 50,00 m de percurso horizontal"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "A dimensão longitudinal mínima do patamar é de 1,20 m, e recomendável 1,50 m.",
+      "referencia": "é de 1,20 m, e recomendável 1,50 m",
+      "direto": "a inclinação máxima admissível é de 8,33 % (1:12) e o raio mínimo de 3,00 m",
+      "cot_explicito": "é de 1,20 m",
+      "raciocinio": "Vou seguir os passos para analisar a regra contida no Texto N1.\n\n**Passo 1) Aplicabilidade (opcional):**\nA regra trata de uma dimensão específica relacionada a patamares: \"dimensão longitudinal mínima do patamar\".\n\n**Passo 2) Seleção (opcional):**\nNão há restrições para que essa regra se aplique a todos os tipos de patamares, então não existe seleção.\n\n**Passo 3) Exceção (opcional):**\nNenhum caso é dispensado da regra, mas há uma recomendação de dimensão maior: \"e recomendável 1,50 m\".\n\n**Passo 4) Requisito (obrigatório):**\nA exigência é que a dimensão longitudinal mínima do patamar seja de 1,20 m.\n\n**Resposta final:**\n\naplicabilidade: dimensão longitudinal mínima do patamar\nselecao: \"\"\nexecao: e recomendável 1,50 m\nrequisito: é de 1,20 m"
+    }
+  ],
+  "exemplos_piorados": [
+    {
+      "operador": "requeriments",
+      "regra": "Os acessos devem ser vinculados através de rota acessível à circulação principal e às circulações de emergência.",
+      "referencia": "devem ser vinculados através de rota acessível à circulação principal e às circulações de emergência",
+      "direto": "devem ser vinculados através de rota acessível à circulação principal e às circulações de emergência.",
+      "cot_explicito": "devem ser vinculados",
+      "raciocinio": "Vou seguir os passos para analisar a regra.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: \"Os acessos\"\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nNão existe trecho sem verbos, mas podemos inferir que a regra se aplica a todos os acessos.\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nNão existe exceção explícita, mas podemos inferir que a regra é geral e não há casos específicos que sejam dispensados.\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida? Comeca com verbo.\nO trecho começa com o verbo \"ser\": \"Os acessos devem ser vinculados\"\n\nRaciocinio:\nPasso 1) A regra trata dos acessos: \"Os acessos\"\nPasso 2) Ela não se restringe a um subconjunto específico, mas sim é geral para todos os acessos.\nPasso 3) Nenhum caso é dispensado da regra, pois não há exceção explícita.\nPasso 4) A exigência é que os acessos sejam vinculados: \"Os acessos devem ser vinculados\"\n\nResposta final:\naplicabilidade: Os acessos\nselecao: \"\"\nexecao: \"\"\nrequisito: devem ser vinculados"
+    },
+    {
+      "operador": "aplicability",
+      "regra": "Os acessos devem permanecer livres de quaisquer obstáculos de forma permanente.",
+      "referencia": "Os acessos",
+      "direto": "Os acessos",
+      "cot_explicito": "",
+      "raciocinio": "Vou seguir os passos para analisar a regra.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: não existe um trecho específico que descreva a aplicabilidade.\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: não existe um trecho específico que descreva a seleção.\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nNão existe exceção, pois o texto não menciona casos que não sejam obrigados a seguir a regra.\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida? Comeca com verbo.\nO trecho exato do Texto N1 é: \"Os acessos devem permanecer livres de quaisquer obstáculos de forma permanente.\"\n\nRaciocinio:\nPasso 1) A regra não especifica a quem ou a que se aplica, então não há um trecho específico.\nPasso 2) Ela também não se restringe a um subconjunto da aplicabilidade, pois não há uma descrição específica.\nPasso 3) Nenhum caso é dispensado da regra, pois não existe exceção.\nPasso 4) A exigência é que os acessos permaneçam livres de obstáculos.\n\nResposta final:\naplicabilidade: \"\"\nselecao: \"\"\nexecao: \"\"\nrequisito: Os acessos devem permanecer livres de quaisquer obstáculos de forma permanente"
+    },
+    {
+      "operador": "selection",
+      "regra": "A inclinação transversal de pisos internos não pode exceder 2%.",
+      "referencia": "internos",
+      "direto": "pisosinternos",
+      "cot_explicito": "pisos internos",
+      "raciocinio": "Vou seguir os passos para analisar a regra.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: \"A inclinação transversal de pisos internos\"\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: \"pisos internos\" (não há restrições adicionais)\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nNenhum caso é dispensado da regra, mas há uma referência a inclinações superiores a 5% como rampas: \"Inclinações iguais ou superioresa 5 % são consideradas rampas\"\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida?\nComeça com verbo: \"não pode exceder\" -> Trecho exato do Texto N1: \"não pode exceder\"\n\nRaciocinio:\nPasso 1) A regra trata das inclinações transversais de pisos internos: \"A inclinação transversal de pisos internos\"\nPasso 2) Ela se aplica apenas a pisos internos, sem restrições adicionais: \"pisos internos\"\nPasso 3) Há uma exceção para inclinações superiores a 5%, consideradas rampas: \"Inclinações iguais ou superioresa 5 % são consideradas rampas\"\nPasso 4) A exigência é que a inclinação transversal não possa exceder 2%: \"não pode exceder\"\n\nResposta final:\naplicabilidade: A inclinação transversal de pisos internos\nselecao: pisos internos\nexecao: Inclinações iguais ou superioresa 5 % são consideradas rampas\nrequisito: não pode exceder"
+    },
+    {
+      "operador": "exception",
+      "regra": "A inclinação transversal de pisos internos não pode exceder 2%.",
+      "referencia": "",
+      "direto": "",
+      "cot_explicito": "Inclinações iguais ou superioresa 5 % são consideradas rampas",
+      "raciocinio": "Vou seguir os passos para analisar a regra.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: \"A inclinação transversal de pisos internos\"\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: \"pisos internos\" (não há restrições adicionais)\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nNenhum caso é dispensado da regra, mas há uma referência a inclinações superiores a 5% como rampas: \"Inclinações iguais ou superioresa 5 % são consideradas rampas\"\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida?\nComeça com verbo: \"não pode exceder\" -> Trecho exato do Texto N1: \"não pode exceder\"\n\nRaciocinio:\nPasso 1) A regra trata das inclinações transversais de pisos internos: \"A inclinação transversal de pisos internos\"\nPasso 2) Ela se aplica apenas a pisos internos, sem restrições adicionais: \"pisos internos\"\nPasso 3) Há uma exceção para inclinações superiores a 5%, consideradas rampas: \"Inclinações iguais ou superioresa 5 % são consideradas rampas\"\nPasso 4) A exigência é que a inclinação transversal não possa exceder 2%: \"não pode exceder\"\n\nResposta final:\naplicabilidade: A inclinação transversal de pisos internos\nselecao: pisos internos\nexecao: Inclinações iguais ou superioresa 5 % são consideradas rampas\nrequisito: não pode exceder"
+    },
+    {
+      "operador": "exception",
+      "regra": "A inclinação transversal de pisos externos não pode exceder 3%.",
+      "referencia": "",
+      "direto": "",
+      "cot_explicito": "Inclinações iguais ou superioresa 5 % são consideradas rampas",
+      "raciocinio": "Vou seguir os passos para analisar a regra.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: \"A inclinação transversal de pisos externos\"\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: \"pisos externos\" (é uma restrição específica)\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nNenhum caso é dispensado da regra, mas há uma referência a inclinações superiores a 5% como rampas: \"Inclinações iguais ou superioresa 5 % são consideradas rampas\"\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida?\nComeça com verbo: \"não pode exceder\" -> Trecho exato do Texto N1: \"A inclinação transversal de pisos externos não pode exceder 3%.\"\n\nRaciocinio:\nPasso 1) A regra trata das inclinações transversais de pisos externos: \"A inclinação transversal de pisos externos\"\nPasso 2) Ela se aplica apenas a esses tipos de pisos: \"pisos externos\"\nPasso 3) Há casos que não seguem a regra, pois inclinações superiores a 5% são consideradas rampas: \"Inclinações iguais ou superioresa 5 % são consideradas rampas\"\nPasso 4) A exigência é que essas inclinações não possam exceder 3%: \"não pode exceder 3%.\"\n\nResposta final:\naplicabilidade: A inclinação transversal de pisos externos\nselecao: pisos externos\nexecao: Inclinações iguais ou superioresa 5 % são consideradas rampas\nrequisito: não pode exceder 3%"
+    },
+    {
+      "operador": "selection",
+      "regra": "Inclinações iguais ou superiores a 5% são consideradas rampas e, portanto, devem atender a 6.6.",
+      "referencia": "",
+      "direto": "",
+      "cot_explicito": "Inclinações iguais ou superiores a 5%",
+      "raciocinio": "Vou seguir os passos para analisar a regra.\n\nPasso 1) Aplicabilidade: A regra trata de inclinações da superfície em pisos internos e externos, mas não especifica quem ou o que é afetado. Trecho sem verbos: \"A inclinação transversal da superfície deve ser...\".\n\nPasso 2) Seleção: A regra se restringe a inclinações iguais ou superiores a 5%, pois apenas essas são consideradas rampas e devem atender à norma 6.6. Trecho sem verbos: \"Inclinações iguais ou superioresa 5 %\".\n\nPasso 3) Exceção: Não há exceções, pois a regra é aplicada a todas as inclinações iguais ou superiores a 5%. Nenhum caso é dispensado da regra. Trecho sem verbos: \"Inclinações iguais ou superioresa 5 %\".\n\nPasso 4) Requisito: A exigência é que inclinações iguais ou superiores a 5% sejam consideradas rampas e devem atender à norma 6.6. Começa com o verbo \"são\". Trecho exato do Texto N1: \"Inclinações iguais ou superioresa 5 % são consideradas rampas e, portanto, devem atender a 6.6.\"\n\nResposta final:\naplicabilidade: A inclinação transversal da superfície\nselecao: Inclinações iguais ou superiores a 5%\nexecao: \"\"\nrequisito: são consideradas rampas e, portanto, devem atender a 6.6"
+    },
+    {
+      "operador": "exception",
+      "regra": "Parte do desnível deve ser vencida com rampa, e o restante da extensão [degrau] pode permanecer como degrau, desde que associado, no mínimo em um dos lados, a uma barra de apoio horizontal ou vertical, com comprimento mínimo de 0,30 m e com seu eixo posicionado a 0,75 m de altura do piso, sem avançar sobre a área de circulação pública.",
+      "referencia": "",
+      "direto": "",
+      "cot_explicito": "desde que associado, no mínimo em um dos lados, a uma barra de apoio horizontal ou vertical...",
+      "raciocinio": "Vou seguir os passos para analisar a regra.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: \"As soleiras das portas ou vãos de passagem\"\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: \"que apresentem desníveis de até no máximo um degrau\"\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nExiste exceção: \"desde que associado, no mínimo em um dos lados, a uma barra de apoio horizontal ou vertical...\"\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida?\nComeça com verbo: \"Parte do desnível deve ser vencida com rampa\"\n\nResposta final:\naplicabilidade: As soleiras das portas ou vãos de passagem\nselecao: que apresentem desníveis de até no máximo um degrau\nexecao: desde que associado, no mínimo em um dos lados, a uma barra de apoio horizontal ou vertical...\nrequisito: Parte do desnível deve ser vencida com rampa"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "Nas áreas de resgate, deve ser previsto no mínimo um M.R. a cada 500 pessoas de lotação, por pavimento, sendo no mínimo um por pavimento e um para cada escada e elevador de emergência.",
+      "referencia": "deve ser previsto no mínimo um M.R. a cada 500 pessoas de lotação, por pavimento, sendo no mínimo um por pavimento e um para cada escada e elevador de emergência",
+      "direto": "deve ser previsto no mínimo um M.R. a cada 500 pessoas de lotação, por pavimento, sendo no mínimo um por pavimento e um para cada escada e elevador de emergência",
+      "cot_explicito": "deve ser previsto no mínimo um M.R.",
+      "raciocinio": "Vou seguir os passos para analisar a regra.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: \"Nas áreas de resgate\"\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: \"por pavimento, sendo no mínimo um por pavimento e um para cada escada e elevador de emergência\" (essa parte não é uma restrição, mas sim uma especificação)\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nTrecho sem verbos: \"Se a antecâmara das escadas e a dos elevadores de emergência forem comuns\" (essa parte é uma exceção, pois permite compartilhar o quantitativo de M.R.)\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida?\nComeça com verbo: \"deve ser previsto no mínimo um M.R.\"\n\nRaciocinio:\nPasso 1) A regra trata das áreas de resgate: \"Nas áreas de resgate\".\nPasso 2) Ela não se restringe a um subconjunto específico, apenas especifica que deve haver um M.R. por pavimento e para cada escada e elevador de emergência.\nPasso 3) Há uma exceção: quando as antecâmaras das escadas e dos elevadores de emergência forem comuns, o quantitativo de M.R. pode ser compartilhado.\nPasso 4) A exigência é que seja previsto no mínimo um M.R.\n\nResposta final:\naplicabilidade: Nas áreas de resgate\nselecao: \"\"\nexecao: Se a antecâmara das escadas e a dos elevadores de emergência forem comuns\nrequisito: deve ser previsto no mínimo um M.R."
+    },
+    {
+      "operador": "exception",
+      "regra": "Nas áreas de resgate, deve ser previsto no mínimo um M.R. a cada 500 pessoas de lotação, por pavimento, sendo no mínimo um por pavimento e um para cada escada e elevador de emergência.",
+      "referencia": "",
+      "direto": "",
+      "cot_explicito": "Se a antecâmara das escadas e a dos elevadores de emergência forem comuns",
+      "raciocinio": "Vou seguir os passos para analisar a regra.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: \"Nas áreas de resgate\"\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: \"por pavimento, sendo no mínimo um por pavimento e um para cada escada e elevador de emergência\" (essa parte não é uma restrição, mas sim uma especificação)\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nTrecho sem verbos: \"Se a antecâmara das escadas e a dos elevadores de emergência forem comuns\" (essa parte é uma exceção, pois permite compartilhar o quantitativo de M.R.)\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida?\nComeça com verbo: \"deve ser previsto no mínimo um M.R.\"\n\nRaciocinio:\nPasso 1) A regra trata das áreas de resgate: \"Nas áreas de resgate\".\nPasso 2) Ela não se restringe a um subconjunto específico, apenas especifica que deve haver um M.R. por pavimento e para cada escada e elevador de emergência.\nPasso 3) Há uma exceção: quando as antecâmaras das escadas e dos elevadores de emergência forem comuns, o quantitativo de M.R. pode ser compartilhado.\nPasso 4) A exigência é que seja previsto no mínimo um M.R.\n\nResposta final:\naplicabilidade: Nas áreas de resgate\nselecao: \"\"\nexecao: Se a antecâmara das escadas e a dos elevadores de emergência forem comuns\nrequisito: deve ser previsto no mínimo um M.R."
+    },
+    {
+      "operador": "requeriments",
+      "regra": "Se a antecâmara das escadas e a dos elevadores de emergência forem comuns, o quantitativo de M.R. pode ser compartilhado.",
+      "referencia": "o quantitativo de M.R. pode ser compartilhado",
+      "direto": "o quantitativo de M.R. pode ser compartilhado",
+      "cot_explicito": "pode ser compartilhado",
+      "raciocinio": "Vou seguir os passos para analisar a regra.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: não existe um trecho específico que descreva a aplicabilidade da regra. Apenas há uma condição específica no Texto N1, mas ela não define para quem ou o que a regra se aplica.\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: não existe um trecho específico que descreva uma restrição à aplicação da regra. Apenas há uma condição específica no Texto N1.\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nTrecho sem verbos: não existe um trecho específico que descreva exceções à regra.\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida? Comeca com verbo.\nRequisito: \"pode ser compartilhado\" - começa com o verbo \"pode\".\n\nRaciocinio:\nPasso 1) A regra não especifica para quem ou o que se aplica, apenas uma condição específica.\nPasso 2) Não há restrições à aplicação da regra.\nPasso 3) Não há exceções à regra.\nPasso 4) O requisito é a ação de \"pode ser compartilhado\".\n\nResposta final:\naplicabilidade: \"\"\nselecao: \"\"\nexecao: \"\"\nrequisito: pode ser compartilhado"
+    },
+    {
+      "operador": "exception",
+      "regra": "Se a antecâmara das escadas e a dos elevadores de emergência forem comuns, o quantitativo de M.R. pode ser compartilhado.",
+      "referencia": "Se a antecâmara das escadas e a dos elevadores de emergência forem comuns",
+      "direto": "Se a antecâmara das escadas e a dos elevadores de emergência forem comuns",
+      "cot_explicito": "",
+      "raciocinio": "Vou seguir os passos para analisar a regra.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: não existe um trecho específico que descreva a aplicabilidade da regra. Apenas há uma condição específica no Texto N1, mas ela não define para quem ou o que a regra se aplica.\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: não existe um trecho específico que descreva uma restrição à aplicação da regra. Apenas há uma condição específica no Texto N1.\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nTrecho sem verbos: não existe um trecho específico que descreva exceções à regra.\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida? Comeca com verbo.\nRequisito: \"pode ser compartilhado\" - começa com o verbo \"pode\".\n\nRaciocinio:\nPasso 1) A regra não especifica para quem ou o que se aplica, apenas uma condição específica.\nPasso 2) Não há restrições à aplicação da regra.\nPasso 3) Não há exceções à regra.\nPasso 4) O requisito é a ação de \"pode ser compartilhado\".\n\nResposta final:\naplicabilidade: \"\"\nselecao: \"\"\nexecao: \"\"\nrequisito: pode ser compartilhado"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "Recomenda-se prever uma área de descanso, fora da faixa de circulação, a cada 50 m, para piso com até 3 % de inclinação.",
+      "referencia": "Recomenda-se prever uma área de descanso, fora da faixa de circulação, a cada 50 m",
+      "direto": "fora da faixa de circulação, a cada 50 m, para piso com até 3 % de inclinação",
+      "cot_explicito": "Recomenda-se prever",
+      "raciocinio": "Vou seguir os passos para analisar a regra contida no Texto N1.\n\nPasso 1) Aplicabilidade (opcional): A quem ou a que a regra se aplica?\nTrecho sem verbos: \"uma área de descanso, fora da faixa de circulação\"\n\nPasso 2) Seleção (opcional): A regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: \"para piso com até 3 % de inclinação\" (restringe-se a pisos com inclinação até 3%)\n\nPasso 3) Exceção (opcional): Há casos que não seguem a regra?\nNão existe exceção explícita, mas há uma referência a um caso específico em outro trecho do texto.\n\nPasso 4) Requisito (obrigatório): Qual é a ação ou condição exigida?\nComeça com verbo: \"Recomenda-se prever\"\n\nRaciocinio:\nPasso 1) A regra trata de áreas de descanso fora da faixa de circulação: \"uma área de descanso, fora da faixa de circulação\".\nPasso 2) Ela se aplica a pisos com inclinação até 3%: \"para piso com até 3 % de inclinação\".\nPasso 3) Não há exceções explícitas, mas há uma referência a um caso específico em outro trecho do texto.\nPasso 4) A exigência é prever essas áreas: \"Recomenda-se prever\".\n\nResposta final:\naplicabilidade: uma área de descanso, fora da faixa de circulação\nselecao: para piso com até 3 % de inclinação\nexecao: \"\"\nrequisito: Recomenda-se prever"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "Recomenda-se prever uma área de descanso, fora da faixa de circulação, a cada 30 m, para piso de 3 % a 5 % de inclinação.",
+      "referencia": "Recomenda-se prever uma área de descanso, fora da faixa de circulação, a cada 30 m",
+      "direto": "Recomenda-se prever uma área de descanso, fora da faixa de circulação, a cada 30 m",
+      "cot_explicito": "Recomenda-se prever",
+      "raciocinio": "Vou seguir os passos para analisar a regra contida no Texto N1.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: \"área de descanso\"\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nTrecho sem verbos: \"para piso de 3 % a 5 % de inclinação\" (essa parte é uma restrição específica)\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nNenhum trecho indica exceções.\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida? Comeca com verbo.\nTrecho: \"Recomenda-se prever\"\n\nRaciocinio:\nResposta final:\naplicabilidade: área de descanso\nselecao: para piso de 3 % a 5 % de inclinação\nexecao: \"\"\nrequisito: Recomenda-se prever"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "Para inclinações superiores a 5 %, deve ser atendido o descrito em 6.6.",
+      "referencia": "deve ser atendido o descrito em 6.6",
+      "direto": "deve ser atendido o descrito em 6.6.",
+      "cot_explicito": "deve ser atendido",
+      "raciocinio": "Vou seguir os passos para analisar a regra contida no Texto N1.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: \"Para inclinações superiores a 5 %\"\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nNão existe trecho sem verbos que restrinja a aplicação.\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nNenhum caso é dispensado da regra, mas há uma referência a outro item (6.6), o que pode indicar uma exceção implícita.\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida? Comeca com verbo.\nRequisito: \"deve ser atendido\"\n\nRaciocinio:\nPasso 1) A regra se aplica a inclinações superiores a 5 %: \"Para inclinações superiores a 5 %\".\nPasso 2) Não existe seleção de subconjunto da aplicabilidade.\nPasso 3) Existe uma exceção implícita, pois há referência a outro item (6.6).\nPasso 4) O requisito é que \"deve ser atendido\" o descrito em 6.6.\n\nResposta final:\naplicabilidade: Para inclinações superiores a 5 %\nselecao: \"\"\nexecao: 6.6\nrequisito: deve ser atendido"
+    },
+    {
+      "operador": "exception",
+      "regra": "Para inclinações superiores a 5 %, deve ser atendido o descrito em 6.6.",
+      "referencia": "",
+      "direto": "",
+      "cot_explicito": "6.6",
+      "raciocinio": "Vou seguir os passos para analisar a regra contida no Texto N1.\n\nPasso 1) aplicabilidade (opcional): a quem ou a que a regra se aplica?\nTrecho sem verbos: \"Para inclinações superiores a 5 %\"\n\nPasso 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade?\nNão existe trecho sem verbos que restrinja a aplicação.\n\nPasso 3) execao (opcional): ha casos que NAO seguem a regra?\nNenhum caso é dispensado da regra, mas há uma referência a outro item (6.6), o que pode indicar uma exceção implícita.\n\nPasso 4) requisito (obrigatorio): qual e a acao ou condicao exigida? Comeca com verbo.\nRequisito: \"deve ser atendido\"\n\nRaciocinio:\nPasso 1) A regra se aplica a inclinações superiores a 5 %: \"Para inclinações superiores a 5 %\".\nPasso 2) Não existe seleção de subconjunto da aplicabilidade.\nPasso 3) Existe uma exceção implícita, pois há referência a outro item (6.6).\nPasso 4) O requisito é que \"deve ser atendido\" o descrito em 6.6.\n\nResposta final:\naplicabilidade: Para inclinações superiores a 5 %\nselecao: \"\"\nexecao: 6.6\nrequisito: deve ser atendido"
+    }
+  ]
+}

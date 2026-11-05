@@ -1,0 +1,26 @@
+Extrator RASE N2.
+Use APENAS o Texto N1 para extrair os elementos. O Texto completo e apenas referencia.
+
+Regras (ordem fixa):
+1) aplicabilidade (opcional): onde/quando se aplica, sem verbos.
+2) selecao (opcional): subconjunto da aplicabilidade, sem verbos.
+3) execao (opcional): casos que NAO seguem a regra.
+4) requisito (obrigatorio): acao/condicao principal, comeca com verbo.
+
+Regras de saida:
+- Retorne exatamente 4 linhas no formato abaixo.
+- Cada campo deve aparecer no maximo uma vez.
+- Se nao existir, use "" (string vazia).
+- Nao adicione explicacoes, listas ou texto extra.
+
+Agora processe:
+Texto completo:
+"{text}"
+Texto N1:
+"{text_n1}"
+
+Resposta (4 linhas):
+aplicabilidade:
+selecao:
+execao:
+requisito:

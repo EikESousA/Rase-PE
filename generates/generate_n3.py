@@ -11,12 +11,11 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.runnables import RunnableSerializable
-from langchain_ollama import OllamaLLM
 
 from config.models import MODEL_NAMES
 from utils.generates.generate_config import generate_config
 from utils.generates.invoke_with_timeout import invoke_with_timeout
+from utils.generates.llm_options import build_llm, chain_for_attempt
 from utils.generates.meta import build_meta, env_seed
 from utils.generates.reset_model import reset_model
 from utils.generates.resume import (
@@ -26,6 +25,7 @@ from utils.generates.resume import (
 )
 from utils.logs.init_log import init_log
 from utils.n2.empty_properties import empty_properties
+from utils.n2.normalize_empty import normalize_empty
 from utils.n3.parse_properties import parse_properties
 
 
@@ -67,7 +67,9 @@ TYPE_BY_OPERATOR: Dict[str, str] = {
 
 
 def _process_per_operator(
-    chains: Dict[str, RunnableSerializable[Dict[str, str], str]],
+    prompts: Dict[str, ChatPromptTemplate],
+    llm: Any,
+    options: Dict[str, Any],
     item: Dict[str, Any],
     text_n1: str,
     operators_n2: Dict[str, Any],
@@ -78,7 +80,7 @@ def _process_per_operator(
 ) -> None:
     for op_key, input_key in INPUT_KEYS.items():
         operator = operators_n2.get(op_key, {})
-        text_n2 = operator.get("text_n2", "").strip()
+        text_n2 = normalize_empty(operator.get("text_n2", ""))
         if not text_n2:
             operator["properties_n3"] = empty_properties()
             continue
@@ -92,7 +94,7 @@ def _process_per_operator(
             )
             try:
                 result, timed_out = invoke_with_timeout(
-                    chains[op_key],
+                    chain_for_attempt(prompts[op_key], llm, options, attempt),
                     {
                         input_key: text_n2,
                         "text": item.get("text", ""),
@@ -199,21 +201,17 @@ def generate_n3(
     keep_alive = os.environ.get("N3_KEEP_ALIVE", "30s").strip()
     pause_between_texts = _env_float("N3_TEMP_PAUSE", 4.0)
 
-    llm_kwargs: Dict[str, Any] = {
-        "model": model_id,
-        "temperature": 0.1,
-        "top_p": 0.9,
-        "repeat_penalty": 1.1,
-        "num_predict": num_predict,
-        "client_kwargs": {"timeout": 600},
-    }
-    if seed is not None:
-        llm_kwargs["seed"] = seed
-    if keep_alive:
-        llm_kwargs["keep_alive"] = keep_alive
-    llm: OllamaLLM = OllamaLLM(**llm_kwargs)
+    # N3_FORMAT_JSON=1 liga a saida estruturada do Ollama (JSON garantido).
+    json_mode = os.environ.get("N3_FORMAT_JSON", "").strip().lower() in {"1", "true", "yes", "on"}
+    llm, options = build_llm(
+        model_id,
+        seed,
+        num_predict=num_predict,
+        keep_alive=keep_alive,
+        output_format="json" if json_mode else None,
+    )
 
-    chains: Dict[str, RunnableSerializable[Dict[str, str], str]] = {}
+    prompts: Dict[str, ChatPromptTemplate] = {}
 
     try:
         templates = {
@@ -225,8 +223,7 @@ def generate_n3(
         return
     for key, template in templates.items():
         safe_template = _escape_braces(template, _LEGACY_VARS_BY_KEY[key])
-        prompt = ChatPromptTemplate.from_template(safe_template)
-        chains[key] = prompt | llm
+        prompts[key] = ChatPromptTemplate.from_template(safe_template)
     prompt_for_meta = "\n---\n".join(templates.values())
 
     existing = load_existing_output(output_path)
@@ -236,7 +233,7 @@ def generate_n3(
             model_id=model_id,
             prompt_text=prompt_for_meta,
             seed=seed,
-            extra={"mode": "legacy"},
+            extra={"mode": "legacy", "format_json": json_mode},
         ),
         "counts": resume_from,
         "datas": list(existing.get("datas", [])) if existing else [],
@@ -271,10 +268,14 @@ def generate_n3(
 
             for n1_index, n1_item in enumerate(item.get("texts_n1", []), start=1):
                 text_n1 = n1_item.get("text_n1", "")
-                operators_n2 = n1_item.get("operators_n2", {})
+                # Copia so text_n2: campos extras da referencia nao vao para a saida.
+                operators_n2 = {
+                    op: {"text_n2": (data or {}).get("text_n2", ""), "properties_n3": empty_properties()}
+                    for op, data in n1_item.get("operators_n2", {}).items()
+                }
 
                 _process_per_operator(
-                    chains, item, text_n1, operators_n2,
+                    prompts, llm, options, item, text_n1, operators_n2,
                     model_id, count, n1_index, log,
                 )
 

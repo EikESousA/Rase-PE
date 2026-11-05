@@ -21,7 +21,7 @@ from __future__ import annotations
 
 import os
 
-WINDOWS_HOST: str | None = "172.19.80.1:11434"
+WINDOWS_HOST: str | None = None
 
 
 def configured_host() -> str | None:

@@ -1,0 +1,8 @@
+# Avaliacao complementar (analyses/). Instale com: pip install -r requirements-avaliacao.txt
+sacrebleu>=2.4
+rapidfuzz>=3.0
+pydantic>=2.0
+scipy
+# LLM-juiz (analyses/llm_judge.py). A versao 4.2.3 do deepeval falha ao importar.
+deepeval>=3.9,<4
+ollama

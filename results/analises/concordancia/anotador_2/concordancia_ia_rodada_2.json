@@ -1,0 +1,155 @@
+{
+ "ref_x_gpt": {
+  "aplicability": {
+   "conc": 0.85,
+   "kappa": 0.318,
+   "n_ambos": 32,
+   "f1": 0.649,
+   "pres": [
+    34,
+    36
+   ]
+  },
+  "selection": {
+   "conc": 0.9,
+   "kappa": 0.775,
+   "n_ambos": 25,
+   "f1": 0.883,
+   "pres": [
+    25,
+    29
+   ]
+  },
+  "exception": {
+   "conc": 0.9,
+   "kappa": 0.0,
+   "n_ambos": 0,
+   "f1": null,
+   "pres": [
+    4,
+    0
+   ]
+  },
+  "requeriments": {
+   "conc": 0.975,
+   "kappa": 0.0,
+   "n_ambos": 39,
+   "f1": 0.932,
+   "pres": [
+    39,
+    40
+   ]
+  }
+ },
+ "ref_x_claude": {
+  "aplicability": {
+   "conc": 0.9,
+   "kappa": 0.459,
+   "n_ambos": 34,
+   "f1": 0.674,
+   "pres": [
+    34,
+    38
+   ]
+  },
+  "selection": {
+   "conc": 0.825,
+   "kappa": 0.588,
+   "n_ambos": 25,
+   "f1": 0.932,
+   "pres": [
+    25,
+    32
+   ]
+  },
+  "exception": {
+   "conc": 0.9,
+   "kappa": 0.0,
+   "n_ambos": 0,
+   "f1": null,
+   "pres": [
+    4,
+    0
+   ]
+  },
+  "requeriments": {
+   "conc": 0.975,
+   "kappa": 0.0,
+   "n_ambos": 39,
+   "f1": 0.932,
+   "pres": [
+    39,
+    40
+   ]
+  }
+ },
+ "claude_x_gpt": {
+  "aplicability": {
+   "conc": 0.95,
+   "kappa": 0.643,
+   "n_ambos": 36,
+   "f1": 0.917,
+   "pres": [
+    38,
+    36
+   ]
+  },
+  "selection": {
+   "conc": 0.925,
+   "kappa": 0.795,
+   "n_ambos": 29,
+   "f1": 0.956,
+   "pres": [
+    32,
+    29
+   ]
+  },
+  "exception": {
+   "conc": 1.0,
+   "kappa": null,
+   "n_ambos": 0,
+   "f1": null,
+   "pres": [
+    0,
+    0
+   ]
+  },
+  "requeriments": {
+   "conc": 1.0,
+   "kappa": null,
+   "n_ambos": 40,
+   "f1": 0.99,
+   "pres": [
+    40,
+    40
+   ]
+  }
+ },
+ "pares_autor_x_gpt": {
+  "conc": 0.981,
+  "kappa": 0.907,
+  "pos": [
+   33,
+   28
+  ],
+  "desacordos": 5
+ },
+ "pares_autor_x_claude": {
+  "conc": 0.989,
+  "kappa": 0.947,
+  "pos": [
+   33,
+   32
+  ],
+  "desacordos": 3
+ },
+ "pares_claude_x_gpt": {
+  "conc": 0.985,
+  "kappa": 0.925,
+  "pos": [
+   32,
+   28
+  ],
+  "desacordos": 4
+ }
+}

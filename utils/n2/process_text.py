@@ -2,6 +2,7 @@ import re
 from typing import Dict
 
 from utils.n2.clean_output import clean_output
+from utils.n2.normalize_empty import normalize_empty
 from utils.n2.normalize_field_name import normalize_field_name
 
 
@@ -41,4 +42,4 @@ def process_text(text: str) -> Dict[str, str]:
                 else:
                     resultado[campo_atual] = trecho
 
-    return {k: v.strip() for k, v in resultado.items()}
+    return {k: normalize_empty(v) for k, v in resultado.items()}

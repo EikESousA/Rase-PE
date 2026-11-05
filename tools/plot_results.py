@@ -150,10 +150,14 @@ def main() -> None:
     n1 = matrix(load_averages(METRICS_DIR / "validate_n1.json"))
     n2 = matrix(load_averages(METRICS_DIR / "validate_n2.json"))
     n1n2 = matrix(load_averages(METRICS_DIR / "validate_n1n2.json", sub_key="n1n2"))
+    n3 = matrix(load_averages(METRICS_DIR / "validate_n3.json"))
+    n1n2n3 = matrix(load_averages(METRICS_DIR / "validate_n1n2n3.json", sub_key="n1n2n3"))
 
     bar_plot(n1, "EN1 — Segmentação N1: modelos × métricas", OUT_DIR / "4.2.1-resultados-en1-barras.png")
     bar_plot(n2, "EN2 — Identificação RASE: modelos × métricas", OUT_DIR / "4.2.2-resultados-en2-barras.png")
     bar_plot(n1n2, "EN1N2 — Pipeline encadeado: modelos × métricas", OUT_DIR / "4.2.3-resultados-en1n2-barras.png")
+    bar_plot(n3, "EN3 — Estruturação JSON: modelos × métricas", OUT_DIR / "4.2.4-resultados-en3-barras.png")
+    bar_plot(n1n2n3, "EN1N2N3 — Pipeline completo: modelos × métricas", OUT_DIR / "4.2.5-resultados-en1n2n3-barras.png")
 
     print("Gerados em", OUT_DIR)
 

@@ -1,0 +1,36 @@
+{
+  "referencia_n2": {
+    "regras": 40,
+    "por_operador": {
+      "aplicability": {
+        "kappa_presenca": 0.45945945945945943,
+        "concordancia_presenca": 0.9,
+        "f1_tokens_medio": 0.6737448825684119,
+        "ambos_preenchidos": 34
+      },
+      "selection": {
+        "kappa_presenca": 0.588235294117647,
+        "concordancia_presenca": 0.825,
+        "f1_tokens_medio": 0.9323381642512077,
+        "ambos_preenchidos": 25
+      },
+      "exception": {
+        "kappa_presenca": 0.0,
+        "concordancia_presenca": 0.9,
+        "f1_tokens_medio": null,
+        "ambos_preenchidos": 0
+      },
+      "requeriments": {
+        "kappa_presenca": 0.0,
+        "concordancia_presenca": 0.975,
+        "f1_tokens_medio": 0.9317002447383829,
+        "ambos_preenchidos": 39
+      }
+    }
+  },
+  "rotulos_roc": {
+    "pares": 264,
+    "kappa": 0.9473684210526316,
+    "concordancia": 0.9886363636363636
+  }
+}

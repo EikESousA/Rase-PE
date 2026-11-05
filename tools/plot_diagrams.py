@@ -76,7 +76,7 @@ def plot_pipeline() -> Path:
 
     # Linha principal
     y_main = 5.2
-    box(ax, 1.5, y_main, 2.0, 1.3, "dataset.json\n(79 normas)\ntexto bruto", facecolor="#FFF3E0", edgecolor="#E8710A", fontsize=9)
+    box(ax, 1.5, y_main, 2.0, 1.3, "dataset.json\n(76 normas)\ntexto bruto", facecolor="#FFF3E0", edgecolor="#E8710A", fontsize=9)
     box(ax, 5.0, y_main, 2.3, 1.5, "N1 — Segmentação\nAtômica\n(Prompt Direct)", facecolor="#E8F0FE", edgecolor="#1A73E8", fontsize=9)
     box(ax, 8.0, y_main, 2.3, 1.5, "N2 — Operadores\nRASE (R/A/S/E)\n(Chain-of-Thought)", facecolor="#E8F0FE", edgecolor="#1A73E8", fontsize=9)
     box(ax, 11.0, y_main, 2.3, 1.5, "N3 — JSON\nestruturado\n(Few-Shot)", facecolor="#E8F0FE", edgecolor="#1A73E8", fontsize=9)
@@ -193,12 +193,90 @@ def plot_experiments() -> Path:
     return out
 
 
+def plot_pipeline_conversao() -> list[Path]:
+    fig, ax = plt.subplots(figsize=(16, 7.2))
+    ax.set_xlim(0, 20)
+    ax.set_ylim(0, 9)
+    ax.set_aspect("equal")
+    ax.axis("off")
+
+    xs = [2.0, 6.0, 10.0, 14.0, 18.0]
+    y_top, top_h, bw = 6.3, 1.9, 3.0
+    y_ex, ex_h = 2.55, 3.1
+
+    band = FancyBboxPatch(
+        (xs[1] - bw / 2 - 0.3, 0.75), xs[3] - xs[1] + bw + 0.6, 7.65,
+        boxstyle="round,pad=0.02,rounding_size=0.15",
+        facecolor="#F1F5FE", edgecolor="#9AA0A6", linewidth=1.2, linestyle="--",
+    )
+    ax.add_patch(band)
+    ax.text(xs[2], 8.0, "Ollama  ·  6 LLMs open-source  ·  extração de informação em 3 níveis",
+            ha="center", va="center", fontsize=11, fontweight="bold", color="#5F6368")
+
+    stages = [
+        ("Texto bruto", "norma NBR original", "#FFF3E0", "#E8710A", "-"),
+        ("N1", "Prompt Direct\nextração de regras", "#E8F0FE", "#1A73E8", "-"),
+        ("N2", "Chain-of-Thought\nextração de operadores", "#E8F0FE", "#1A73E8", "-"),
+        ("N3", "Few-Shot\nextração de atributos", "#E8F0FE", "#1A73E8", "-"),
+        ("Verificação", "modelo BIM\nSantos e Sampaio (2021)", "#F1F3F4", "#5F6368", "--"),
+    ]
+    for x, (title, sub, fc, ec, ls) in zip(xs, stages):
+        patch = FancyBboxPatch(
+            (x - bw / 2, y_top - top_h / 2), bw, top_h,
+            boxstyle="round,pad=0.02,rounding_size=0.12",
+            facecolor=fc, edgecolor=ec, linewidth=2.0, linestyle=ls,
+        )
+        ax.add_patch(patch)
+        ax.text(x, y_top + 0.42, title, ha="center", va="center", fontsize=15, fontweight="bold", color=ec)
+        ax.text(x, y_top - 0.38, sub, ha="center", va="center", fontsize=10, color="#3C4043", linespacing=1.3)
+
+    for i in range(len(xs) - 1):
+        arrow(ax, xs[i] + bw / 2 + 0.05, y_top, xs[i + 1] - bw / 2 - 0.05, y_top)
+    for i, label in enumerate(["sentenças atômicas", "operadores R/A/S/E", "JSON estruturado"]):
+        ax.text((xs[i + 1] + xs[i + 2]) / 2, y_top - top_h / 2 - 0.35, label,
+                ha="center", va="center", fontsize=9, style="italic", color="#188038", zorder=5,
+                bbox=dict(boxstyle="round,pad=0.25", facecolor="#E6F4EA", edgecolor="#188038", linewidth=0.8))
+
+    examples = [
+        "As áreas de qualquer\nespaço ou edificação\nde uso público ou\ncoletivo devem ser\nservidas de uma ou\nmais rotas acessíveis.",
+        "1 regra atômica:\n\n“As áreas de qualquer\nespaço ou edificação\n(...) devem ser servidas\nde (...) rotas acessíveis.”",
+        "A: As áreas de qualquer\n   espaço ou edificação\nS: uso público ou\n   coletivo\nE: \"\"\nR: devem ser servidas\n   de uma ou mais\n   rotas acessíveis",
+        "S → {\n \"type\": \"selecao\",\n \"object\": \"espaço\",\n \"property\": \"uso\",\n \"comparation\": \"=\",\n \"target\": \"público\n    ou coletivo\",\n \"unit\": \"\" }",
+        "Cada elemento do\nmodelo é conferido\ncontra o JSON:\n\nverde = conforme\nvermelho = não conforme",
+    ]
+    mono = [False, False, True, True, False]
+    for x, text, is_mono in zip(xs, examples, mono):
+        card = FancyBboxPatch(
+            (x - bw / 2, y_ex - ex_h / 2), bw, ex_h,
+            boxstyle="round,pad=0.02,rounding_size=0.1",
+            facecolor="white", edgecolor="#DADCE0", linewidth=1.0,
+        )
+        ax.add_patch(card)
+        ax.text(x, y_ex, text, ha="center" if not is_mono else "left", va="center",
+                fontsize=8.0 if is_mono else 9.2, color="#3C4043",
+                family="monospace" if is_mono else None, linespacing=1.35,
+                position=(x - bw / 2 + 0.2 if is_mono else x, y_ex))
+    ax.text(0.5, y_ex + ex_h / 2 + 0.3, "Exemplo (NBR 9050):", ha="left", va="center",
+            fontsize=9.5, fontweight="bold", color="#5F6368")
+
+    outs = []
+    for ext in ("png", "svg"):
+        out = OUT_DIR / f"4.3-pipeline-conversao.{ext}"
+        fig.savefig(out, dpi=250, bbox_inches="tight", facecolor="white")
+        outs.append(out)
+    plt.close(fig)
+    return outs
+
+
 def main() -> None:
     p1 = plot_pipeline()
     p2 = plot_experiments()
+    p3 = plot_pipeline_conversao()
     print("Gerados:")
     print(" -", p1)
     print(" -", p2)
+    for p in p3:
+        print(" -", p)
 
 
 if __name__ == "__main__":

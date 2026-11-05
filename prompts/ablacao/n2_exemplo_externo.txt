@@ -1,0 +1,37 @@
+Extrator RASE N2.
+Use APENAS o Texto N1 para extrair os elementos. O Texto completo e apenas referencia.
+
+Regras (ordem fixa):
+1) aplicabilidade (opcional): onde/quando se aplica, sem verbos.
+2) selecao (opcional): subconjunto da aplicabilidade, sem verbos.
+3) execao (opcional): casos que NAO seguem a regra.
+4) requisito (obrigatorio): acao/condicao principal, comeca com verbo.
+
+Regras de saida:
+- Retorne exatamente 4 linhas no formato abaixo.
+- Cada campo deve aparecer no maximo uma vez.
+- Se nao existir, use "" (string vazia).
+- Nao adicione explicacoes, listas ou texto extra.
+
+Exemplo (formato):
+Texto completo:
+"Os balcoes de atendimento ... funcionarios."
+Texto N1:
+"Os balcoes de atendimento de uso publico devem ter altura maxima de 0,90 m do piso, exceto os balcoes de uso exclusivo de funcionarios."
+Resposta (4 linhas):
+aplicabilidade: Os balcoes de atendimento
+selecao: uso publico
+execao: exceto os balcoes de uso exclusivo de funcionarios
+requisito: devem ter altura maxima de 0,90 m do piso
+
+Agora processe:
+Texto completo:
+"{text}"
+Texto N1:
+"{text_n1}"
+
+Resposta (4 linhas):
+aplicabilidade:
+selecao:
+execao:
+requisito:

@@ -28,10 +28,11 @@ from utils.generates.ensure_model_installed import ensure_model_installed
 from utils.generates.unload_model import unload_model
 
 
+# EN2 e EN3 sao isolados: recebem o nivel anterior de referencia (dataset.json).
 _INPUT_BY_LEVEL: Dict[str, str] = {
     "n1": "dataset.json",
-    "n2": "predicts/generate_n1_{model}.json",
-    "n3": "predicts/generate_n2_{model}.json",
+    "n2": "dataset.json",
+    "n3": "dataset.json",
     "n1n2": "predicts/generate_n1_{model}.json",
     "n1n2n3": "predicts/generate_n1n2_{model}.json",
 }

@@ -1,0 +1,249 @@
+{
+  "modelo": "dolphin",
+  "cot_corrigiu": 101,
+  "cot_piorou": 31,
+  "exemplos_corrigidos": [
+    {
+      "operador": "aplicability",
+      "regra": "As edificações residenciais multifamiliares, condomínios e conjuntos habitacionais necessitam ser acessíveis em suas áreas de uso comum.",
+      "referencia": "edificações",
+      "direto": "As edificações residenciais multifamiliares, condomínios e conjuntos habitacionais",
+      "cot_explicito": "As áreas de qualquer espaço ou edificação",
+      "raciocinio": "Passo 1) A regra trata das áreas de espaços e edifícios: \"As áreas de qualquer espaço ou edificação\".\nPasso 2) Ela não vale para todos os espaços, apenas para aqueles de uso público ou coletivo: \"uso público ou coletivo\".\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é o que essas áreas devem ter: \"devem ser servidas por uma ou mais rotas acessíveis\".\n\nResposta final:\naplicabilidade: As áreas de qualquer espaço ou edificação\nselecao: uso público ou coletivo\nexecao: \"\"\nrequisito: devem ser servidos por uma ou mais rotas acessíveis"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "Os acessos devem permanecer livres de quaisquer obstáculos de forma permanente.",
+      "referencia": "devem permanecer livres de quaisquer obstáculos de forma permanente",
+      "direto": "devem ser vinculados através de rota acessível",
+      "cot_explicito": "permanecer livre de quaisquer obstáculos",
+      "raciocinio": "Passo 1) A regra trata dos acessos: \"Os acessos\".\nPasso 2) Ela não vale para todos os casos, apenas aqueles em que os acessos devem permanecer livres de quaisquer obstáculos: \"livre de quaisquer obstáculos\".\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é que os acessos permaneçam livres de quaisquer obstáculos: “permanecer livre de quaisquer obstáculos”.\n\nResposta final:\naplicabilidade: Os acessos\nselecao: \"\"\nexecao: \"\"\nrequisito: permanecer livre de quaisquer obstáculos"
+    },
+    {
+      "operador": "selection",
+      "regra": "Os acessos devem permanecer livres de quaisquer obstáculos de forma permanente.",
+      "referencia": "",
+      "direto": "circulação principal e circulações de emergência",
+      "cot_explicito": "",
+      "raciocinio": "Passo 1) A regra trata dos acessos: \"Os acessos\".\nPasso 2) Ela não vale para todos os casos, apenas aqueles em que os acessos devem permanecer livres de quaisquer obstáculos: \"livre de quaisquer obstáculos\".\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é que os acessos permaneçam livres de quaisquer obstáculos: “permanecer livre de quaisquer obstáculos”.\n\nResposta final:\naplicabilidade: Os acessos\nselecao: \"\"\nexecao: \"\"\nrequisito: permanecer livre de quaisquer obstáculos"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "A instalação do dispositivo acessível para controle de acesso deve prever manobra de cadeira de rodas, conforme o disposto em 4.3.2, 4.3.4 e 4.3.5.",
+      "referencia": "deve prever manobra de cadeira de rodas, conforme o disposto em 4.3.2, 4.3.4 e 4.3.5",
+      "direto": "os comandos acionáveis por usuários devem estar posicionados à altura indicada em 4.6.9",
+      "cot_explicito": "deve prever manobra de cadeira de rodas, conforme o disposto em 4.3.2, 4.3.4 e 4.3.5",
+      "raciocinio": "Passo 1) A regra trata da instalação do dispositivo acessível para controle de acesso: \"A instalação do dispositivo acessível para controle de acesso\".\nPasso 2) Ela se aplica a todos os dispositivos acessíveis para controle de acesso: não há seleção.\nEtapa 3) Nenhum caso e dispensado da regra: não existe exceção.\nPasso 4) A exigência é que a instalação preveja manobra de cadeira de rodas, conforme o disposto em 4.3.2, 4.3.4 e 4.3.5.\n\nResposta final:\naplicabilidade: A instalação do dispositivo acessível para controle de acesso\nselecao: \"\"\nexecao: \"\"\nrequisito: deve prever manobra de cadeira de rodas, conforme o disposto em 4.3.2, 4.3.4 e 4.3.5"
+    },
+    {
+      "operador": "selection",
+      "regra": "A instalação do dispositivo acessível para controle de acesso deve prever manobra de cadeira de rodas, conforme o disposto em 4.3.2, 4.3.4 e 4.3.5.",
+      "referencia": "",
+      "direto": "manobra de cadeira de rodas, conforme o disposto em 4.3.2, 4.3.4 e 4.3.5",
+      "cot_explicito": "",
+      "raciocinio": "Passo 1) A regra trata da instalação do dispositivo acessível para controle de acesso: \"A instalação do dispositivo acessível para controle de acesso\".\nPasso 2) Ela se aplica a todos os dispositivos acessíveis para controle de acesso: não há seleção.\nEtapa 3) Nenhum caso e dispensado da regra: não existe exceção.\nPasso 4) A exigência é que a instalação preveja manobra de cadeira de rodas, conforme o disposto em 4.3.2, 4.3.4 e 4.3.5.\n\nResposta final:\naplicabilidade: A instalação do dispositivo acessível para controle de acesso\nselecao: \"\"\nexecao: \"\"\nrequisito: deve prever manobra de cadeira de rodas, conforme o disposto em 4.3.2, 4.3.4 e 4.3.5"
+    },
+    {
+      "operador": "selection",
+      "regra": "Em edificações e equipamentos urbanos deve ser prevista a sinalização informativa e direcional da localização das entradas e saídas acessíveis, de acordo com o estabelecido na Seção 5.",
+      "referencia": "",
+      "direto": "sinalização informativa e direcional da localização das entradas e saídas acessíveis",
+      "cot_explicito": "",
+      "raciocinio": "Passo 1) A regra trata dos edifícios e equipamentos urbanos: \"Em edificações e equipamentos urbanos\".\nPasso 2) Ela não vale para todos os espaços, apenas para aqueles que devem ser previstos a sinalização informativa e direcional da localização das entradas e saídas acessíveis: \"de acordo com o estabelecido na Seção 5\".\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é que a sinalização informativa e direcional seja prevista para as entradas e saídas acessíveis: \"de acordo com o estabelecido na Seção 5\".\n\nResposta final:\naplicabilidade: Em edificações e equipamentos urbanos\nselecao: \"\"\nexecao: \"\"\nrequisito: de acordo com o estabelecido na Seção 5"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "A inclinação transversal de pisos internos não pode exceder 2%.",
+      "referencia": "A inclinação transversal não pode exceder 2%",
+      "direto": "deve ser de até 2% para pisos internos e de até 3% para pisos externos",
+      "cot_explicito": "não pode exceder 2%",
+      "raciocinio": "Passo 1) A regra trata da inclinação transversal dos pisos: \"A inclinação transversal de pisos internos\".\nPasso 2) Ela se aplica a todos os pisos internos, sem restrições adicionais.\nPasso 3) Nenhum caso e dispensado da regra: não existe exceção.\nPasso 4) A exigência é que a inclinação transversal dos pisos não exceda 2%: \"não pode exceder 2%\".\n\nResposta final:\naplicabilidade: Pisos internos\nselecao: \"\"\nexecao: \"\"\nrequisito: não pode exceder 2%"
+    },
+    {
+      "operador": "aplicability",
+      "regra": "A inclinação transversal de pisos internos não pode exceder 2%.",
+      "referencia": "pisos",
+      "direto": "A inclinação transversal da superfície",
+      "cot_explicito": "Pisos internos",
+      "raciocinio": "Passo 1) A regra trata da inclinação transversal dos pisos: \"A inclinação transversal de pisos internos\".\nPasso 2) Ela se aplica a todos os pisos internos, sem restrições adicionais.\nPasso 3) Nenhum caso e dispensado da regra: não existe exceção.\nPasso 4) A exigência é que a inclinação transversal dos pisos não exceda 2%: \"não pode exceder 2%\".\n\nResposta final:\naplicabilidade: Pisos internos\nselecao: \"\"\nexecao: \"\"\nrequisito: não pode exceder 2%"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "A inclinação transversal de pisos externos não pode exceder 3%.",
+      "referencia": "A inclinação transversal não pode exceder 3%",
+      "direto": "deve ser de até 2% para pisos internos e de até 3% para pisos externos",
+      "cot_explicito": "não pode exceder 3%",
+      "raciocinio": "Passo 1) A regra trata da inclinação transversal dos pisos: \"A inclinação transversal do piso\".\nPasso 2) Ela se aplica apenas aos pisos externos: “externos”.\nPasso 3) Nenhum caso e dispensado da regra: não existe exceção.\nPasso 4) A exigência é que a inclinação transversal dos pisos externos não exceda 3%: \"não pode exceder 3%\".\n\nResposta final:\naplicabilidade: A inclinação transversal do piso\nselecao: Externos\nexecao: \"\"\nrequisito: não pode exceder 3%"
+    },
+    {
+      "operador": "selection",
+      "regra": "A inclinação transversal de pisos externos não pode exceder 3%.",
+      "referencia": "externos",
+      "direto": "para pisos internos e externos",
+      "cot_explicito": "Externos",
+      "raciocinio": "Passo 1) A regra trata da inclinação transversal dos pisos: \"A inclinação transversal do piso\".\nPasso 2) Ela se aplica apenas aos pisos externos: “externos”.\nPasso 3) Nenhum caso e dispensado da regra: não existe exceção.\nPasso 4) A exigência é que a inclinação transversal dos pisos externos não exceda 3%: \"não pode exceder 3%\".\n\nResposta final:\naplicabilidade: A inclinação transversal do piso\nselecao: Externos\nexecao: \"\"\nrequisito: não pode exceder 3%"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "Pisos (internos e externos) devem ter inclinação longitudinal inferior a 5%.",
+      "referencia": "devem ter inclinação longitudinal inferior a 5%",
+      "direto": "Inclinação longitudinal inferior a 5%",
+      "cot_explicito": "deve ter inclinação longitudinal inferior a 5%",
+      "raciocinio": "Passo 1) A regra trata das inclinações longitudinais dos pisos: \"Pisos (internos e externos)\"\nPasso 2) Ela se aplica a todos os tipos de pisos, internos e externos: \"internos e externos\"\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é que as inclinações longitudinais dos pisos sejam inferiores a 5%: \"deve ter inclinação longitudinal inferior a 5%\".\n\nResposta final:\naplicabilidade: Pisos (internos e externos)\nselecao: \"\"\nexecao: \"\"\nrequisito: deve ter inclinação longitudinal inferior a 5%"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "Inclinações iguais ou superiores a 5% são consideradas rampas e, portanto, devem atender a 6.6.",
+      "referencia": "devem atender a 6.6",
+      "direto": "deve ser de até 2% para pisos internos e de até 3% para pisos externos",
+      "cot_explicito": "devem atender a 6.6",
+      "raciocinio": "Passo 1) A regra trata das inclinações transversais e longitudinais da superfície: \"A inclinação transversal da superfície deve ser de até 2 % para pisos internos e de até 3 % para pisos externos. A inclinação longitudinal da superfície deve ser inferior a 5 %.\"\nPasso 2) Ela não vale para todas as inclinações, apenas aquelas que são iguais ou superiores a 5%: \"Inclinações iguais ou superiores a 5% são consideradas rampas e, portanto, devem atender a 6.6.\"\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é que as inclinações sejam consideradas rampas e cumpram o requisito de 6.6: \"Inclinações iguais ou superiores a 5% são consideradas rampas e, portanto, devem atender a 6.6.\"\n\nResposta final:\naplicabilidade: A inclinação transversal da superfície deve ser de até 2 % para pisos internos e de até 3 % para pisos externos\nselecao: Inclinações iguais ou superiores a 5%\nexecao: \"\"\nrequisito: devem atender a 6.6"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "Em reformas, pode-se considerar o desnível máximo de 75 mm, tratado com inclinação máxima de 12,5 %, conforme Tabela 7, sem avançar nas áreas de circulação transversal, e protegido lateralmente com elemento construído ou vegetação.",
+      "referencia": "máximo de 75 mm, inclinação máxima de 12,5 %, conforme Tabela 7, sem avançar nas áreas de circulação transversal, e protegido lateralmente com elemento construído ou vegetação.",
+      "direto": "protegido lateralmente com elemento construído ou vegetação",
+      "cot_explicito": "tratado com inclinação máxima de 12,5%, conforme Tabela 7",
+      "raciocinio": "Passo 1) A regra trata das reformas: \"Em reformas\".\nPasso 2) Ela se aplica a um subconjunto de reformas: \"pode-se considerar o desnível máximo de 75 mm, tratado com inclinação máxima de 12,5 %, conforme Tabela 7, sem avançar nas áreas de circulação transversal, e protegido lateralmente com elemento construído ou vegetação\".\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é sobre o tratamento do desnível máximo em reformas: \"tratado com inclinação máxima de 12,5 %, conforme Tabela 7\".\n\nResposta final:\naplicabilidade: Em reformas\nselecao: \"\"\nexecao: \"\"\nrequisito: tratado com inclinação máxima de 12,5%, conforme Tabela 7"
+    },
+    {
+      "operador": "selection",
+      "regra": "Em reformas, pode-se considerar o desnível máximo de 75 mm, tratado com inclinação máxima de 12,5 %, conforme Tabela 7, sem avançar nas áreas de circulação transversal, e protegido lateralmente com elemento construído ou vegetação.",
+      "referencia": "",
+      "direto": "desnível máximo de 75 mm, tratado com inclinação máxima de 12,5 %",
+      "cot_explicito": "",
+      "raciocinio": "Passo 1) A regra trata das reformas: \"Em reformas\".\nPasso 2) Ela se aplica a um subconjunto de reformas: \"pode-se considerar o desnível máximo de 75 mm, tratado com inclinação máxima de 12,5 %, conforme Tabela 7, sem avançar nas áreas de circulação transversal, e protegido lateralmente com elemento construído ou vegetação\".\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é sobre o tratamento do desnível máximo em reformas: \"tratado com inclinação máxima de 12,5 %, conforme Tabela 7\".\n\nResposta final:\naplicabilidade: Em reformas\nselecao: \"\"\nexecao: \"\"\nrequisito: tratado com inclinação máxima de 12,5%, conforme Tabela 7"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "Parte do desnível deve ser vencida com rampa, e o restante da extensão [degrau] pode permanecer como degrau, desde que associado, no mínimo em um dos lados, a uma barra de apoio horizontal ou vertical, com comprimento mínimo de 0,30 m e com seu eixo posicionado a 0,75 m de altura do piso, sem avançar sobre a área de circulação pública.",
+      "referencia": "associado, no mínimo em um dos lados, a uma horizontal ou vertical, com comprimento mínimo de 0,30 m e com seu eixo posicionado a 0,75 m de altura do piso, sem avançar sobre a área de circulação pública",
+      "direto": "devem ter parte de sua extensão substituída por rampa com largura mínima de 0,90 m e com inclinação em função do desnível apresentado e atendendo aos parâmetros estabelecidos nas Tabelas 6 ou 7.",
+      "cot_explicito": "Parte do desnível deve ser vencida com rampa, e o restante da extensão [degrau] pode permanecer como degrau, desde que associado, no mínimo em um dos lados, a uma barra de apoio horizontal ou vertical, com comprimento mínimo de 0,30 m e com seu eixo posicionado a 0,75 m de altura do piso, sem avançar sobre a área de circulação pública",
+      "raciocinio": "Passo 1) A regra trata das soleiras das portas ou vãos de passagem: \"As soleiras das portas ou vãos de passagem\".\nPasso 2) Ela se aplica a áreas com desníveis de até no máximo um degrau: “desníveis de até no máximo um degrau”.\nPasso 3) Nenhum caso e dispensado da regra: não existe exceção.\nPasso 4) A exigência é que parte do desnível seja vencido com rampa, e o restante da extensão possa permanecer como degrau associado a uma barra de apoio horizontal ou vertical: \"Parte do desnível deve ser vencida com rampa, e o restante da extensão [degrau] pode permanecer como degrau, desde que associado, no mínimo em um dos lados, a uma barra de apoio horizontal ou vertical, com comprimento mínimo de 0,30 m e com seu eixo posicionado a 0,75 m de altura do piso, sem avançar sobre a área de circulação pública.\"\n\nResposta final:\naplicabilidade: As soleiras das portas ou vãos de passagem\nselecao: desníveis de até no máximo um degrau\nexecao: \"\"\nrequisito: Parte do desnível deve ser vencida com rampa, e o restante da extensão [degrau] pode permanecer como degrau, desde que associado, no mínimo em um dos lados, a uma barra de apoio horizontal ou vertical, com comprimento mínimo de 0,30 m e com seu eixo posicionado a 0,75 m de altura do piso, sem avançar sobre a área de circulação pública"
+    }
+  ],
+  "exemplos_piorados": [
+    {
+      "operador": "aplicability",
+      "regra": "Áreas de uso restrito, conforme definido em 3.1.38, como casas de máquinas, barriletes, passagem de uso técnico e outros com funções similares, não necessitam atender às condições de acessibilidade desta Norma.",
+      "referencia": "áreas de uso restrito",
+      "direto": "Áreas de uso restrito",
+      "cot_explicito": "As áreas de qualquer espaço ou edificação",
+      "raciocinio": "Passo 1) A regra trata das áreas de espaços ou edifícios: \"As áreas de qualquer espaço ou edificação\".\nPasso 2) Ela se aplica a espaços e edifícios de uso público ou coletivo: “uso público ou coletivo”.\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é que essas áreas devem ser servidas por uma ou mais rotas acessíveis: \"devem ser servidas de uma ou mais rotas acessíveis\".\n\nResposta final:\naplicabilidade: As áreas de qualquer espaço ou edificação\nselecao: uso público ou coletivo\nexecao: \"\"\nrequisito: devem ser servidas por uma ou mais rotas acessíveis"
+    },
+    {
+      "operador": "selection",
+      "regra": "Áreas de uso restrito, conforme definido em 3.1.38, como casas de máquinas, barriletes, passagem de uso técnico e outros com funções similares, não necessitam atender às condições de acessibilidade desta Norma.",
+      "referencia": "casas de máquinas; barriletes; passagem de usos técnico",
+      "direto": "conforme definido em 3.1.38, como casas de máquinas, barriletes, passagem de uso técnico e outros com funções similares",
+      "cot_explicito": "uso público ou coletivo",
+      "raciocinio": "Passo 1) A regra trata das áreas de espaços ou edifícios: \"As áreas de qualquer espaço ou edificação\".\nPasso 2) Ela se aplica a espaços e edifícios de uso público ou coletivo: “uso público ou coletivo”.\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é que essas áreas devem ser servidas por uma ou mais rotas acessíveis: \"devem ser servidas de uma ou mais rotas acessíveis\".\n\nResposta final:\naplicabilidade: As áreas de qualquer espaço ou edificação\nselecao: uso público ou coletivo\nexecao: \"\"\nrequisito: devem ser servidas por uma ou mais rotas acessíveis"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "Nas edificações e equipamentos urbanos, todas as entradas, bem como as rotas de interligação às funções do edifício, devem ser acessíveis.",
+      "referencia": "devem ser acessíveis",
+      "direto": "devem ser acessíveis",
+      "cot_explicito": "toda entrada bem como as rotas de interligação às funções do edifício",
+      "raciocinio": "Passo 1) A regra trata das áreas de espaços e edifícios: \"Nas edificações e equipamentos urbanos\".\nPasso 2) Ela não vale para todos os espaços, só para aqueles que são acessíveis: \"devem ser acessíveis\".\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é o que essas áreas devem ter: “toda entrada bem como as rotas de interligação às funções do edifício”.\n\nResposta final:\naplicabilidade: Nas edificações e equipamentos urbanos\nselecao: \"\"\nexecao: \"\"\nrequisito: toda entrada bem como as rotas de interligação às funções do edifício"
+    },
+    {
+      "operador": "selection",
+      "regra": "Nas edificações e equipamentos urbanos, todas as entradas, bem como as rotas de interligação às funções do edifício, devem ser acessíveis.",
+      "referencia": "todas as entradas; as rotas de interligação às funções do edifício",
+      "direto": "todas as entradas, bem como as rotas de interligação às funções do edifício",
+      "cot_explicito": "",
+      "raciocinio": "Passo 1) A regra trata das áreas de espaços e edifícios: \"Nas edificações e equipamentos urbanos\".\nPasso 2) Ela não vale para todos os espaços, só para aqueles que são acessíveis: \"devem ser acessíveis\".\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é o que essas áreas devem ter: “toda entrada bem como as rotas de interligação às funções do edifício”.\n\nResposta final:\naplicabilidade: Nas edificações e equipamentos urbanos\nselecao: \"\"\nexecao: \"\"\nrequisito: toda entrada bem como as rotas de interligação às funções do edifício"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "Os acessos devem ser vinculados através de rota acessível à circulação principal e às circulações de emergência.",
+      "referencia": "devem ser vinculados através de rota acessível à circulação principal e às circulações de emergência",
+      "direto": "à circulação principal e às circulações de emergência",
+      "cot_explicito": "permanecer livre de quaisquer obstáculos de forma permanente",
+      "raciocinio": "Passo 1) A regra trata dos acessos: \"Os acessos\".\nPasso 2) Ela não vale para todos os casos, apenas aqueles que são vinculados através de uma rota acessível à circulação principal e às circulações de emergência: \"vinculado através de uma rota acessível à circulação principal e às circulações de emergência\".\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é que os acessos permaneçam livres de quaisquer obstáculos de forma permanente: \"permanecer livre de quaisquer obstáculos de forma permanente\".\n\nResposta final:\naplicabilidade: Os acessos\nselecao: vinculado através de uma rota acessível à circulação principal e às circulações de emergência\nexecao: \"\"\nrequisito: permanecer livre de quaisquer obstáculos de forma permanente"
+    },
+    {
+      "operador": "aplicability",
+      "regra": "A superfície das tampas deve estar nivelada com o piso adjacente.",
+      "referencia": "A superfície das tampas",
+      "direto": "A superfície das tampas",
+      "cot_explicito": "As áreas de qualquer espaço ou edificação",
+      "raciocinio": "Passo 1) A regra trata da superficie das tampas: \"A superfície das tampas\".\nPasso 2) Ela se aplica a todas as tampas, sem restrições: não há seleção.\nPasso 3) Nenhum caso e dispensado da regra: não existe exceção.\nPasso 4) A exigência é que a superfície das tampas esteja nivelada com o piso adjacente.\n\nResposta final:\naplicabilidade: As áreas de qualquer espaço ou edificação\nselecao: \"\"\nexecao: \"\"\nrequisito: devem ser servidas por uma ou mais rotas acessíveis"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "Eventuais frestas devem possuir dimensão máxima de 15 mm.",
+      "referencia": "devem possuir dimensão máxima de 15 mm",
+      "direto": "e eventuais frestas devem possuir dimensão máxima de 15 mm.",
+      "cot_explicito": "nivelada com o piso adjacente",
+      "raciocinio": "Passo 1) A regra trata da superfície das tampas: \"A superfície das tampas\".\nPasso 2) Ela não vale para todos os casos, apenas para aqueles em que a superfície está nivelada com o piso adjacente e há frestas: \"eventuais frestas devem possuir dimensão máxima de 15 mm\".\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é que a superfície das tampas esteja nivelada com o piso adjacente e tenha frestas com dimensão máxima de 15 mm.\n\nResposta final:\naplicabilidade: A superfície das tampas\nselecao: eventuais frestas devem possuir dimensão máxima de 15 mm\nexecao: \"\"\nrequisito: nivelada com o piso adjacente"
+    },
+    {
+      "operador": "selection",
+      "regra": "Recomenda-se prever uma área de descanso, fora da faixa de circulação, a cada 50 m, para piso com até 3 % de inclinação.",
+      "referencia": "para piso com até 3 % de inclinação",
+      "direto": "fora da faixa de circulação, a cada 50 m, para piso com até 3 % de inclinação",
+      "cot_explicito": "",
+      "raciocinio": "Passo 1) A regra trata das áreas de descanso: \"Recomenda-se prever uma área de descanso\".\nPasso 2) Ela vale para todos os pisos, independentemente da inclinação: não há seleção.\nPasso 3) Nenhum caso e dispensado da regra: não existe exceção.\nPasso 4) A exigência é prever uma área de descanso a cada determinada distância: \"a cada 50 m\".\n\nResposta final:\naplicabilidade: As áreas de descanso\nselecao: \"\"\nexecao: \"\"\nrequisito: a cada 50 m"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "Rampas com declividade maior do que 6,25% (1:16) e até 8,33% (1:12) devem ter desnível máximo de 0,80 m por segmento, com no máximo 15 segmentos e ter áreas de descanso nos patamares a cada 50,00 m de percurso horizontal.",
+      "referencia": "devem ter desnível máximo de 0,80 m por segmento, com no máximo 15 segmentos e ter áreas de descanso nos patamares a cada 50,00 m de percurso horizontal",
+      "direto": "devem ter desnível máximo de 0,80 m por segmento",
+      "cot_explicito": "deve ter inclinação de acordo com os limites estabelecidos na Tabela 6",
+      "raciocinio": "Passo 1) A regra trata das rampas: \"As rampas devem ter inclinação\".\nPasso 2) Ela se aplica apenas para certos tipos de rampas: \"exceto as rampas citadas em 10.4 (plateia e palcos), 10.12 (piscinas) e 10.14 (praias)\".\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é sobre a inclinação das rampas: \"deve ter inclinação de acordo com os limites estabelecidos na Tabela 6\".\n\nResposta final:\naplicabilidade: As rampas\nselecao: exceto as rampas citadas em 10.4 (plateia e palcos), 10.12 (piscinas) e 10.14 (praias)\nexecao: \"\"\nrequisito: deve ter inclinação de acordo com os limites estabelecidos na Tabela 6"
+    },
+    {
+      "operador": "selection",
+      "regra": "Rampas com declividade maior do que 6,25% (1:16) e até 8,33% (1:12) devem ter desnível máximo de 0,80 m por segmento, com no máximo 15 segmentos e ter áreas de descanso nos patamares a cada 50,00 m de percurso horizontal.",
+      "referencia": "com declividade maior do que 6,25% (1:16) e até 8,33% (1:12)",
+      "direto": "inclinação maior do que 6,25% e até 8,33%",
+      "cot_explicito": "exceto as rampas citadas em 10.4 (plateia e palcos), 10.12 (piscinas) e 10.14 (praias)",
+      "raciocinio": "Passo 1) A regra trata das rampas: \"As rampas devem ter inclinação\".\nPasso 2) Ela se aplica apenas para certos tipos de rampas: \"exceto as rampas citadas em 10.4 (plateia e palcos), 10.12 (piscinas) e 10.14 (praias)\".\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é sobre a inclinação das rampas: \"deve ter inclinação de acordo com os limites estabelecidos na Tabela 6\".\n\nResposta final:\naplicabilidade: As rampas\nselecao: exceto as rampas citadas em 10.4 (plateia e palcos), 10.12 (piscinas) e 10.14 (praias)\nexecao: \"\"\nrequisito: deve ter inclinação de acordo com os limites estabelecidos na Tabela 6"
+    },
+    {
+      "operador": "requeriments",
+      "regra": "Quando não houver paredes laterais, as rampas devem incorporar elementos de segurança, como guarda-corpo e corrimãos, guias de balizamento com altura mínima de 0,05 m, instalados ou construídos nos limites da largura da rampa, conforme Figura 72.",
+      "referencia": "devem incorporar elementos de segurança, como guarda-corpo e corrimãos, guias de balizamento com altura mínima de 0,05 m, instalados ou construídos nos limites da largura da rampa, conforme Figura 72",
+      "direto": "como guarda-corpo e corrimãos, guias de balizamento com altura mínima de 0,05 m, instalados ou construídos nos limites da largura da rampa",
+      "cot_explicito": "devem incorporar elementos de segurança",
+      "raciocinio": "Passo 1) A regra trata das rampas sem paredes laterais: \"Quando não houver paredes laterais\".\nPasso 2) Ela se aplica a todas as rampas sem paredes laterais: Nenhum subconjunto.\nPasso 3) Nenhum caso e dispensado da regra: não existe exceção.\nPasso 4) A exigência é que as rampas incorporam elementos de segurança, como guarda-corpo e corrimãos, guias de balizamento com altura mínima de 0,05 m, instalados ou construídos nos limites da largura da rampa: \"devem incorporar elementos de segurança\".\n\nResposta final:\naplicabilidade: As rampas sem paredes laterais\nselecao: \"\"\nexecao: \"\"\nrequisito: devem incorporar elementos de segurança"
+    },
+    {
+      "operador": "selection",
+      "regra": "Nas escadas fixas e degraus em rotas acessíveis, não podem ser utilizados espelhos vazados.",
+      "referencia": "em rotas acessíveis",
+      "direto": "em rotas acessíveis",
+      "cot_explicito": "espelhos vazados",
+      "raciocinio": "Passo 1) A regra trata das escaleras fixas e dos degraus nas rotas acessíveis: \"Nas escaleras fixas e nos degraus em rotas acessíveis\".\nPasso 2) Ela não vale para todos os espelhos, apenas aqueles com espelhos vazados: \"não podem ser utilizados espelhos vazados\".\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é que esses degraus e escadas fixas em rotas acessíveis não possam utilizar espelhos vazados.\n\nResposta final:\naplicabilidade: Nas escaleras fixas e nos degraus em rotas acessíveis\nselecao: espelhos vazados\nexecao: \"\"\nrequisito: não podem ser utilizados espelhos vazados"
+    },
+    {
+      "operador": "aplicability",
+      "regra": "No deslocamento frontal, quando as portas abrirem no sentido do deslocamento do usuário, deve existir um espaço livre de 0,30 m entre a parede e a porta.",
+      "referencia": "deslocamento frontal",
+      "direto": "No deslocamento frontal",
+      "cot_explicito": "No deslocamento frontal, quando as portas abrirem no sentido do deslocamento do usuário",
+      "raciocinio": "Passo 1) A regra trata das áreas de espaços ou edifícios: \"No deslocamento frontal, quando as portas abrirem no sentido do deslocamento do usuário\".\nPasso 2) Ela não vale para todos os espaços, apenas aqueles com portas que se abrem no sentido do deslocamento do usuário: \"no sentido do deslocamento do usuário\".\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é o espaço livre entre a parede e a porta: “deve existir um espaço livre de 0,30 m”.\n\nResposta final:\naplicabilidade: No deslocamento frontal, quando as portas abrirem no sentido do deslocamento do usuário\nselecao: no sentido do deslocamento do usuário\nexecao: \"\"\nrequisito: deve existir um espaço livre de 0,30 m"
+    },
+    {
+      "operador": "aplicability",
+      "regra": "No deslocamento frontal, quando as portas abrirem no sentido oposto ao deslocamento do usuário, deve existir um espaço livre de 0,60 m, contíguo à maçaneta.",
+      "referencia": "deslocamento frontal",
+      "direto": "No deslocamento frontal",
+      "cot_explicito": "um espaço livre",
+      "raciocinio": "Passo 1) A regra trata da distância entre a parede e a porta: \"um espaço livre\".\nPasso 2) Ela vale para portas abertas no sentido oposto ao deslocamento do usuário: \"no sentido oposto ao deslocamento do usuário\".\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é a distância entre a parede e a porta quando as portas abrem no sentido oposto ao deslocamento do usuário: \"um espaço livre de 0,60 m\".\n\nResposta final:\naplicabilidade: um espaço livre\nselecao: no sentido oposto ao deslocamento do usuário\nexecao: \"\"\nrequisito: um espaço livre de 0,60 m"
+    },
+    {
+      "operador": "selection",
+      "regra": "No deslocamento frontal, quando as portas abrirem no sentido oposto ao deslocamento do usuário, deve existir um espaço livre de 0,60 m, contíguo à maçaneta.",
+      "referencia": "quando as portas abrirem no sentido oposto ao deslocamento do usuário",
+      "direto": "quando as portas abrirem no sentido oposto ao deslocamento do usuário",
+      "cot_explicito": "no sentido oposto ao deslocamento do usuário",
+      "raciocinio": "Passo 1) A regra trata da distância entre a parede e a porta: \"um espaço livre\".\nPasso 2) Ela vale para portas abertas no sentido oposto ao deslocamento do usuário: \"no sentido oposto ao deslocamento do usuário\".\nPasso 3) Nenhum caso é dispensado da regra: não existe exceção.\nPasso 4) A exigência é a distância entre a parede e a porta quando as portas abrem no sentido oposto ao deslocamento do usuário: \"um espaço livre de 0,60 m\".\n\nResposta final:\naplicabilidade: um espaço livre\nselecao: no sentido oposto ao deslocamento do usuário\nexecao: \"\"\nrequisito: um espaço livre de 0,60 m"
+    }
+  ]
+}

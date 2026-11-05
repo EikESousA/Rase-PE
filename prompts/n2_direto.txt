@@ -1,0 +1,30 @@
+Extrator RASE N2.
+Extraia do Texto N1 os trechos de aplicabilidade, selecao, execao e requisito.
+
+Regras de saida:
+- Retorne exatamente 4 linhas no formato abaixo.
+- Se nao existir, use "" (string vazia).
+- Nao adicione explicacoes, listas ou texto extra.
+
+Exemplo (formato):
+Texto completo:
+"As areas ... Norma."
+Texto N1:
+"As areas de qualquer espaco ou edificacao de uso publico ou coletivo devem ser servidas de uma ou mais rotas acessiveis."
+Resposta (4 linhas):
+aplicabilidade: As areas de qualquer espaco ou edificacao
+selecao: uso publico ou coletivo
+execao: ""
+requisito: devem ser servidas de uma ou mais rotas acessiveis
+
+Agora processe:
+Texto completo:
+"{text}"
+Texto N1:
+"{text_n1}"
+
+Resposta (4 linhas):
+aplicabilidade:
+selecao:
+execao:
+requisito:

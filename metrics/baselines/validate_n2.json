@@ -1,0 +1,249 @@
+{
+  "models": {
+    "vazio": {
+      "counts": 600,
+      "classification": {
+        "by_operator": {
+          "aplicability": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 116,
+            "tn": 34,
+            "accuracy": 0.22666666666666666,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "exception": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 19,
+            "tn": 131,
+            "accuracy": 0.8733333333333333,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "requeriments": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 148,
+            "tn": 2,
+            "accuracy": 0.013333333333333334,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "selection": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 69,
+            "tn": 81,
+            "accuracy": 0.54,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "macro": {
+          "accuracy": 0.41333333333333333,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "overall": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 352,
+          "tn": 248,
+          "accuracy": 0.41333333333333333,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "items_file": "details\\validate_n2_vazio.jsonl"
+    },
+    "copia": {
+      "counts": 600,
+      "classification": {
+        "by_operator": {
+          "aplicability": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 116,
+            "tn": 34,
+            "accuracy": 0.22666666666666666,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "exception": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 19,
+            "tn": 131,
+            "accuracy": 0.8733333333333333,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "requeriments": {
+            "tp": 133,
+            "fp": 17,
+            "fn": 15,
+            "tn": 0,
+            "accuracy": 0.806060606060606,
+            "precision": 0.8866666666666667,
+            "recall": 0.8986486486486487,
+            "f1": 0.8926174496644295
+          },
+          "selection": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 69,
+            "tn": 81,
+            "accuracy": 0.54,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "macro": {
+          "accuracy": 0.6115151515151515,
+          "precision": 0.22166666666666668,
+          "recall": 0.22466216216216217,
+          "f1": 0.22315436241610737
+        },
+        "overall": {
+          "tp": 133,
+          "fp": 17,
+          "fn": 219,
+          "tn": 246,
+          "accuracy": 0.616260162601626,
+          "precision": 0.8866666666666667,
+          "recall": 0.3778409090909091,
+          "f1": 0.5298804780876495
+        }
+      },
+      "items_file": "details\\validate_n2_copia.jsonl"
+    },
+    "regex": {
+      "counts": 600,
+      "classification": {
+        "by_operator": {
+          "aplicability": {
+            "tp": 69,
+            "fp": 54,
+            "fn": 47,
+            "tn": 15,
+            "accuracy": 0.4540540540540541,
+            "precision": 0.5609756097560976,
+            "recall": 0.5948275862068966,
+            "f1": 0.5774058577405858
+          },
+          "exception": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 17,
+            "tn": 131,
+            "accuracy": 0.8866666666666667,
+            "precision": 1.0,
+            "recall": 0.10526315789473684,
+            "f1": 0.1904761904761905
+          },
+          "requeriments": {
+            "tp": 141,
+            "fp": 9,
+            "fn": 7,
+            "tn": 0,
+            "accuracy": 0.8980891719745223,
+            "precision": 0.94,
+            "recall": 0.9527027027027027,
+            "f1": 0.9463087248322148
+          },
+          "selection": {
+            "tp": 25,
+            "fp": 5,
+            "fn": 44,
+            "tn": 79,
+            "accuracy": 0.6797385620915033,
+            "precision": 0.8333333333333334,
+            "recall": 0.36231884057971014,
+            "f1": 0.5050505050505051
+          }
+        },
+        "macro": {
+          "accuracy": 0.7296371136966866,
+          "precision": 0.8335772357723578,
+          "recall": 0.5037780718460115,
+          "f1": 0.554810319524874
+        },
+        "overall": {
+          "tp": 237,
+          "fp": 68,
+          "fn": 115,
+          "tn": 225,
+          "accuracy": 0.7162790697674418,
+          "precision": 0.7770491803278688,
+          "recall": 0.6732954545454546,
+          "f1": 0.7214611872146118
+        }
+      },
+      "items_file": "details\\validate_n2_regex.jsonl"
+    }
+  },
+  "averages": {
+    "vazio": {
+      "fuzzywuzzy": 0.41333333333333333,
+      "tfidf": null,
+      "sbert": null,
+      "bertimbau": null,
+      "multilingual": null,
+      "wmd_ft": null,
+      "wmd_nilc": null,
+      "bertscore": null,
+      "rouge_l": null,
+      "classification_macro": {
+        "accuracy": 0.41333333333333333,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "copia": {
+      "fuzzywuzzy": 0.6475833333333333,
+      "tfidf": 0.7808102643534534,
+      "sbert": 0.8163321618292783,
+      "bertimbau": 0.8410042729732152,
+      "multilingual": 0.851134063827025,
+      "wmd_ft": 0.739471471770921,
+      "wmd_nilc": 0.7136243296495991,
+      "bertscore": 0.895243539600759,
+      "rouge_l": 0.7717913987265729,
+      "classification_macro": {
+        "accuracy": 0.6115151515151515,
+        "precision": 0.22166666666666668,
+        "recall": 0.22466216216216217,
+        "f1": 0.22315436241610737
+      }
+    },
+    "regex": {
+      "fuzzywuzzy": 0.8289500000000001,
+      "tfidf": 0.8071908515539526,
+      "sbert": 0.8151871463191425,
+      "bertimbau": 0.8724100799530956,
+      "multilingual": 0.8841004637961692,
+      "wmd_ft": 0.792831629167332,
+      "wmd_nilc": 0.7745415119360191,
+      "bertscore": 0.9096510065785537,
+      "rouge_l": 0.7728048641303384,
+      "classification_macro": {
+        "accuracy": 0.7296371136966866,
+        "precision": 0.8335772357723578,
+        "recall": 0.5037780718460115,
+        "f1": 0.554810319524874
+      }
+    }
+  }
+}

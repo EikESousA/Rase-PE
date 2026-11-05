@@ -9,6 +9,8 @@ ollama
 pot
 python-Levenshtein
 rouge-score
+sacrebleu
+rapidfuzz
 safetensors[numpy]
 scikit-learn
 sentence-transformers

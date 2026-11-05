@@ -1,5 +1,8 @@
 from typing import Any, Dict, List
 
+from utils.validates.align_rules import align_rules
+from utils.validates.build_pairs_n2 import OPERATORS, _rule_status
+
 
 FIELDS: List[str] = ["type", "object", "property", "comparation", "target", "unit"]
 
@@ -18,6 +21,15 @@ def _properties_to_string(properties: Dict[str, Any] | None) -> str:
     return " | ".join(parts)
 
 
+def _operator_properties(rule: Dict[str, Any] | None, operator: str) -> Dict[str, Any]:
+    if not rule:
+        return {}
+    data = (rule.get("operators_n2") or {}).get(operator, {})
+    if not isinstance(data, dict):
+        return {}
+    return data.get("properties_n3", {}) or {}
+
+
 def build_pairs_n3(
     dataset: Dict[str, Any],
     predictions: Dict[str, Any],
@@ -30,29 +42,22 @@ def build_pairs_n3(
         predicted_item: Dict[str, Any] = (
             predicted_items[text_index] if text_index < len(predicted_items) else {}
         )
-        predicted_texts: List[Dict[str, Any]] = predicted_item.get("texts_n1", [])
-        for sentence_index, target_n1 in enumerate(item.get("texts_n1", [])):
-            target_ops: Dict[str, Any] = target_n1.get("operators_n2", {}) or {}
-            predicted_ops: Dict[str, Any] = {}
-            if sentence_index < len(predicted_texts):
-                predicted_ops = predicted_texts[sentence_index].get("operators_n2", {}) or {}
-
-            for operator_name, operator_data in target_ops.items():
-                target_props: Dict[str, Any] = {}
-                predicted_props: Dict[str, Any] = {}
-                if isinstance(operator_data, dict):
-                    target_props = operator_data.get("properties_n3", {}) or {}
-                predicted_data = predicted_ops.get(operator_name, {})
-                if isinstance(predicted_data, dict):
-                    predicted_props = predicted_data.get("properties_n3", {}) or {}
-
+        rule_pairs = align_rules(
+            list(item.get("texts_n1", [])),
+            list(predicted_item.get("texts_n1", [])),
+        )
+        for sentence_index, (target_rule, predicted_rule) in enumerate(rule_pairs):
+            for operator_name in OPERATORS:
+                target_props = _operator_properties(target_rule, operator_name)
+                predicted_props = _operator_properties(predicted_rule, operator_name)
                 pairs.append(
                     {
                         "text_index": text_index,
                         "sentence_index": sentence_index,
                         "operator": operator_name,
+                        "rule_status": _rule_status(target_rule, predicted_rule),
                         "text": item.get("text", ""),
-                        "text_n1": target_n1.get("text_n1", ""),
+                        "text_n1": (target_rule or {}).get("text_n1", ""),
                         "target_properties": target_props,
                         "predicted_properties": predicted_props,
                         "target": _properties_to_string(target_props),

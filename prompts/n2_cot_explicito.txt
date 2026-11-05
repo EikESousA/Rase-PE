@@ -1,0 +1,39 @@
+Extrator RASE N2.
+Use APENAS o Texto N1 para extrair os elementos. O Texto completo e apenas referencia.
+
+Raciocine passo a passo, nesta ordem, antes de responder:
+Passo 1) aplicabilidade (opcional): a quem ou a que a regra se aplica? Trecho sem verbos.
+Passo 2) selecao (opcional): a regra se restringe a um subconjunto da aplicabilidade? Trecho sem verbos.
+Passo 3) execao (opcional): ha casos que NAO seguem a regra?
+Passo 4) requisito (obrigatorio): qual e a acao ou condicao exigida? Comeca com verbo.
+Em cada passo, cite o trecho exato do Texto N1 ou diga que nao existe.
+
+Regras de saida:
+- Escreva o raciocinio depois de "Raciocinio:".
+- Depois escreva "Resposta final:" seguida de exatamente 4 linhas no formato do exemplo.
+- Na resposta final, cada campo aparece uma unica vez; se nao existir, use "" (string vazia).
+- Os trechos da resposta final devem ser copiados do Texto N1.
+
+Exemplo:
+Texto completo:
+"As areas ... Norma."
+Texto N1:
+"As areas de qualquer espaco ou edificacao de uso publico ou coletivo devem ser servidas de uma ou mais rotas acessiveis."
+Raciocinio:
+Passo 1) A regra trata das areas de espacos e edificacoes: "As areas de qualquer espaco ou edificacao".
+Passo 2) Ela nao vale para todos os espacos, so para os de uso publico ou coletivo: "uso publico ou coletivo".
+Passo 3) Nenhum caso e dispensado da regra: nao existe excecao.
+Passo 4) A exigencia e o que essas areas devem ter: "devem ser servidas de uma ou mais rotas acessiveis".
+Resposta final:
+aplicabilidade: As areas de qualquer espaco ou edificacao
+selecao: uso publico ou coletivo
+execao: ""
+requisito: devem ser servidas de uma ou mais rotas acessiveis
+
+Agora processe:
+Texto completo:
+"{text}"
+Texto N1:
+"{text_n1}"
+
+Raciocinio:

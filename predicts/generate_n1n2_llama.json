@@ -6,9 +6,9 @@
     "repeat_penalty": 1.1,
     "seed": 42,
     "prompt_sha256": "81df3006a9a22a683262861f5e4bfa0df4a0a3af7047dac48a39fb5fb7404558",
-    "code_git_sha": "d56333829c42e37c62719b153f57f95474ba8cfd"
+    "code_git_sha": "b2a058cb88d71a3fd543d31f1c0aa0f7a74ecee8"
   },
-  "counts": 79,
+  "counts": 76,
   "datas": [
     {
       "text": "As áreas de qualquer espaço ou edificação de uso público ou coletivo devem ser servidas de uma ou mais rotas acessíveis. As edificações residenciais multifamiliares, condomínios e conjuntos habitacionais necessitam ser acessíveis em suas áreas de uso comum. As unidades autônomas acessíveis devem estar conectadas às rotas acessíveis. Áreas de uso restrito, conforme definido em 3.1.38, como casas de máquinas, barriletes, passagem de uso técnico e outros com funções similares, não necessitam atender às condições de acessibilidade desta Norma.",
@@ -164,7 +164,7 @@
           "text_n1": "Áreas de uso restrito não necessitam atender às condições de acessibilidade desta Norma.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "não necessitam atender às condições de acessibilidade desta Norma.",
+              "text_n2": "não necessitam atender às condições de acessibilidade desta Norma",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -479,7 +479,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Acessos",
+              "text_n2": "Os acessos",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -620,7 +620,7 @@
           "text_n1": "Os comandos acionáveis por usuários devem estar posicionados à altura indicada em 4.6.9.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem estar posicionados à altura indicada em 4.6.9.",
+              "text_n2": "devem estar posicionados à altura indicada em 4.6.9",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -769,10 +769,10 @@
           }
         },
         {
-          "text_n1": "Localização das entradas e saídas acessíveis deve ser sinalizada direcionalmente.",
+          "text_n1": "Localização das entradas e saídas acessíveis deve ser indicada.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "Deve ser sinalizada direcionalmente",
+              "text_n2": "deve ser indicada",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -783,7 +783,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Localização das entradas e saídas acessíveis",
+              "text_n2": "Deve ser prevista a sinalização informativa e direcional da localização das entradas e saídas acessíveis",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -818,10 +818,10 @@
           }
         },
         {
-          "text_n1": "Deve ser previsto em conformidade com a Seção 5.",
+          "text_n1": "Deve ser prevista a sinalização direcional.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "Deve ser previsto em conformidade com a Seção 5.",
+              "text_n2": "Deve ser prevista a sinalização direcional",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -832,7 +832,56 @@
               }
             },
             "aplicability": {
-              "text_n2": "Deve ser previsto em conformidade com a Seção 5.",
+              "text_n2": "Deve ser prevista a sinalização direcional",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
+        },
+        {
+          "text_n1": "A sinalização deve ser de acordo com o estabelecido na Seção 5.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "deve ser de acordo com o estabelecido na Seção 5.",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "A sinalização",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1073,10 +1122,10 @@
       "text": "Em reformas, pode-se considerar o desnível máximo de 75 mm, tratado com inclinação máxima de 12,5 %, conforme Tabela 7, sem avançar nas áreas de circulação transversal, e protegido lateralmente com elemento construído ou vegetação.",
       "texts_n1": [
         {
-          "text_n1": "Pisos internos devem ter inclinacao transversal de no maximo 2%.",
+          "text_n1": "Em reformas, pode-se considerar o desnível máximo de 75 mm.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ter inclinacao transversal de no maximo 2%",
+              "text_n2": "pode-se considerar o desnível máximo de 75 mm",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1087,7 +1136,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Pisos internos",
+              "text_n2": "Em reformas",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1109,44 +1158,6 @@
               }
             },
             "exception": {
-              "text_n2": "Em reformas, pode-se considerar o desnível máximo de 75 mm, tratado com inclinação máxima de 12,5 %, conforme Tabela 7, sem avançar nas áreas de circulação transversal, e protegido lateralmente com elemento construído ou vegetação.",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "Pisos externos devem ter inclinacao transversal de no maximo 3%.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "devem ter inclinacao transversal de no maximo 3%",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Pisos externos",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
               "text_n2": "",
               "properties_n3": {
                 "type": "",
@@ -1156,25 +1167,14 @@
                 "target": "",
                 "unit": ""
               }
-            },
-            "exception": {
-              "text_n2": "Em reformas, pode-se considerar o desnível máximo de 75 mm, tratado com inclinação máxima de 12,5 %, conforme Tabela 7, sem avançar nas áreas de circulação transversal, e protegido lateralmente com elemento construído ou vegetação.",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
             }
           }
         },
         {
-          "text_n1": "O desnivel maximo em reformas e de 75 mm.",
+          "text_n1": "O desnível máximo é tratado com inclinação máxima de 12,5 %.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "O desnivel maximo em reformas e de 75 mm.",
+              "text_n2": "é tratado com inclinação máxima de 12,5 %",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1220,10 +1220,10 @@
           }
         },
         {
-          "text_n1": "O tratamento do desnivel maximo deve ser com inclinacao maxima de 12,5 %.",
+          "text_n1": "A inclinação máxima é conforme Tabela 7.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "deve ser com inclinacao maxima de 12,5 %",
+              "text_n2": "é conforme Tabela 7.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1269,10 +1269,10 @@
           }
         },
         {
-          "text_n1": "A inclinacao maxima nao pode avançar nas areas de circulacao transversal.",
+          "text_n1": "Não se avançam nas áreas de circulação transversal.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "não pode avançar nas áreas de circulação transversal",
+              "text_n2": "Não se avançam nas áreas de circulação transversal.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1318,10 +1318,10 @@
           }
         },
         {
-          "text_n1": "O desnivel protegido lateralmente deve ter elemento construido ou vegetação.",
+          "text_n1": "As áreas de circulação transversal são protegidas lateralmente.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "O desnivel protegido lateralmente deve ter elemento construido ou vegetação.",
+              "text_n2": "sao protegidas lateralmente",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1332,7 +1332,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Em reformas",
+              "text_n2": "As areas de circulacao transversal",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1354,7 +1354,7 @@
               }
             },
             "exception": {
-              "text_n2": "sem avançar nas áreas de circulação transversal",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1386,7 +1386,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "As soleiras das portas ou vãos de passagem",
+              "text_n2": "As soleiras das portas",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1408,7 +1408,7 @@
               }
             },
             "exception": {
-              "text_n2": "",
+              "text_n2": "vãos de passagem",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1470,10 +1470,10 @@
           }
         },
         {
-          "text_n1": "A inclinação da rampa deve ser em função do desnível apresentado.",
+          "text_n1": "A inclinação da rampa deve ser em função do desnível apresentado e atender aos parâmetros estabelecidos nas Tabelas 6 ou 7.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "deve ser em função do desnível apresentado.",
+              "text_n2": "deve ser em função do desnível apresentado e atender aos parâmetros estabelecidos nas Tabelas 6 ou 7.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1485,55 +1485,6 @@
             },
             "aplicability": {
               "text_n2": "As soleiras das portas ou vãos de passagem",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "\"\"",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "A inclinação da rampa deve atender aos parâmetros estabelecidos nas Tabelas 6 ou 7.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "atender aos parâmetros estabelecidos nas Tabelas 6 ou 7.",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "A inclinação da rampa",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1604,7 +1555,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1620,7 +1571,7 @@
           "text_n1": "A barra de apoio deve ter comprimento mínimo de 0,30 m.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "deve ter comprimento mínimo de 0,30 m.",
+              "text_n2": "ter comprimento mínimo de 0,30 m.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1653,7 +1604,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1669,7 +1620,7 @@
           "text_n1": "O eixo da barra de apoio deve estar posicionado a 0,75 m de altura do piso.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "O eixo da barra de apoio deve estar posicionado a 0,75 m de altura do piso.",
+              "text_n2": "deve estar posicionado a 0,75 m de altura do piso.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1702,7 +1653,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -1769,7 +1720,7 @@
           }
         },
         {
-          "text_n1": "Eventuais frestas devem ter dimensao maxima de 15mm.",
+          "text_n1": "Eventuais frestas devem ter dimensao maxima de 15 mm.",
           "operators_n2": {
             "requeriments": {
               "text_n2": "devem estar nivelada com o piso adjacente, e eventuais frestas devem possuir dimensão máxima de 15 mm.",
@@ -1886,7 +1837,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Deve atender ao disposto em 5.4.6",
+              "text_n2": "A sinalização visual e tátil no piso indica situações de risco e direção",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -2060,7 +2011,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -2176,55 +2127,6 @@
           }
         },
         {
-          "text_n1": "por pavimento.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "deve ser previsto no mínimo um M.R. a cada 500 pessoas de lotação, sendo no mínimo um por pavimento e um para cada escada e elevador de emergência",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Nas áreas de resgate",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "por pavimento",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "\"\"",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
           "text_n1": "Pavimentos devem ter pelo menos um M.R.",
           "operators_n2": {
             "requeriments": {
@@ -2323,55 +2225,6 @@
           }
         },
         {
-          "text_n1": "M.R.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "deve ser previsto no mínimo um M.R. a cada 500 pessoas de lotação, por pavimento, sendo no mínimo um por pavimento e um para cada escada e elevador de emergência",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Nas áreas de resgate",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
           "text_n1": "devem ser no mínimo um por pavimento.",
           "operators_n2": {
             "requeriments": {
@@ -2446,7 +2299,7 @@
               }
             },
             "selection": {
-              "text_n2": "",
+              "text_n2": "Escadas e elevadores de emergência",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -2457,7 +2310,7 @@
               }
             },
             "exception": {
-              "text_n2": "Se a antecâmara das escadas e a dos elevadores de emergência forem comuns, o quantitativo de M.R. pode ser compartilhado.",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -2470,7 +2323,7 @@
           }
         },
         {
-          "text_n1": "cada.",
+          "text_n1": "Quantitativo de M.R.",
           "operators_n2": {
             "requeriments": {
               "text_n2": "deve ser previsto no mínimo um M.R. a cada 500 pessoas de lotação, por pavimento, sendo no mínimo um por pavimento e um para cada escada e elevador de emergência",
@@ -2519,10 +2372,10 @@
           }
         },
         {
-          "text_n1": "Antecâmaras das escadas e dos elevadores de emergência podem compartilhar o quantitativo de M.R.",
+          "text_n1": "pode ser compartilhado se antecâmara das escadas e dos elevadores de emergência forem comuns.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "podem compartilhar o quantitativo de M.R.",
+              "text_n2": "pode ser compartilhado se antecâmara das escadas e dos elevadores de emergência forem comuns.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -2533,7 +2386,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Antecâmaras das escadas e dos elevadores de emergência",
+              "text_n2": "Nas áreas de resgate",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -2573,7 +2426,56 @@
       "text": "Recomenda-se prever uma área de descanso, fora da faixa de circulação, a cada 50 m, para piso com até 3 % de inclinação, ou a cada 30 m, para piso de 3 % a 5 % de inclinação. Recomenda-se a instalação de bancos com encosto e braços. Para inclinações superiores a 5 %, deve ser atendido o descrito em 6.6. Estas áreas devem estar dimensionadas para permitir também a manobra de cadeiras de rodas.",
       "texts_n1": [
         {
-          "text_n1": "Pisos com até 3 % de inclinacao devem ter uma area de descanso a cada 50 m.",
+          "text_n1": "Recomenda-se prever uma área de descanso, fora da faixa de circulação, a cada 50 m.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "prever uma área de descanso, fora da faixa de circulação, a cada 50 m",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "Uma area de descanso",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
+        },
+        {
+          "text_n1": "Pisos com até 3 % de inclinação devem ter uma área de descanso a cada 50 m.",
           "operators_n2": {
             "requeriments": {
               "text_n2": "devem ter uma área de descanso a cada 50 m.",
@@ -2622,10 +2524,10 @@
           }
         },
         {
-          "text_n1": "Bancos com encosto e braços devem ser instalados.",
+          "text_n1": "Para piso de 3 % a 5 % de inclinação, recomenda-se prever uma área de descanso a cada 30 m. Recomenda-se a instalação de bancos com encosto e braços.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser instalados bancos com encosto e braços",
+              "text_n2": "recomenda-se prever uma área de descanso a cada 30 m. Recomenda-se a instalação de bancos com encosto e braços",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -2636,7 +2538,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Áreas de descanso em pisos com inclinação",
+              "text_n2": "Para piso de 3 % a 5 % de inclinação",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -2658,7 +2560,7 @@
               }
             },
             "exception": {
-              "text_n2": "Inclinações superiores a 5 %",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -2671,7 +2573,7 @@
           }
         },
         {
-          "text_n1": "Para piso com inclinação superior a 5 %, deve ser atendido o descrito em 6.6.",
+          "text_n1": "Para inclinações superiores a 5 %, deve ser atendido o descrito em 6.6.",
           "operators_n2": {
             "requeriments": {
               "text_n2": "deve ser atendido o descrito em 6.6",
@@ -2685,7 +2587,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Para piso com inclinação superior a 5 %",
+              "text_n2": "Para inclinações superiores a 5 %",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -2720,10 +2622,10 @@
           }
         },
         {
-          "text_n1": "Areas de descanso devem estar dimensionadas para permitir manobra de cadeiras de rodas.",
+          "text_n1": "Estas áreas devem estar dimensionadas para permitir também a manobra de cadeiras de rodas.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem estar dimensionadas para permitir manobra de cadeiras de rodas",
+              "text_n2": "devem estar dimensionadas para permitir também a manobra de cadeiras de rodas",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -2734,7 +2636,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Areas de descanso",
+              "text_n2": "Estas areas",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -2777,7 +2679,7 @@
           "text_n1": "As rampas devem ter inclinacao de acordo com os limites estabelecidos na Tabela 6.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ter inclinacao de acordo com os limites estabelecidos na Tabela 6.",
+              "text_n2": "devem ter inclinacao de acordo com os limites estabelecidos na Tabela 6",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -2810,7 +2712,7 @@
               }
             },
             "exception": {
-              "text_n2": "plateia e palcos, piscinas, praias",
+              "text_n2": "10.4, 10.12, 10.14",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -2908,7 +2810,7 @@
               }
             },
             "exception": {
-              "text_n2": "rampas citadas em 10.4, 10.12 e 10.14",
+              "text_n2": "plateia e palcos, piscinas, praias",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -2921,10 +2823,10 @@
           }
         },
         {
-          "text_n1": "Excetuam-se do requisito as rampas citadas em 10.4 (plateia e palcos).",
+          "text_n1": "O requisito de criação de áreas de descanso não se aplica às rampas citadas em 10.4 (plateia e palcos).",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "Excetuam-se do requisito as rampas",
+              "text_n2": "não se aplica às rampas citadas em 10.4 (plateia e palcos)",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -2935,56 +2837,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "As rampas citadas em 10.4",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "plateia e palcos",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "10.12 (piscinas) e 10.14 (praias)",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "Excetuam-se do requisito as rampas citadas em 10.12 (piscinas).",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "Excetuam-se do requisito as rampas",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "As rampas citadas em 10.12",
+              "text_n2": "O requisito de criação de áreas de descanso",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -3006,7 +2859,7 @@
               }
             },
             "exception": {
-              "text_n2": "Piscinas",
+              "text_n2": "rampas citadas em 10.4 (plateia e palcos)",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -3019,10 +2872,10 @@
           }
         },
         {
-          "text_n1": "Excetuam-se do requisito as rampas citadas em 10.14 (praias).",
+          "text_n1": "O requisito de criação de áreas de descanso não se aplica às rampas citadas em 10.12 (piscinas).",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "Excetuam-se do requisito",
+              "text_n2": "não se aplica às rampas citadas em 10.12 (piscinas)",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -3033,7 +2886,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "As rampas citadas em 10.14",
+              "text_n2": "O requisito de criacao de areas de descanso",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -3055,7 +2908,56 @@
               }
             },
             "exception": {
-              "text_n2": "as rampas citadas em 10.4, 10.12 e 10.14",
+              "text_n2": "rampas citadas em 10.12 (piscinas)",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
+        },
+        {
+          "text_n1": "O requisito de criação de áreas de descanso não se aplica às rampas citadas em 10.14 (praias).",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "não se aplica às rampas citadas em 10.14 (praias)",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "O requisito de criação de áreas de descanso",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "rampas citadas em 10.14 (praias)",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -3076,7 +2978,7 @@
           "text_n1": "A inclinacao maxima admissivel para rampas em curva é de 8.33%.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "A inclinacao maxima admissivel é de 8.33%",
+              "text_n2": "é de 8,33 %",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -3171,10 +3073,10 @@
           }
         },
         {
-          "text_n1": "O raio mínimo deve ser medido no perímetro interno à curva.",
+          "text_n1": "O raio mínimo é medido no perímetro interno à curva.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "O raio mínimo deve ser medido no perímetro interno à curva.",
+              "text_n2": "é medido no perímetro interno à curva.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -3413,7 +3315,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -3462,7 +3364,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -3581,7 +3483,7 @@
           "text_n1": "A guia de balizamento deve ter altura mínima de 5 cm.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "Deve ter altura mínima de 5 cm.",
+              "text_n2": "deve ter altura mínima de 5 cm.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -3680,6 +3582,55 @@
           "operators_n2": {
             "requeriments": {
               "text_n2": "deve ser garantida em rampas",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "A guia de balizamento",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
+        },
+        {
+          "text_n1": "A guia de balizamento deve ser garantida em escadas.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "deve ser garantida em escadas.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -3836,7 +3787,7 @@
           "text_n1": "Quando houver bocel ou espelho inclinado, a projeção da aresta pode avançar no máximo 1,5 cm sobre o piso abaixo.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "a projetão da aresta pode avançar no maximo 1,5 cm sobre o piso abaixo",
+              "text_n2": "a projeção da aresta pode avançar no máximo 1,5 cm sobre o piso abaixo",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -3936,10 +3887,10 @@
           }
         },
         {
-          "text_n1": "A dimensão dos espelhos deve ser constante em toda a escada.",
+          "text_n1": "A dimensão de cada piso deve estar entre 0,28 m e 0,32 m.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "deve ser constante em toda a escada.",
+              "text_n2": "deve estar entre 0,28 m e 0,32 m.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -3950,7 +3901,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "A dimensão dos espelhos",
+              "text_n2": "As dimensões dos pisos",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -3985,10 +3936,10 @@
           }
         },
         {
-          "text_n1": "Para o dimensionamento, devem ser atendidas as condições: 0,63 m ≤ p + 2e ≤ 0,65 m.",
+          "text_n1": "A dimensão de cada espelho deve estar entre 0,16 m e 0,18 m.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser atendidas as condições: 0,63 m ≤ p + 2e ≤ 0,65 m",
+              "text_n2": "deve estar entre 0,16 m e 0,18 m.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -3999,7 +3950,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Para o dimensionamento",
+              "text_n2": "A dimensão de cada espelho",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -4034,10 +3985,10 @@
           }
         },
         {
-          "text_n1": "Pisos devem ter dimensão de no minimo 0,28 m e no maximo 0,32 m. Espelhos devem ter dimensão de no minimo 0,16 m e no maximo 0,18 m.",
+          "text_n1": "O dimensionamento deve atender à condição 0,63 m ≤ p + 2e ≤ 0,65 m.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ter dimensão de no minimo 0,28 m e no maximo 0,32 m.",
+              "text_n2": "deve atender à condição 0,63 m ≤ p + 2e ≤ 0,65 m.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -4048,7 +3999,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Pisos",
+              "text_n2": "O dimensionamento",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -4059,7 +4010,7 @@
               }
             },
             "selection": {
-              "text_n2": "Espelhos",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -4070,7 +4021,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -4292,7 +4243,56 @@
           "text_n1": "É necessário que, à distância de 0,55 m da borda interna da escada, os espelhos sejam dimensionados conforme Figura 75.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem atender à ABNT NBR 9077, porém é necessário que, à distância de 0,55 m da borda interna da escada, correspondente à linha imaginária sobre a qual sobe ou desce uma pessoa que segura o corrimão, os pisos e espelhos sejam dimensionados conforme 6.8.2 e Figura 75",
+              "text_n2": "são dimensionados conforme 6.8.2 e Figura 75",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "Escadas com lances curvos ou mistos",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
+        },
+        {
+          "text_n1": "Correspondente à linha imaginária sobre a qual sobe ou desce uma pessoa que segura o corrimão, os pisos devem ser dimensionados conforme 6.8.2.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "devem atender à ABNT NBR 9077",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -4338,10 +4338,10 @@
           }
         },
         {
-          "text_n1": "A linha imaginária sobre a qual sobe ou desce uma pessoa que segura o corrimão deve estar à distância de 0,55 m da borda interna da escada.",
+          "text_n1": "Correspondente à linha imaginária sobre a qual sobe ou desce uma pessoa que segura o corrimão, os espelhos devem ser dimensionados conforme Figura 75.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "deve estar à distância de 0,55 m da borda interna da escada.",
+              "text_n2": "devem ser dimensionados conforme Figura 75.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -4352,7 +4352,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "A linha imaginária sobre a qual sobe ou desce uma pessoa que segura o corrimão",
+              "text_n2": "Escadas com lances curvos ou mistos",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -4477,7 +4477,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -4740,10 +4740,10 @@
           }
         },
         {
-          "text_n1": "Os corrimãos devem garantir condições seguras de utilização.",
+          "text_n1": "Os corrimãos garantem condições seguras de utilização.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem garantir condições seguras de utilização",
+              "text_n2": "garantem condições seguras de utilização",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -4941,10 +4941,10 @@
           }
         },
         {
-          "text_n1": "A distancia entre o corrimão e o piso deve ser de 0,92 m.",
+          "text_n1": "A distancia entre os corrimãos deve ser de 0,92 m e a 0,70 m do piso.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser instalados em rampas e escadas, em ambos os lados",
+              "text_n2": "devem ser instalados em ambos os lados",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -4955,7 +4955,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Os corrimãos devem ser instalados em rampas e escadas",
+              "text_n2": "Os corrimãos em rampas e escadas",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -4990,10 +4990,10 @@
           }
         },
         {
-          "text_n1": "A distancia entre o corrimão e o piso deve ser de 0,70 m.",
+          "text_n1": "A distancia entre os corrimãos deve ser medida da face superior até o ponto central do piso do degrau ou do patamar.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser instalados em ambos os lados, a 0,92 m e a 0,70 m do piso",
+              "text_n2": "deve ser medida da face superior até o ponto central do piso do degrau ou do patamar.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -5004,7 +5004,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Os corrimãos devem ser instalados em rampas e escadas",
+              "text_n2": "Os corrimãos",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -5039,10 +5039,10 @@
           }
         },
         {
-          "text_n1": "A distancia da face superior do corrimão até o ponto central do piso do degrau ou patamar deve ser medido.",
+          "text_n1": "Quando se tratar de escadas, a distancia entre os corrimãos deve ser medida até o ponto central do piso do degrau.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "deve ser medido",
+              "text_n2": "deve ser medida até o ponto central do piso do degrau.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -5053,56 +5053,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "rampas e escadas",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "Quando se tratar de degrau isolado",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "A distancia da face superior do corrimão até o ponto central do piso do degrau deve ser medida em escadas.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "deve ser medida em escadas.",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "escadas",
+              "text_n2": "Quando se tratar de escadas",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -5137,10 +5088,10 @@
           }
         },
         {
-          "text_n1": "A distancia da face superior do corrimão até o ponto central do piso do patamar deve ser medida em rampas.",
+          "text_n1": "Quando se tratar de rampas, a distancia entre os corrimãos deve ser medida até o ponto central do patamar.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "deve ser medida em rampas",
+              "text_n2": "a distancia entre os corrimãos deve ser medida até o ponto central do patamar.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -5151,7 +5102,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "rampas",
+              "text_n2": "Quando se tratar de rampas",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -5186,7 +5137,7 @@
           }
         },
         {
-          "text_n1": "Quando se tratar de um degrau isolado, basta uma barra de apoio horizontal ou vertical.",
+          "text_n1": "No caso de degrau isolado, basta uma barra de apoio horizontal ou vertical.",
           "operators_n2": {
             "requeriments": {
               "text_n2": "basta uma barra de apoio horizontal ou vertical",
@@ -5200,7 +5151,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Quando se tratar de um degrau isolado",
+              "text_n2": "No caso de degrau isolado",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -5235,10 +5186,10 @@
           }
         },
         {
-          "text_n1": "Uma barra de apoio horizontal ou vertical deve ter comprimento mínimo de 0,30 m.",
+          "text_n1": "A barra de apoio deve ter comprimento mínimo de 0,30 m.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "deve ter comprimento mínimo de 0,30 m.",
+              "text_n2": "deve ter comprimento mínimo de 0,30 m",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -5249,7 +5200,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Uma barra de apoio horizontal ou vertical",
+              "text_n2": "Os corrimãos devem ser instalados em rampas e escadas",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -5271,7 +5222,7 @@
               }
             },
             "exception": {
-              "text_n2": "",
+              "text_n2": "Quando se tratar de degrau isolado",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -5287,7 +5238,7 @@
           "text_n1": "O eixo da barra de apoio deve estar posicionado a 0,75 m de altura do piso.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "deve estar posicionado a 0,75 m de altura do piso.",
+              "text_n2": "estar posicionado a 0,75 m de altura do piso.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -5539,10 +5490,10 @@
       "text": "Quando se tratar de escadas ou rampas com largura igual ou superior a 2,40 m, é necessária a instalação de no mínimo um corrimão intermediário, garantindo faixa de circulação com largura mínima de 1,20 m, conforme Figura 77.",
       "texts_n1": [
         {
-          "text_n1": "Escadas e rampas com largura igual ou superior a 2,40 m devem ter instalação de no mínimo um corrimão intermediário.",
+          "text_n1": "Escadas e rampas com largura igual ou superior a 2,40 m devem ter pelo menos um corrimão intermediário.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ter instalação de no mínimo um corrimão intermediário.",
+              "text_n2": "devem ter pelo menos um corrimão intermediário.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -5588,7 +5539,56 @@
           }
         },
         {
-          "text_n1": "A faixa de circulação deve ter largura mínima de 1,20 m.",
+          "text_n1": "A instalação de corrimões intermediários é necessária em escadas e rampas com largura igual ou superior a 2,40 m.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "é necessária a instalação de no mínimo um corrimão intermediário",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "escadas e rampas com largura igual ou superior a 2,40 m",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
+        },
+        {
+          "text_n1": "A faixa de circulação deve ter uma largura mínima de 1,20 m.",
           "operators_n2": {
             "requeriments": {
               "text_n2": "garantindo faixa de circulação com largura mínima de 1,20 m",
@@ -5691,10 +5691,10 @@
           }
         },
         {
-          "text_n1": "Corrimão deve ter duas alturas.",
+          "text_n1": "Um corrimão duplo deve ter duas alturas.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "Corrimão deve ter duas alturas.",
+              "text_n2": "Um corrimão duplo deve ter duas alturas.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -5740,10 +5740,10 @@
           }
         },
         {
-          "text_n1": "Altura do corrimão superior é de 0,92 m.",
+          "text_n1": "Duas alturas do corrimão devem ser 0,92 m e 0,70 m.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "Altura do corrimão superior é de 0,92 m.",
+              "text_n2": "devem ser 0,92 m e 0,70 m.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -5789,10 +5789,10 @@
           }
         },
         {
-          "text_n1": "Altura do corrimão inferior é de 0,70 m.",
+          "text_n1": "A altura do corrimão deve estar a 0,92 m do piso.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "Altura do corrimão inferior é de 0,70 m.",
+              "text_n2": "A altura do corrimão deve estar a 0,92 m do piso.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -5838,10 +5838,108 @@
           }
         },
         {
-          "text_n1": "Largura mínima do corrimão é de 1,20 m.",
+          "text_n1": "A altura do corrimão deve estar a 0,70 m do piso.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "é permitida a instalação de apenas um corrimão duplo e com duas alturas, a 0,92 m e a 0,70 m do piso",
+              "text_n2": "A altura do corrimão deve estar a 0,70 m do piso.",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "Em escadas e degraus",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
+        },
+        {
+          "text_n1": "O corrimão deve ter largura mínima de 1,20 m.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "O corrimão deve ter largura mínima de 1,20 m.",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "Em escadas e degraus",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
+        },
+        {
+          "text_n1": "O corrimão deve ser instalado em ambos os lados.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "O corrimão deve ser instalado em ambos os lados.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -5993,56 +6091,7 @@
           "text_n1": "A largura minima do corredor deve ser de 0,80 m para objetos com extensao ate 0,40 m.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser de 0,80 m",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "A largura minima do corredor deve ser de 0,80 m para objetos com extensao ate 0,40 m.",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "A largura minima do corredor deve ser de 0,90 m para objetos com extensao acima de 0,40 m.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "deve ser de 0,90 m",
+              "text_n2": "a largura mínima do corredor deve ser de 0,80 m",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -6064,7 +6113,7 @@
               }
             },
             "selection": {
-              "text_n2": "",
+              "text_n2": "com no máximo 0,40 m de extensão",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -6075,7 +6124,56 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "Acima de 0,40 m de extensão",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
+        },
+        {
+          "text_n1": "A largura minima do corredor deve ser de 0,90 m para objetos com extensao acima de 0,40 m.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "deve ser de 0,80 m",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "Para transposição de obstáculos, objetos e elementos",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "com no máximo 0,40 m de extensão",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -6093,10 +6191,10 @@
       "text": "No deslocamento frontal, quando as portas abrirem no sentido do deslocamento do usuário, deve existir um espaço livre de 0,30 m entre a parede e a porta, e quando abrirem no sentido oposto ao deslocamento do usuário, deve existir um espaço livre de 0,60 m, contíguo à maçaneta, conforme a Figura 81. Na impraticabilidade da existência destes espaços livres, deve-se garantir equipamento de automação da abertura e fechamento das portas através de botoeira ou sensor, conforme 6.11.2.9 e 6.11.2.10",
       "texts_n1": [
         {
-          "text_n1": "No deslocamento frontal, as portas devem ter espaço livre de 0,30 m entre a parede e a porta.",
+          "text_n1": "No deslocamento frontal, as portas devem ter um espaço livre de 0,30 m entre a parede e a porta quando abrirem no sentido do deslocamento do usuário.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ter espaço livre de 0,30 m entre a parede e a porta",
+              "text_n2": "devem ter um espaço livre de 0,30 m entre a parede e a porta quando abrirem no sentido do deslocamento do usuário.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -6129,7 +6227,7 @@
               }
             },
             "exception": {
-              "text_n2": "quando as portas abrirem no sentido oposto ao deslocamento do usuário, deve existir um espaço livre de 0,60 m, contíguo à maçaneta",
+              "text_n2": "Quando as portas abrirem no sentido oposto ao deslocamento do usuário, deve existir um espaço livre de 0,60 m, contíguo à maçaneta.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -6142,10 +6240,10 @@
           }
         },
         {
-          "text_n1": "As portas devem ter espaço livre de 0,60 m contíguo à maçaneta quando abrirem no sentido oposto ao deslocamento do usuário.",
+          "text_n1": "Quando as portas abrirem no sentido oposto ao deslocamento do usuário, deve existir um espaço livre de 0,60 m contíguo à maçaneta.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ter espaço livre de 0,60 m contíguo à maçaneta",
+              "text_n2": "Deve existir um espaço livre de 0,60 m contíguo à maçaneta.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -6156,7 +6254,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "As portas",
+              "text_n2": "Quando as portas abrirem no sentido oposto ao deslocamento do usuário",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -6191,59 +6289,10 @@
           }
         },
         {
-          "text_n1": "Na impraticabilidade da existência dos espaços livres, deve-se garantir equipamento de automação da abertura e fechamento das portas.",
+          "text_n1": "Na impossibilidade da existência destes espaços livres, deve-se garantir equipamento de automação da abertura e fechamento das portas.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "deve-se garantir equipamento de automação da abertura e fechamento das portas.",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Na impraticabilidade da existência dos espaços livres",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "O equipamento de automação deve ser através de botoeira ou sensor.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "deve ser através de botoeira ou sensor.",
+              "text_n2": "deve-se garantir equipamento de automação da abertura e fechamento das portas",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -6276,7 +6325,7 @@
               }
             },
             "exception": {
-              "text_n2": "Na impraticabilidade da existência destes espaços livres",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -6294,10 +6343,10 @@
       "text": "As portas, quando abertas, devem ter um vão livre, de no mínimo 0,80 m de largura e 2,10 m de altura. Em portas de duas ou mais folhas, pelo menos uma delas deve ter o vão livre de 0,80 m.",
       "texts_n1": [
         {
-          "text_n1": "Portas devem ter um vão livre quando abertas.",
+          "text_n1": "As portas devem ter um vão livre quando abertas.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ter um vão livre quando abertas.",
+              "text_n2": "devem ter um vão livre quando abertas",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -6308,7 +6357,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Portas",
+              "text_n2": "As portas",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -6498,7 +6547,7 @@
           "text_n1": "O mecanismo de acionamento das portas deve requerer força humana direta igual ou inferior a 36 N.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "requerer força humana direta igual ou inferior a 36 N.",
+              "text_n2": "deve requerer força humana direta igual ou inferior a 36 N.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -6598,10 +6647,10 @@
           }
         },
         {
-          "text_n1": "O puxador deve estar associado à maçaneta.",
+          "text_n1": "O puxador deve estar localizado a uma distância de 0,10 m do eixo da porta (dobradiça).",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "O puxador deve estar associado à maçaneta.",
+              "text_n2": "O puxador deve estar localizado a uma distância de 0,10 m do eixo da porta (dobradiça).",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -6613,153 +6662,6 @@
             },
             "aplicability": {
               "text_n2": "As portas de sanitários e vestiários",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "\"\"",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "Deve estar localizado a uma distância de 0,10 m do eixo da porta (dobradiça).",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "Deve estar localizado a uma distância de 0,10 m do eixo da porta (dobradiça)",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "As portas de sanitários e vestiários",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "\"\"",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "Possuir comprimento mínimo de 0,40 m.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "Possuir comprimento mínimo de 0,40 m.",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "As portas de sanitários e vestiários",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "\"\"",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "Ter diâmetro variando de 35 mm a 25 mm.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "Ter diâmetro variando de 35 mm a 25 mm.",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Portas de sanitários e vestiários",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -6794,10 +6696,10 @@
           }
         },
         {
-          "text_n1": "Instalado a 0,90 m do piso.",
+          "text_n1": "O puxador deve possuir comprimento mínimo de 0,40 m.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "Instalado a 0,90 m do piso.",
+              "text_n2": "deve possuir comprimento mínimo de 0,40 m.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -6830,7 +6732,105 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
+        },
+        {
+          "text_n1": "O diâmetro do puxador pode variar de 35 mm a 25 mm.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "observar o descrito em 4.6.8",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "O dispositivo de travamento",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
+        },
+        {
+          "text_n1": "O puxador deve estar instalado a 0,90 m do piso.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "O puxador deve estar instalado a 0,90 m do piso.",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "As portas de sanitários e vestiários",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -6928,7 +6928,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -6998,7 +6998,7 @@
           "text_n1": "Dispositivos de acionamento devem estar instalados à altura de alcance entre 0,80 m e 1,00 m.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem estar instalados fora da área de abertura da folha da porta e à altura de alcance entre 0,80 m e 1,00 m.",
+              "text_n2": "devem estar instalados à altura de alcance entre 0,80 m e 1,00 m.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7031,7 +7031,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7049,10 +7049,10 @@
       "text": "Em portas de correr, recomenda-se a instalação de trilhos na sua parte superior. Os trilhos ou as guias inferiores devem estar nivelados com a superfície do piso, e eventuais frestas resultantes da guia inferior devem ter largura de no máximo 15 mm.",
       "texts_n1": [
         {
-          "text_n1": "Portas de correr devem ter trilhos na sua parte superior.",
+          "text_n1": "Em portas de correr, recomenda-se a instalação de trilhos na sua parte superior.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ter trilhos na sua parte superior.",
+              "text_n2": "recomenda-se a instalação de trilhos na sua parte superior.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7063,7 +7063,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Portas de correr",
+              "text_n2": "Em portas de correr",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7098,10 +7098,10 @@
           }
         },
         {
-          "text_n1": "Trilhos ou as guias inferiores das portas de correr devem estar nivelados com a superficie do piso.",
+          "text_n1": "Os trilhos devem estar nivelados com a superfície do piso.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem estar nivelados com a superficie do piso",
+              "text_n2": "devem estar nivelados com a superfície do piso",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7112,7 +7112,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Trilhos ou as guias inferiores das portas de correr",
+              "text_n2": "Em portas de correr",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7147,10 +7147,10 @@
           }
         },
         {
-          "text_n1": "Eventuais frestas resultantes da guia inferior das portas de correr devem ter largura de no maximo 15 mm.",
+          "text_n1": "As guias inferiores devem estar niveladas com a superfície do piso.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ter largura de no maximo 15 mm.",
+              "text_n2": "devem estar niveladas com a superfície do piso",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7161,7 +7161,56 @@
               }
             },
             "aplicability": {
-              "text_n2": "Eventuais frestas resultantes da guia inferior das portas de correr",
+              "text_n2": "Em portas de correr",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
+        },
+        {
+          "text_n1": "Eventuais frestas resultantes da guia inferior devem ter largura de no máximo 15 mm.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "devem ter largura de no máximo 15 mm.",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "Eventuais frestas resultantes da guia inferior",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7456,10 +7505,10 @@
           }
         },
         {
-          "text_n1": "Circulação vertical pode ser realizada por rampas.",
+          "text_n1": "Rampas podem ser utilizadas para circulação vertical.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "pode ser realizada por rampas",
+              "text_n2": "podem ser utilizadas para circulação vertical",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7470,56 +7519,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Circulação vertical",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "escadas, equipamentos eletromecânicos",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "Circulação vertical pode ser realizada por equipamentos eletromecânicos.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "pode ser realizada por equipamentos eletromecânicos",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Circulação vertical",
+              "text_n2": "Rampas",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7554,10 +7554,10 @@
           }
         },
         {
-          "text_n1": "Circulação vertical é considerada acessível quando atender no mínimo a duas formas de deslocamento vertical.",
+          "text_n1": "Equipamentos eletromecânicos podem ser usados para circulação vertical.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "é considerada acessível quando atender no mínimo a duas formas de deslocamento vertical.",
+              "text_n2": "podem ser usados para circulação vertical",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7568,61 +7568,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Circulação vertical",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
-      "text": "Desníveis superiores a 20 mm, quando inevitáveis, devem ser considerados como degraus, conforme 6.7.",
-      "texts_n1": [
-        {
-          "text_n1": "Desníveis superiores a 20 mm devem ser considerados como degraus.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "devem ser considerados como degraus",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Desníveis superiores a 20 mm",
+              "text_n2": "Equipamentos eletromecânicos",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7657,10 +7603,10 @@
           }
         },
         {
-          "text_n1": "Degrados sao considerados como degraus.",
+          "text_n1": "Acessibilidade é considerada quando a circulação vertical atende no mínimo a duas formas de deslocamento vertical.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser considerados como degraus",
+              "text_n2": "atende no mínimo a duas formas de deslocamento vertical.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7671,7 +7617,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Desníveis superiores a 20 mm",
+              "text_n2": "A acessibilidade é considerada quando a circulação vertical",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7725,7 +7671,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "As rotas de fuga devem atender ao disposto na ABNT NBR 9077 e outras regulamentações locais contra incêndio e pânico.",
+              "text_n2": "As rotas de fuga",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7760,10 +7706,10 @@
           }
         },
         {
-          "text_n1": "As portas de corredores devem ser dotadas de barras antipânico.",
+          "text_n1": "As portas de corredores devem ser dotadas de barras antipânico, conforme ABNT NBR 11785.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser dotadas de barras antipânico.",
+              "text_n2": "devem ser dotadas de barras antipânico, conforme ABNT NBR 11785.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7809,10 +7755,10 @@
           }
         },
         {
-          "text_n1": "As portas de acessos devem ser dotadas de barras antipânico.",
+          "text_n1": "As portas de acessos devem ser dotadas de barras antipânico, conforme ABNT NBR 11785.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser dotadas de barras antipânico.",
+              "text_n2": "devem ser dotadas de barras antipânico, conforme ABNT NBR 11785",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7858,10 +7804,10 @@
           }
         },
         {
-          "text_n1": "As áreas de resgate devem ser dotadas de barras antipânico.",
+          "text_n1": "As áreas de resgate devem ser dotadas de barras antipânico, conforme ABNT NBR 11785.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser dotadas de barras antipânico.",
+              "text_n2": "devem ser dotadas de barras antipânico, conforme ABNT NBR 11785.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7907,10 +7853,10 @@
           }
         },
         {
-          "text_n1": "As escadas de emergência devem ser dotadas de barras antipânico.",
+          "text_n1": "As escadas de emergência devem ser dotadas de barras antipânico, conforme ABNT NBR 11785.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser dotadas de barras antipânico.",
+              "text_n2": "devem ser dotadas de barras antipânico, conforme ABNT NBR 11785.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -7956,10 +7902,10 @@
           }
         },
         {
-          "text_n1": "As descargas integrantes de rotas de fuga acessíveis devem ser dotadas de barras antipânico.",
+          "text_n1": "As descargas integrantes de rotas de fuga acessíveis devem ser dotadas de barras antipânico, conforme ABNT NBR 11785.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser dotadas de barras antipânico.",
+              "text_n2": "devem ser dotadas de barras antipânico, conforme ABNT NBR 11785.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -8010,7 +7956,7 @@
       "text": "As escadas devem ter no mínimo um patamar a cada 3,20 m de desnível e sempre que houver mudança de direção.",
       "texts_n1": [
         {
-          "text_n1": "As escadas devem ter no minimo um patamar a cada 3.20m de desnivel.",
+          "text_n1": "Escadas devem ter no minimo um patamar a cada 3.20m de desnivel.",
           "operators_n2": {
             "requeriments": {
               "text_n2": "devem ter no mínimo um patamar a cada 3,20 m de desnível e sempre que houver mudança de direção.",
@@ -8024,7 +7970,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "As escadas",
+              "text_n2": "Escadas",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -8059,10 +8005,10 @@
           }
         },
         {
-          "text_n1": "Haver deve ser uma mudanca de direcao.",
+          "text_n1": "Escadas devem ter um patamar a cada 3.20m de desnivel quando houver mudanca de direcao.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "haver deve ser uma mudanca de direcao.",
+              "text_n2": "devem ter um patamar a cada 3.20m de desnivel quando houver mudanca de direcao.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -8073,7 +8019,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "As escadas",
+              "text_n2": "Escadas",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -8162,10 +8108,10 @@
           }
         },
         {
-          "text_n1": "Os corrimãos laterais não podem ter interrupção nos patamares das escadas e rampas.",
+          "text_n1": "Eles não podem ter interrupção nos patamares das escadas e rampas.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "não podem ter interrupção nos patamares das escadas e rampas.",
+              "text_n2": "devem ser contínuos, sem interrupção nos patamares das escadas e rampas",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -8211,10 +8157,10 @@
           }
         },
         {
-          "text_n1": "Os corrimãos laterais devem prolongar-se paralelamente ao patamar.",
+          "text_n1": "Devem prolongar-se paralelamente ao patamar.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem prolongar-se paralelamente ao patamar.",
+              "text_n2": "Devem prolongar-se paralelamente ao patamar.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -8260,59 +8206,108 @@
           }
         },
         {
-          "text_n1": "Os corrimãos laterais devem prolongar-se por pelo menos 0,30 m nas extremidades.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "devem prolongar-se por pelo menos 0,30 m nas extremidades.",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Os corrimãos laterais",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "Os corrimãos laterais não podem interferir com áreas de circulação.",
+          "text_n1": "Isso deve ocorrer pelo menos por 0,30 m nas extremidades.",
           "operators_n2": {
             "requeriments": {
               "text_n2": "devem ser contínuos, sem interrupção nos patamares das escadas e rampas, e devem prolongar-se paralelamente ao patamar, pelo menos por 0,30 m nas extremidades",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "Os corrimãos laterais",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
+        },
+        {
+          "text_n1": "Não podem interferir com áreas de circulação.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "devem prolongar-se paralelamente ao patamar, pelo menos por 0,30 m nas extremidades",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "Os corrimãos laterais",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "Não podem interferir com áreas de circulação.",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
+        },
+        {
+          "text_n1": "Não podem prejudicar a vazão.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "devem ser contínuos, sem interrupção nos patamares das escadas e rampas, e devem prolongar-se paralelamente ao patamar, pelo menos por 0,30 m nas extremidades, sem interferir com áreas de circulação ou prejudicar a vazão",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -8412,10 +8407,108 @@
           }
         },
         {
-          "text_n1": "Bolsões de retorno devem ter dimensões que permitam a manobra completa de uma cadeira de rodas (180°).",
+          "text_n1": "Os bolsões de retorno devem permitir a manobra completa de uma cadeira de rodas (180°).",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ter dimensões que permitam a manobra completa de uma cadeira de rodas (180°)",
+              "text_n2": "devem permitir a manobra completa de uma cadeira de rodas (180°)",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "Em edificações e equipamentos urbanos existentes",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "onde a adequação dos corredores seja impraticável",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
+        },
+        {
+          "text_n1": "A largura mínima de cada bolsão deve ser de 1,50 m.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "A largura mínima de cada bolsão deve ser de 1,50 m.",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "Em edificações e equipamentos urbanos existentes",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "onde a adequação dos corredores seja impraticável",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
+        },
+        {
+          "text_n1": "Devem existir no mínimo um bolsão a cada 15,00 m.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "devem ser implantados bolsões de retorno com dimensões que permitam a manobra completa de uma cadeira de rodas (180°), sendo no mínimo um bolsão a cada 15,00 m.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -8551,7 +8644,7 @@
               }
             },
             "exception": {
-              "text_n2": "ambientes específicos, como cinemas, teatros ou outros, conforme normas técnicas específicas",
+              "text_n2": "cinemas, teatros ou outros, conforme normas técnicas específicas",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -8703,7 +8796,7 @@
               }
             },
             "exception": {
-              "text_n2": "caso não seja possível, desde que comprovado tecnicamente",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -8779,7 +8872,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "A distância entre cada entrada acessível e as demais",
+              "text_n2": "Na adaptação de edificações e equipamentos urbanos existentes",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -8917,10 +9010,10 @@
           }
         },
         {
-          "text_n1": "A rota deve compor um percurso entre o estacionamento de veículos e os acessos.",
+          "text_n1": "A rota deve ser acessível.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "deve compor uma rota acessível",
+              "text_n2": "A rota deve ser acessível.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -9118,10 +9211,10 @@
           }
         },
         {
-          "text_n1": "Portas giratórias devem ser dotadas de sistema de segurança para rebatimento das pássar caso de sinistro.",
+          "text_n1": "Portas giratórias devem ser dotadas de sistema de segurança para rebatimento das pásem caso de sinistro.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser dotadas de sistema de segurança para rebatimento das pássar caso de sinistro.",
+              "text_n2": "devem ser dotadas de sistema de segurança para rebatimento das pásem caso de sinistro.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -9224,7 +9317,7 @@
           "text_n1": "Desníveis superiores a 20 mm devem ser considerados como degraus.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser considerados como degraus.",
+              "text_n2": "devem ser considerados como degraus",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -9268,6 +9361,55 @@
               }
             }
           }
+        },
+        {
+          "text_n1": "Conforme Figura 68.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "devem possuir inclinação máxima de 1:2 (50 %)",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "Conforme Figura 68",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
         }
       ]
     },
@@ -9275,10 +9417,10 @@
       "text": "Nas áreas de circulação, quando o desnível for lateral, observar o descrito em 4.3.7.",
       "texts_n1": [
         {
-          "text_n1": "Áreas de circulação devem ter desnivel lateral observado.",
+          "text_n1": "Áreas de circulação devem ter desnível lateral observado.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ter desnivel lateral observado",
+              "text_n2": "devem ter desnível lateral observado",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -9324,10 +9466,10 @@
           }
         },
         {
-          "text_n1": "Desnivel lateral deve ser observado em áreas de circulação.",
+          "text_n1": "Desnível lateral deve ser observado nas áreas de circulação.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "Deve ser observado",
+              "text_n2": "deve ser observado",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -9338,7 +9480,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Áreas de circulação",
+              "text_n2": "Nas áreas de circulação",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -9360,7 +9502,7 @@
               }
             },
             "exception": {
-              "text_n2": "",
+              "text_n2": "quando o desnível for frontal",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -9528,7 +9670,7 @@
           "text_n1": "Os vãos podem ter formato quadriculado/circular.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "Os vãos podem ter formato quadriculado/circular.",
+              "text_n2": "devem ser instalados perpendicularmente ao fluxo principal ou ter vãos de formato quadriculado/circular",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -9550,7 +9692,7 @@
               }
             },
             "selection": {
-              "text_n2": "",
+              "text_n2": "fluxos em mais de um sentido de circulação",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -9561,7 +9703,7 @@
               }
             },
             "exception": {
-              "text_n2": "Quando não possível tecnicamente, os vãos devem ter dimensão máxima de 15 mm, devem ser instalados perpendicularmente ao fluxo principal ou",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -9579,7 +9721,7 @@
       "text": "Quando existentes, devem ser firmemente fixados ao piso, embutidos ou sobrepostos e nivelados de maneira que eventual desnível não exceda 5 mm.",
       "texts_n1": [
         {
-          "text_n1": "Pisos devem ser firmemente fixados ao piso.",
+          "text_n1": "Quando existentes, devem ser firmemente fixados ao piso.",
           "operators_n2": {
             "requeriments": {
               "text_n2": "devem ser firmemente fixados ao piso",
@@ -9593,7 +9735,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Pisos",
+              "text_n2": "Quando existentes",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -9628,10 +9770,10 @@
           }
         },
         {
-          "text_n1": "Pisos podem ser embutidos ou sobrepostos.",
+          "text_n1": "Devem ser embutidos ou sobrepostos.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser firmemente fixados ao piso, embutidos ou sobrepostos e nivelados de maneira que eventual desnível não exceda 5 mm.",
+              "text_n2": "devem ser embutidos ou sobrepostos",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -9642,56 +9784,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Pisos",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "Quando existentes, devem ser firmemente fixados ao piso",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "Pisos devem ser nivelados.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "devem ser nivelados.",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Quando existentes, devem ser firmemente fixados ao piso",
+              "text_n2": "Quando existentes",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -9726,10 +9819,10 @@
           }
         },
         {
-          "text_n1": "Desnivel entre pisos deve nao exceder 5mm.",
+          "text_n1": "Deve ser nivelado de maneira que eventual desnível não exceda 5 mm.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser firmemente fixados ao piso, embutidos ou sobrepostos e nivelados de maneira que eventual desnível não exceda 5 mm.",
+              "text_n2": "deve ser nivelado de maneira que eventual desnível não exceda 5 mm.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -9780,59 +9873,10 @@
       "text": "Quando as rotas de fuga incorporarem escadas de emergência ou elevadores de emergência, devem ser previstas áreas de resgate (6.4.5) com espaço reservado e demarcado para o posicionamento de pessoas em cadeiras de rodas (5.5.2.2), dimensionadas de acordo com o M.R.",
       "texts_n1": [
         {
-          "text_n1": "Quando as rotas de fuga incorporarem escadas de emergência ou elevadores de emergencia, devem ser previstas areas de resgate.",
+          "text_n1": "Quando as rotas de fuga incorporarem escadas de emergência ou elevadores de emergência, devem ser previstas áreas de resgate.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser previstas areas de resgate",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Quando as rotas de fuga incorporarem escadas de emergência ou elevadores de emergencia",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "Areas de resgate devem ter espaço reservado e demarcado para o posicionamento de pessoas em cadeiras de rodas.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "devem ter espaço reservado e demarcado para o posicionamento de pessoas em cadeiras de rodas",
+              "text_n2": "devem ser previstas áreas de resgate",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -9865,7 +9909,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -9878,7 +9922,7 @@
           }
         },
         {
-          "text_n1": "Pessoas em cadeiras de rodas precisam ter um espaço reservado e demarcado para se posicionar.",
+          "text_n1": "Devem ser previstas áreas de resgate com espaço reservado e demarcado para o posicionamento de pessoas em cadeiras de rodas.",
           "operators_n2": {
             "requeriments": {
               "text_n2": "devem ser previstas áreas de resgate com espaço reservado e demarcado para o posicionamento de pessoas em cadeiras de rodas",
@@ -9914,7 +9958,56 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
+        },
+        {
+          "text_n1": "As áreas de resgate devem ser dimensionadas de acordo com o M.R.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "devem ser dimensionadas de acordo com o M.R.",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "As areas de resgate",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -10030,10 +10123,10 @@
           }
         },
         {
-          "text_n1": "Quando localizada em nichos, a área de resgate deve ser respeitados os parâmetros mínimos definidos em 4.3.6.",
+          "text_n1": "Quando localizada em nichos, a área de resgate deve respeitar os parâmetros mínimos definidos em 4.3.6.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "ser respeitados os parâmetros mínimos definidos em 4.3.6",
+              "text_n2": "respeitar os parâmetros mínimos definidos em 4.3.6",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -10180,7 +10273,7 @@
           "text_n1": "O M.R.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "estar localizada fora do fluxo principal de circulação",
+              "text_n2": "deve ter o M.R. sinalizado conforme 5.5.2.2",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -10191,7 +10284,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "A área de resgate deve",
+              "text_n2": "A área de resgate",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -10419,7 +10512,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -10468,7 +10561,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -10481,10 +10574,10 @@
           }
         },
         {
-          "text_n1": "Quando esgotadas as possibilidades de solucoes que atendam integralmente a Tabela 6, podem ser utilizadas inclinações superiores.",
+          "text_n1": "Quando esgotadas as possibilidades de solucoes que atendam integralmente a Tabela 6, podem ser utilizadas inclinações superiores a 8,33 %.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "podem ser utilizadas inclinações superiores a 8,33 % (1:12) até 12,5 % (1:8), conforme Tabela 7.",
+              "text_n2": "podem ser utilizadas inclinações superiores a 8,33 %",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -10530,10 +10623,10 @@
           }
         },
         {
-          "text_n1": "Inclinações superiores a 8.33 % (1:12) até 12.5 % (1:8) podem ser utilizadas conforme Tabela 7.",
+          "text_n1": "Inclinações superiores a 8,33 % devem ser utilizadas ate 12,5 %.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "podem ser utilizadas conforme Tabela 7.",
+              "text_n2": "devem ser utilizadas",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -10566,7 +10659,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -10587,7 +10680,7 @@
           "text_n1": "Rampas internas não podem ter inclinacao transversal maior que 2%.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "não pode exceder 2 % em rampas internas",
+              "text_n2": "não podem ter inclinacao transversal maior que 2%",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -10669,7 +10762,7 @@
               }
             },
             "exception": {
-              "text_n2": "Rampas internas",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -10739,7 +10832,7 @@
           "text_n1": "Corrimão deve ter duas alturas.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "possuir corrimão de duas alturas em cada lado",
+              "text_n2": "deve possuir corrimão de duas alturas em cada lado, conforme demonstrado na Figura 72.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -10937,10 +11030,10 @@
           }
         },
         {
-          "text_n1": "A exceção é prevista no item 6.6.2.7.",
+          "text_n1": "Projeção dos corrimãos não pode incidir nos casos previstos em 6.6.2.7.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "pode incidir dentro da largura mínima admissível da rampa em até 10 cm de cada lado",
+              "text_n2": "não pode incidir",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -10951,7 +11044,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "A projeção dos corrimãos",
+              "text_n2": "Projeção dos corrimãos",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -11244,7 +11337,7 @@
           "text_n1": "Rampas externas não podem ter inclinacao transversal maior que 3%.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "não pode ter inclinacao transversal maior que 3%",
+              "text_n2": "não podem ter inclinacao transversal maior que 3%",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -11805,10 +11898,10 @@
           }
         },
         {
-          "text_n1": "Requisitos do item 4.6.5 devem ser seguidos para dimensionamento dos corrimãos.",
+          "text_n1": "Requisitos do item 4.6.5 devem ser seguidos no dimensionamento dos corrimãos.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser seguidos para dimensionamento dos corrimãos",
+              "text_n2": "devem ser seguidos no dimensionamento dos corrimãos",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -11856,263 +11949,13 @@
       ]
     },
     {
-      "text": "Os corrimãos laterais devem ser contínuos, sem interrupção nos patamares das escadas e rampas, e devem prolongar-se paralelamente ao patamar, pelo menos por 0,30 m nas extremidades, sem interferir com áreas de circulação ou prejudicar a vazão, conforme Figura 76.",
-      "texts_n1": [
-        {
-          "text_n1": "Os corrimãos laterais devem ser contínuos.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "devem ser contínuos",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Os corrimãos laterais",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "Os corrimãos não podem ter interrupção nos patamares das escadas e rampas.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "devem ser contínuos, sem interrupção nos patamares das escadas e rampas",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Os corrimãos laterais",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "Os corrimãos devem prolongar-se paralelamente ao patamar.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "devem prolongar-se paralelamente ao patamar.",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Os corrimãos",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "Os corrimãos devem se estender pelo menos por 0,30 m nas extremidades.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "devem se estender pelo menos por 0,30 m nas extremidades",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Os corrimãos laterais",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "sem interrupção nos patamares das escadas e rampas, e devem prolongar-se paralelamente ao patamar",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "Os corrimãos não podem interferir com áreas de circulação.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "devem ser contínuos, sem interrupção nos patamares das escadas e rampas, e devem prolongar-se paralelamente ao patamar, pelo menos por 0,30 m nas extremidades",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Os corrimãos laterais",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
       "text": "Em edificações existentes, onde for impraticável promover o prolongamento do corrimão no sentido do caminhamento, este pode ser feito ao longo da área de circulação ou fixado na parede adjacente.",
       "texts_n1": [
         {
-          "text_n1": "Edificacoes existentes podem ter corrimao prolongado ao longo da area de circulacao.",
+          "text_n1": "Em edificacoes existentes, o prolongamento do corrimao pode ser feito ao longo da area de circulacao.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "podem ter corrimao prolongado ao longo da area de circulacao.",
+              "text_n2": "pode ser feito ao longo da área de circulação ou fixado na parede adjacente",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -12123,7 +11966,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Edificacoes existentes",
+              "text_n2": "Em edificações existentes",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -12145,7 +11988,7 @@
               }
             },
             "exception": {
-              "text_n2": "",
+              "text_n2": "onde for impraticável promover o prolongamento do corrimão no sentido do caminhamento",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -12158,10 +12001,10 @@
           }
         },
         {
-          "text_n1": "Corrimaos podem ser fixados na parede adjacente.",
+          "text_n1": "O prolongamento do corrimão pode ser feito na parede adjacente.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "Corrimaos podem ser fixados na parede adjacente.",
+              "text_n2": "pode ser feito na parede adjacente.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -12297,7 +12140,7 @@
               }
             },
             "exception": {
-              "text_n2": "quando o comprimento do patamar for inferior ou igual a 1,40 m",
+              "text_n2": "quando o comprimento do patamar for igual ou inferior a 1,40 m",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -12313,7 +12156,7 @@
           "text_n1": "Conforme Figura 77.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ser interrompidos quando o comprimento do patamar for superior a 1,40 m",
+              "text_n2": "devem ser interrompidos quando o comprimento do patamar for superior a 1,40 m, garantindo o espaçamento mínimo de 0,80 m entre o término de um segmento e o início do seguinte",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -12324,7 +12167,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Conforme Figura 77",
+              "text_n2": "Os corrimãos intermediários",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -12449,7 +12292,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -12465,7 +12308,7 @@
           "text_n1": "As rampas ou escadas devem ter dimensionamento adequado.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem incorporar elementos de segurança como guia de balizamento e guarda-corpo",
+              "text_n2": "devem incorporar elementos de segurança como guia de balizamento e guarda-corpo, e devem respeitar os demais itens de segurança desta Norma",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -12514,7 +12357,7 @@
           "text_n1": "As rampas ou escadas devem ter corrimãos.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "devem ter corrimãos.",
+              "text_n2": "devem incorporar elementos de segurança como guia de balizamento e guarda-corpo, e devem respeitar os demais itens de segurança desta Norma",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -12808,6 +12651,55 @@
               }
             }
           }
+        },
+        {
+          "text_n1": "Uma pessoa em cadeira de rodas pode se aproximar do espaço de transposição.",
+          "operators_n2": {
+            "requeriments": {
+              "text_n2": "pode se aproximar do espaço de transposição.",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "aplicability": {
+              "text_n2": "Uma pessoa em cadeira de rodas",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "selection": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            },
+            "exception": {
+              "text_n2": "",
+              "properties_n3": {
+                "type": "",
+                "object": "",
+                "property": "",
+                "comparation": "",
+                "target": "",
+                "unit": ""
+              }
+            }
+          }
         }
       ]
     },
@@ -13021,56 +12913,7 @@
           }
         },
         {
-          "text_n1": "As maçanetas devem ser do tipo alavanca.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "devem ser do tipo alavanca",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "As maçanetas das portas",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "Elas devem ser instaladas a uma altura entre 0,80 m e 1,10 m.",
+          "text_n1": "As maçanetas devem ser instaladas a uma altura entre 0,80 m e 1,10 m.",
           "operators_n2": {
             "requeriments": {
               "text_n2": "devem ser instaladas a uma altura entre 0,80 m e 1,10 m.",
@@ -13225,7 +13068,7 @@
           "text_n1": "A face inferior do visor deve estar localizada entre 0,40 m e 0,90 m do piso.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "deve ter visor com largura mínima de 0,20 m",
+              "text_n2": "deve estar localizada entre 0,40 m e 0,90 m do piso.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -13258,7 +13101,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -13410,7 +13253,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -13437,7 +13280,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Sensores ópticos",
+              "text_n2": "Quando as portas forem acionadas por sensores ópticos",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -13459,7 +13302,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -13508,7 +13351,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -13589,7 +13432,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "a sinalização",
+              "text_n2": "A sinalização",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -13676,7 +13519,7 @@
           "text_n1": "Esta faixa pode ser substituída por elementos gráficos instalados de forma contínua.",
           "operators_n2": {
             "requeriments": {
-              "text_n2": "deve ser contínua, composta por uma faixa com no mínimo 50 mm de espessura",
+              "text_n2": "deve ser contínua, composta por uma faixa com no mínimo 50 mm de espessura, instalada a uma altura entre 0,90 m e 1,00 m em relação ao piso acabado.",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -13709,7 +13552,7 @@
               }
             },
             "exception": {
-              "text_n2": "\"\"",
+              "text_n2": "",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -13883,7 +13726,7 @@
               }
             },
             "aplicability": {
-              "text_n2": "Faixas de sinalização visual",
+              "text_n2": "a faixa",
               "properties_n3": {
                 "type": "",
                 "object": "",
@@ -14070,159 +13913,7 @@
           }
         }
       ]
-    },
-    {
-      "text": "Desníveis superiores a 5 mm até 20 mm devem possuir inclinação máxima de 1:2 (50 %), conforme Figura 68.",
-      "texts_n1": [
-        {
-          "text_n1": "Desníveis superiores a 5 mm devem ter inclinacao maxima de 1:2.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "devem ter inclinacao maxima de 1:2.",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Desníveis superiores a 5 mm",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "Inclinacao maxima deve ser de 50%.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "devem possuir inclinação máxima de 1:2 (50 %)",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Desníveis superiores a 5 mm até 20 mm",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        },
-        {
-          "text_n1": "Conforme figura 68.",
-          "operators_n2": {
-            "requeriments": {
-              "text_n2": "devem possuir inclinação máxima de 1:2 (50 %)",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "aplicability": {
-              "text_n2": "Desníveis superiores a 5 mm até 20 mm",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "selection": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            },
-            "exception": {
-              "text_n2": "",
-              "properties_n3": {
-                "type": "",
-                "object": "",
-                "property": "",
-                "comparation": "",
-                "target": "",
-                "unit": ""
-              }
-            }
-          }
-        }
-      ]
     }
   ],
-  "time": 348.3534126281738
+  "time": 124.86116647720337
 }

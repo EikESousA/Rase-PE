@@ -7,9 +7,9 @@ Guia operacional para rodar geração + validação completas e coletar todos os
 ## 0. Pré-requisitos (setup único)
 
 ```bash
-cd /home/eike/mestrado/mestrado-rase
+cd Rase-PE   # raiz do repositorio clonado
 
-# Se o .venv ja existe (caso desta maquina):
+# Se o .venv ja existe:
 source .venv/bin/activate
 
 # Confirma que tudo importa
@@ -19,9 +19,9 @@ python -c "from validates.validate_n1 import validate_n1; print('OK')"
 Se for em outra máquina (sem `.venv`):
 
 ```bash
-# Opcao A: uv (recomendado, ja instalado em ~/.local/bin)
-~/.local/bin/uv venv .venv --python 3.12 --clear
-~/.local/bin/uv pip install --python .venv/bin/python -r requirements.txt
+# Opcao A: uv (recomendado)
+uv venv .venv --python 3.12 --clear
+uv pip install --python .venv/bin/python -r requirements.txt
 source .venv/bin/activate
 
 # Opcao B: venv tradicional (precisa sudo apt install python3-venv)
@@ -166,7 +166,7 @@ python tools/run_seed_sweep.py \
 ## 6. Onde estão TODOS os dados gerados
 
 ```
-mestrado-rase/
+Rase-PE/
 ├── predicts/
 │   ├── generate_n1_<modelo>.json        # saidas N1 (1 por modelo)
 │   ├── generate_n2_<modelo>.json        # saidas N2
@@ -317,3 +317,77 @@ Setar token (gratuito em huggingface.co/settings/tokens):
 export HF_TOKEN=hf_xxxxx
 python main.py
 ```
+
+---
+
+## 11. Isolamento do EN2 e do EN3 (histórico)
+
+Numa rodada anterior, as predições `predicts/generate_n2_*.json` e `predicts/generate_n3_*.json` **não eram isoladas**: o N2 era gerado a partir do N1 do próprio modelo e o N3 a partir do N2 do próprio modelo, porque `utils/generates/run_generator.py` apontava para `predicts/generate_n1_*` e `predicts/generate_n2_*`. A entrada passou a ser `dataset.json`, e os arquivos deste repositório já vêm da rodada corrigida. Para refazer do zero:
+
+```bash
+# menu: 1 - Gerar dados -> marcar n2 e n3 -> Enter
+python main.py
+```
+
+Depois, revalide **todos** os experimentos (a validação passou a emparelhar as regras pelo texto N1 e a tratar `""`/`Nenhum` como operador vazio):
+
+```bash
+# menu: 2 - Validar Dados -> marcar 1..5 -> Enter
+python main.py
+```
+
+As análises (`analyses/`) recusam EN2/EN3 enquanto o N1 (e, no EN3, o N2) das predições for diferente da referência.
+
+## 12. Análises complementares (sem Ollama)
+
+```bash
+pip install -r requirements-avaliacao.txt
+
+python -m analyses.error_taxonomy                   # taxonomia, omissões e alucinações
+python -m analyses.threshold_analysis --export-sample 300   # limiar 0,1-0,9, ROC/AUC, amostra p/ rotulagem
+python -m analyses.library_metrics                  # chrF++/BLEU/TER, RapidFuzz, validação Pydantic
+python -m analyses.examples                         # exemplos reais de saída
+# repetir as três primeiras com --sem-contaminacao (exclui as 7 normas usadas como exemplo nos prompts)
+python -m analyses.report_tables                    # gera dissertacao/Conteudo/Tabelas/*.tex
+```
+
+Rotulagem manual (reforça a ROC como terceiro gabarito): preencha a coluna `correto` (1/0) de `results/analises/amostra_para_rotulagem.csv`, salve como `results/analises/rotulos_manuais.csv` (separador `;`) e rode de novo `threshold_analysis`. Os rótulos são casados pelo **conteúdo** do par, não pelo `id`, de modo que continuam válidos com `--sem-contaminacao`.
+
+## 13. LLM-juiz e ablação do Chain-of-Thought
+
+```bash
+# LLM-juiz G-Eval. Use um juiz de família diferente dos 6 modelos avaliados.
+# Pela API da OpenAI (não usa a GPU):
+export OPENAI_API_KEY=sk-...
+python -m analyses.llm_judge --provider openai --judge gpt-5.6-terra --per-model 50 \
+    --experiments en1 en2 en3 en1n2 en1n2n3
+# ou local, sem custo:
+ollama pull gpt-oss:20b
+python -m analyses.llm_judge --provider ollama --judge gpt-oss:20b --per-model 50
+
+# Ablação do Chain-of-Thought no N2 (direto x CoT estruturado x CoT explícito)
+python -m analyses.cot_ablation generate --models llama mistral dolphin gemma alpaca qwen
+python -m analyses.cot_ablation evaluate
+python -m analyses.cot_ablation explain --model llama
+python -m analyses.cot_ablation explain --model dolphin
+```
+
+## 13.1. Tabelas do capítulo de resultados
+
+```bash
+python -m tools.chapter_tables   # tabelas dos 5 experimentos, tempos, ranking,
+                                 # composição do dataset, ablação CoT e LLM-juiz
+python tools/plot_results.py     # figuras de barras por experimento
+python tools/plot_diagrams.py    # diagramas do pipeline
+```
+
+Esse módulo escreve em `dissertacao/Conteudo/Tabelas/` e grava `results/analises/resumo_capitulo5.json` com todos os números citados no texto do Capítulo 5. Rode-o sempre que `metrics/` ou `dataset.json` mudarem, para que texto e tabelas não divirjam.
+
+## 14. Variáveis de geração (set/2026)
+
+| Variável | Padrão | Efeito |
+|---|---|---|
+| `GEN_NUM_CTX` | 4096 | Janela de contexto enviada ao Ollama (o padrão do servidor pode ser 2048 e inclui a saída). |
+| `GEN_TEMPERATURE` | 0.1 | Temperatura; use `0` para reprodução exata. |
+| `N3_FORMAT_JSON` | desligado | `1` ativa a saída estruturada do Ollama no N3 (JSON sempre válido). Use nos dois experimentos com N3 (n3 e n1n2n3) para manter a comparabilidade. |
+| `GEN_SEED` | 42 | Semente da 1ª tentativa; as novas tentativas usam seed+1, seed+2. |
